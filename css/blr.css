@@ -1,0 +1,99 @@
+:root {
+    --plazi-green: #57B756;
+    --plazi-dark-green: #1C460C;
+    --record-blue: #0E81bC;
+}
+body {
+    /* overrides typesafe */
+    max-width: 120ch;
+    /**********************/
+
+    padding: 0;
+
+    /* make footer stay at the bottom              */
+    /* https://stackoverflow.com/a/20352949/183692 */
+    height:100vh; 
+    margin:0;
+    display:flex; 
+    flex-direction:column;
+    /***********************************************/
+}
+a.nav-link {
+    text-decoration: none;
+    color: var(--plazi-green) !important;
+}
+header {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid lightgrey;
+    height: 100px;
+}
+footer {
+    clear: both;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--plazi-dark-green);
+    padding: 5px;
+
+    /* make footer stay at the bottom              */
+    /* https://stackoverflow.com/a/20352949/183692 */
+    margin-top:auto;
+    /***********************************************/
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+a {
+    text-decoration: none;
+    color: var(--plazi-green);
+}
+a:visited {
+    color: var(--plazi-green) !important;;
+}
+main {
+    padding: 1rem;
+}
+
+#query_string {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    font-size: 1.2rem;
+    padding: 5px 15px;;
+}
+form {
+    position: relative;
+    width: 100%;
+    padding: 0;
+/*     display: none; */
+}
+form button {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid var(--plazi-green);
+    height: 30px;
+    margin: 5px 0;
+    background-color: var(--plazi-green);
+    color: white;
+}
+form button.inactive {
+    opacity: 0.4;
+}
+form button.active {
+    opacity: 1;
+}
+div.input-type-container {
+    text-align: center;
+    padding: 1rem 0;
+}
+div.input-type-container label {
+    padding: 5px;
+    font-size: 10pt;
+}
+
+@media screen and (min-width: 768px){
+}
