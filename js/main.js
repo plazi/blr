@@ -2,13 +2,21 @@ const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => document.querySelectorAll(selector);
 
 const loadPage = (e) => {
-    const page = e.target.href.split('/').pop();
+    let page;
+
+    if (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        page = e.target.href.split('/').pop().split('.')[0];
+    }
+    else {
+        page = location.href.split('/').pop().split('.')[0];
+    }
+
     const target = $('main article');
     target.innerHTML = pages[page];
-    history.pushState(null, null, page);
+    history.pushState(null, null, `${page}.html`);
     $('form').classList.add('hidden');
-    e.stopPropagation();
-    e.preventDefault();
 }
 
 const formatRecords = (resource, records) => {
