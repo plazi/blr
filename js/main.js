@@ -189,7 +189,7 @@ const loadMap = () => {
         const url = 'https://tb.plazi.org/GgServer/html/';
 
         const icon = L.icon({ 
-            iconUrl: '/img/treatment.png', 
+            iconUrl: 'img/treatment.png', 
             iconSize: [10, 10],
             iconAnchor: [0, 0],
             popupAnchor: [6, 5]
