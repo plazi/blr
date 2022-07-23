@@ -73,6 +73,13 @@ const getResults = async (resource, url) => {
         innerHTML = formatRecords(resource, records);
         $('#results').innerHTML = innerHTML;
 
+        /** 
+         * remove spinning animation from the current button
+        **/
+        Array.from($$('form button'))
+            .filter(b => b.id === resource)[0]
+            .classList.remove('spinning');
+
         $('#pager').innerHTML = pager(_links);
     } 
     else {
@@ -86,12 +93,21 @@ const go = (e) => {
     const checkInputs = [ ...$$('input[name=type]') ];
     const q = checkInputs.filter(c => c.checked)[0].value;
     const url = `${q}=${qs}&facets=true`;
+
+    /**
+     * first, deactivate all the buttons by removing 
+     * 'active' class and adding 'inactive' class
+    **/
     $$('form button').forEach(b => {
         b.classList.remove('active');
         b.classList.add('inactive')
     });
+
+    /**
+     * now, activate the target button
+     */
     e.target.classList.remove('inactive');
-    e.target.classList.add('active');
+    e.target.classList.add('spinning');
     getResults(resource, url);
     e.stopPropagation();
     e.preventDefault();

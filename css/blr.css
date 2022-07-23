@@ -2,7 +2,7 @@
     --plazi-green: #57B756;
     --plazi-dark-green: #1C460C;
     --record-blue: #0E81bC;
-    --width: 800px;
+    --width: 100%;
 }
 body {
     /* overrides typesafe */
@@ -13,7 +13,7 @@ body {
 
     /* make footer stay at the bottom              */
     /* https://stackoverflow.com/a/20352949/183692 */
-    /* height:100vh;  */
+    min-height:100vh; 
     margin:0;
     display:flex; 
     flex-direction:column;
@@ -36,9 +36,6 @@ header {
     margin: 0 auto;
     padding: 1rem;
     height: 100px;
-}
-div.border {
-    border-bottom: 1px solid lightgrey;
 }
 #map { 
     height: 200px; 
@@ -90,6 +87,7 @@ form {
     position: relative;
     width: 100%;
     padding: 0;
+    text-align: center;
 /*     display: none; */
 }
 form button {
@@ -100,12 +98,55 @@ form button {
     margin: 5px 0;
     background-color: var(--plazi-green);
     color: white;
+/*     max-width: 250px; */
 }
 form button.inactive {
     opacity: 0.4;
 }
 form button.active {
     opacity: 1;
+}
+form button.spinning {
+    padding-right: 40px;
+    position: relative;
+}
+form button.spinning:after,
+form button.spinning:before {
+  content: '';
+  right: 6px;
+    top: 45%;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 50%;
+  border: 2px solid lightgreen;
+  border-right: 3px solid #27ae60;
+  -webkit-animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+          animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+}
+@-webkit-keyframes rotate360 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate360 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes exist {
+    100% {
+        width: 15px;
+        height: 15px;
+        margin: -8px 5px 0 0;
+    }
+}
+@keyframes exist {
+    100% {
+        width: 15px;
+        height: 15px;
+        margin: -8px 5px 0 0;
+    }
 }
 div.input-type-container {
     text-align: center;
@@ -117,4 +158,11 @@ div.input-type-container label {
 }
 
 @media screen and (min-width: 768px){
+    :root {
+        --width: 800px;
+    }
+    
+    form button {
+        width: 32%;
+    }
 }
