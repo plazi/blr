@@ -40,7 +40,3 @@ node_modules/
 # query cache #
 ################
 cache/
-
-# specific config files #
-#########################
-js/config.js
