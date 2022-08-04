@@ -101,6 +101,10 @@ form button {
     background-color: var(--plazi-green);
     color: white;
 }
+form button:hover {
+    background-color: green;
+    cursor: pointer;
+}
 form button.inactive {
     opacity: 0.4;
 }

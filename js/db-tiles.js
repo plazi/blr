@@ -22,7 +22,7 @@ const updateTiles = (data) => {
 const updateTile = (data, entity) => {
     const year = Number($('#years').value);
     const i = data.categories.indexOf(year);
-    let str = `<div>`;
+    let str = `<div class="tile"><div>`;
     let total = 0;
 
     if (Array.isArray(data.values[entity])) {
@@ -41,7 +41,7 @@ const updateTile = (data, entity) => {
         str += substr;
     }
 
-    str += `</div>`;
+    str += `</div></div>`;
     return str;  
 }
 

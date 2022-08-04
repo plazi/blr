@@ -10,7 +10,7 @@ const values2columns = (data, entity) => {
                 data: values,
                 backgroundColor: '#c0c0c0',
                 borderColor: '#444444',
-                borderWidth: 1
+                borderWidth: 1                
             }
         }
         // else {
@@ -29,7 +29,7 @@ const makeChart = (data, entity) => {
         data: {
 
             // x (categories) axis
-            labels: data.categories,
+            labels: data.categories.reverse(),
             datasets: [ values2columns(data, entity) ]
         },
         options: {
@@ -38,7 +38,6 @@ const makeChart = (data, entity) => {
             indexAxis: 'y',
 
             responsive: true,
-
             plugins: {
                 legend: {
                     display: false
