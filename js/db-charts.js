@@ -51,7 +51,7 @@ const makeChart = (data, entity) => {
     };
 
     const canvas = document.createElement('canvas');
-    canvas.id = `chart-${entity.replace(/ /g, '')}`;
+    canvas.setAttribute('height', 300)
 
     const chartDiv = document.createElement('div');
     chartDiv.append(canvas);

@@ -5,7 +5,6 @@
 #db-charts div {
     border: 1px solid;
     margin: 0.5rem;
-    height: 200px;
 }
 @media screen and (min-width: 800px){
     #db-charts div {
