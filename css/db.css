@@ -39,7 +39,7 @@ label.tabs:hover {
 input:checked + label.tabs {
     color: #555;
     border: 1px solid #ddd;
-    border-top: 2px solid orange;
+    border-top: 2px solid var(--plazi-green);
     border-bottom: 1px solid #fff;
 }
 
