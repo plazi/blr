@@ -11,9 +11,10 @@
     height: 100%;
 }
 .list {
-    padding: 15px;
+    padding: 0 15px;
     width: 100%;
     height: 100%;
+    overflow: scroll;
 }
 .list > ul {
     list-style: none;
@@ -22,10 +23,12 @@
 .list > ul li {
     line-height: 24px;
     padding-left: 5px;
+    margin: 0;
 }
 .list > ul li:nth-of-type(odd) {
     background-color: lightgrey;
 }
+
 @media screen and (min-width: 800px){
     .map {
         display: inline-block;
