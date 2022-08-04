@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="css/blr.css">
     <link rel="stylesheet" href="css/records.css">
 
+    <link rel="stylesheet" href="css/db.css">
+    <link rel="stylesheet" href="css/db-charts.css">
+    <link rel="stylesheet" href="css/db-tiles.css">
+    <link rel="stylesheet" href="css/db-maps.css">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
 
     <meta name="theme-color" content="#fafafa">
@@ -45,7 +50,29 @@
         </ul>
     </header>
     
-    <div id="map"></div>
+    <!-- <div id="map"></div> -->
+    <div id="dashboard">
+        <input id="tab1" class="tabs" type="radio" name="tabs" checked>
+        <label class="tabs" for="tab1"><img src="img/maps.svg" width="30" style="vertical-align: baseline"> Maps</label>
+            
+        <input id="tab2" class="tabs" type="radio" name="tabs">
+        <label class="tabs" for="tab2"><img src="img/charts.svg" width="30" style="vertical-align: baseline"> Charts</label>
+            
+        <input id="tab3" class="tabs" type="radio" name="tabs">
+        <label class="tabs" for="tab3"><img src="img/tiles.svg" width="30" style="vertical-align: baseline"> Tiles</label>
+        
+        <section id="content1">
+            <div id="db-maps"></div>
+        </section>
+        
+        <section id="content2">
+            <div id="db-charts"></div>
+        </section>
+        
+        <section id="content3">
+            <div id="db-tiles"></div>
+        </section>
+    </div>
     
     <main>
         <form>
@@ -85,16 +112,21 @@
     <script src="js/config.js"></script>
     <script src="js/main.js"></script>
 
+    <script src="js/chartjs/dist/chart.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
     integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
     crossorigin=""></script>
 
     <script>
     window.addEventListener('load', (event) => {
-        const page = location.href;
-        console.log(page);
-        loadMap();
+        //const page = location.href;
+        //loadMap();
     });
+    </script>
+
+    <script type="module">
+        import { init } from './js/db.js';
+        window.onload = (event) => init();
     </script>
 </body>
 

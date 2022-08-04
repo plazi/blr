@@ -1,6 +1,8 @@
 :root {
+    --plazi-font-color: #4e565f;
     --plazi-green: #57B756;
     --plazi-dark-green: #1C460C;
+    --plazi-background-color: grey;
     --record-blue: #0E81bC;
     --width: 100%;
 }
@@ -27,6 +29,7 @@ a.nav-link {
 }
 header,
 #map,
+#dashboard,
 main {
     width: var(--width);
     max-width: var(--width);
@@ -106,6 +109,7 @@ form button.inactive {
 form button.active {
     opacity: 1;
 }
+/* https://codeconvey.com/onclick-button-loading-animation-css/ */
 form button.spinning {
     padding-right: 40px;
     position: relative;

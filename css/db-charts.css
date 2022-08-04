@@ -1,0 +1,14 @@
+#db-charts {
+    width: 100%;
+}
+#db-charts div {
+    border: 1px solid;
+    margin: 1rem;
+    width: 90%;
+}
+@media screen and (min-width: 1024px){
+    #db-charts div {
+        width: 30%;
+        display: inline-block;
+    }
+}
