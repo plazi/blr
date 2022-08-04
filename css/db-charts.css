@@ -1,14 +1,14 @@
 #db-charts {
     width: 100%;
+    text-align: center;
 }
 #db-charts div {
     border: 1px solid;
-    margin: 1rem;
-    width: 90%;
+    margin: 0.5rem;
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 800px){
     #db-charts div {
-        width: 30%;
+        width: 28%;
         display: inline-block;
     }
 }

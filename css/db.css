@@ -1,36 +1,9 @@
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    font: 14px/1 sans-serif;
-    color: #555;
-    background: #eee;
-}
-
-h1 {
-    padding: 50px 0;
-    font-weight: 400;
-    text-align: center;
-}
-
-p {
-    margin: 0 0 20px;
-    line-height: 1.5;
-}
-
 #dashboard {
     min-width: 320px;
     max-width: 960px;
-    /*   padding: 50px; */
     margin: 0 auto;
-    background: #fff;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 section {
@@ -54,29 +27,8 @@ label.tabs {
 }
 
 label.tabs:before {
-  /* font-family: fontawesome;
-  font-weight: normal; */
   margin-right: 10px;
 }
-
-/* 
-label[for*='1']:before {
-  content: '\f1cb';
-}
-
-label[for*='2']:before {
-  content: '\f17d';
-}
-
-label[for*='3']:before {
-  content: '\f16b';
-}
-
-
-label[for*='4']:before {
-  content: '\f1a9';
-}
-*/
 
 label.tabs:hover {
     color: #888;
