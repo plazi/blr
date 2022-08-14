@@ -1,1 +1,1 @@
-const z = 'https://test.zenodeo.org/v3';
+const z = 'http://localhost:3010/v3';

@@ -5,51 +5,46 @@ import { $, $$ } from './utils.js';
  * Also update all the tiles with the corresponding 
  * value for the new year
 **/
- const updateYears = (data) => {
+ const updateYear = (stats) => {
     const year = Number($('#years').value);
     $('#yearsVal').innerText = year;
-    updateTiles(data);
+    updateTiles(stats);
 }
 
-const updateTiles = (data) => {
-    let str = '';
-    Object.keys(data.values)
-        .forEach(entity => str += updateTile(data, entity));
-
-    $('#tiles').innerHTML = str;
-}
-
-const updateTile = (data, entity) => {
+const makeTile = (stats, entity) => {
     const year = Number($('#years').value);
-    const i = data.categories.indexOf(year);
-    let str = `<div class="tile"><div>`;
-    let total = 0;
+    const i = stats.categories.indexOf(year);
 
-    if (Array.isArray(data.values[entity])) {
-        total = data.values[entity][i];
-        str += `<div class="title">${entity}: ${total}</div>`;
+    if (Array.isArray(stats.values[entity])) {
+        const total = stats.values[entity][i];
+
+        const dbTileDiv = makeElement(
+            'div', 
+            { 
+                id: `tile-${entity}`,
+                class: 'tile' 
+            },
+            `${entity}: ${total}`
+        );
+
+        $('#db-tiles').append(dbTileDiv);
     }
-    else {
-        let substr = '';
+}
 
-        for (let [k, v] of Object.entries(data.values[entity])) {
-            total += v[i];
-            substr += `<div class="subtotal">${k}: ${v[i]}</div>`
-        }
-
-        str += `<div class="title">${entity}: ${total}</div>`;
-        str += substr;
-    }
-
-    str += `</div></div>`;
-    return str;  
+const updateTile = (stats, entity) => {
+    const year = Number($('#years').value);
+    const i = stats.categories.indexOf(year);
+    const total = stats.values[entity][i] || '';
+    $(`#tile-${entity}`).innerHTML = `${entity}: ${total}`;
 }
 
 const makeElement = (name, opts, html) => {
     const el = document.createElement(name);
 
-    for (let [k, v] of Object.entries(opts)) {
-        el.setAttribute(k, v);
+    if (opts) {
+        for (let [k, v] of Object.entries(opts)) {
+            el.setAttribute(k, v);
+        }
     }
 
     if (html) {
@@ -77,9 +72,10 @@ const makeController = () => {
             step: 1,
         }
     );
+
     dbControllerDiv.append(dbYearInput);
 
-    const dbYearBr = makeElement('br', {});
+    const dbYearBr = makeElement('br');
     dbControllerDiv.append(dbYearBr);
 
     const dbYearLabel = makeElement(
@@ -87,6 +83,7 @@ const makeController = () => {
         { for: 'years' },
         'Year <span id="yearsVal"></span>'
     );
+
     dbControllerDiv.append(dbYearLabel);
     
     $('#db-tiles').append(dbControllerDiv);
@@ -98,18 +95,28 @@ const makeController = () => {
 /**
  * initialize the range input dingus
 **/
-const initRangeInput = (data) => {
-    $('#years').min = Math.min(...data.categories);
-    $('#years').max = Math.max(...data.categories);
-    $('#years').value = data.categories[0];
-    $('#yearsVal').innerText = data.categories[0];
+const updateRangeInput = (stats) => {
+    $('#years').min = Math.min(...stats.categories);
+    $('#years').max = Math.max(...stats.categories);
+    $('#years').value = stats.categories[0];
+    $('#yearsVal').innerText = stats.categories[0];
 }
 
-const makeTiles = (data) => {
+const makeTiles = (stats) => {
     makeController();
-    $('#years').addEventListener('input', (e) => updateYears(data));
-    initRangeInput(data);
-    updateTiles(data);
+    $('#years').addEventListener('input', (e) => updateYear(stats));
+    updateRangeInput(stats);
+
+    Object.keys(stats.values)
+        .forEach(entity => makeTile(stats, entity));
 }
 
-export { updateYears, makeTiles }
+const updateTiles = (stats) => {
+    //updateRangeInput(stats);
+    //console.log(stats.values)
+    Object.keys(stats.values)
+        .forEach(entity => updateTile(stats, entity));
+}
+
+
+export { updateYear, makeTiles, updateTiles }

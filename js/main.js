@@ -1,5 +1,5 @@
-const $ = (selector) => document.querySelector(selector);
-const $$ = (selector) => document.querySelectorAll(selector);
+import { $, $$ } from './utils.js';
+import { initDashboard } from './db.js';
 
 const loadPage = (e) => {
     let page = 'index';
@@ -10,7 +10,10 @@ const loadPage = (e) => {
         page = e.target.href.split('/').pop().split('.')[0];
     }
     else {
-        page = location.href.split('/').pop().split('.')[0];
+        const thisPage = location.href.split('/').pop().split('.')[0];
+        if (thisPage) {
+            page = thisPage;
+        }
     }
 
     const target = $(`#${page}`);
@@ -20,6 +23,11 @@ const loadPage = (e) => {
     
     if (page === 'index') {
         $('form').classList.remove('hidden');
+        const resource = 'treatments';
+        const url = `stats=true`;
+        if (!e) {
+            getResults(resource, url, true);
+        }
     }
     else {
         $('form').classList.add('hidden');
@@ -64,7 +72,7 @@ const resources = {
     publications: 'Publications'
 }
 
-const getResults = async (resource, url) => {
+const getResults = async (resource, url, init = false) => {
     const response = await fetch(`${z}/${resource}?${url}`);
 
     // if HTTP-status is 200-299
@@ -75,21 +83,25 @@ const getResults = async (resource, url) => {
         const count = json.item.result.count;
         const records = json.item.result.records;
         const facets = json.item.result.facets;
+        const stats = json.item.result.stats;
         const _links = json.item._links;
 
-        $(`#${resource}`).innerHTML = `${resources[resource]} ${count}`;
+        initDashboard(stats);
+        if (!init) {
+            $(`#${resource}`).innerHTML = `${resources[resource]} ${count}`;
 
-        innerHTML = formatRecords(resource, records);
-        $('#results').innerHTML = innerHTML;
+            const str = formatRecords(resource, records);
+            $('#results').innerHTML = str;
 
-        /** 
-         * remove spinning animation from the current button
-        **/
-        Array.from($$('form button'))
-            .filter(b => b.id === resource)[0]
-            .classList.remove('spinning');
+            /** 
+             * remove spinning animation from the current button
+            **/
+            Array.from($$('form button'))
+                .filter(b => b.id === resource)[0]
+                .classList.remove('spinning');
 
-        $('#pager').innerHTML = pager(_links);
+            $('#pager').innerHTML = pager(_links);
+        }
     } 
     else {
         alert("HTTP-Error: " + response.status);
@@ -101,7 +113,7 @@ const go = (e) => {
     const qs = $('#query_string').value;
     const checkInputs = [ ...$$('input[name=type]') ];
     const q = checkInputs.filter(c => c.checked)[0].value;
-    const url = `${q}=${qs}&facets=true`;
+    const url = `${q}=${qs}&stats=true`;
 
     /**
      * first, deactivate all the buttons by removing 
@@ -114,7 +126,7 @@ const go = (e) => {
 
     /**
      * now, activate the target button
-     */
+    **/
     e.target.classList.remove('inactive');
     e.target.classList.add('spinning');
     getResults(resource, url);
@@ -201,3 +213,5 @@ const loadMap = () => {
         }
     })
 }
+
+export { loadPage }

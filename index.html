@@ -24,11 +24,12 @@
     <link rel="stylesheet" href="css/records.css">
 
     <link rel="stylesheet" href="css/db.css">
-    <link rel="stylesheet" href="css/db-charts.css">
     <link rel="stylesheet" href="css/db-tiles.css">
     <link rel="stylesheet" href="css/db-maps.css">
+    <link rel="stylesheet" href="css/db-charts.css">
+    <link rel="stylesheet" href="css/carousel.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -51,24 +52,44 @@
     
     <div id="dashboard">
         <input id="tab1" class="tabs" type="radio" name="tabs" checked>
-        <label class="tabs" for="tab1"><img src="img/maps.svg" width="15" style="vertical-align: baseline"> Maps</label>
+        <label class="tabs" for="tab1">
+            <img src="img/maps.svg"> Maps
+        </label>
             
         <input id="tab2" class="tabs" type="radio" name="tabs">
-        <label class="tabs" for="tab2"><img src="img/charts.svg" width="15" style="vertical-align: baseline"> Charts</label>
+        <label class="tabs" for="tab2">
+            <img src="img/charts.svg"> Charts
+        </label>
             
         <input id="tab3" class="tabs" type="radio" name="tabs">
-        <label class="tabs" for="tab3"><img src="img/tiles.svg" width="15" style="vertical-align: baseline"> Yearly Totals</label>
+        <label class="tabs" for="tab3">
+            <img src="img/tiles.svg"> Yearly Totals
+        </label>
         
-        <section id="content1">
-            <div id="db-maps"></div>
+        <section id="tab1_content">
+            <div id="db-maps" class="db-content"></div>
         </section>
         
-        <section id="content2">
-            <div id="db-charts"></div>
+        <section id="tab2_content">
+            <div class="slider-wrapper">
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                </button>
+                <button class="slide-arrow" id="slide-arrow-next">
+                    &#8250;
+                </button>
+                
+                <div id="db-charts" class="db-content">
+                    <ul class="slides-container" id="slides-container">
+                    </ul>
+                </div>
+                
+            </div>
+            <!--  -->
         </section>
         
-        <section id="content3">
-            <div id="db-tiles"></div>
+        <section id="tab3_content">
+            <div id="db-tiles" class="db-content"></div>
         </section>
     </div>
     
@@ -155,22 +176,13 @@
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <!-- <script src="js/plugins.js"></script> -->
     <script src="js/config.js"></script>
-    <script src="js/main.js"></script>
 
     <script src="js/chartjs/dist/chart.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
-    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
-    crossorigin=""></script>
-
-    <script>
-    window.addEventListener('load', (event) => {
-        loadPage();
-    });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js"></script>
 
     <script type="module">
-        import { init } from './js/db.js';
-        window.onload = (event) => init();
+        import { loadPage } from './js/main-new.js';
+        window.onload = (event) => loadPage();
     </script>
 </body>
 

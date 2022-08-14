@@ -1,3 +1,7 @@
+:root {
+    --dashboard-height: 300px;
+    --dashboard-padding: 20px;
+}
 #dashboard {
     min-width: 320px;
     max-width: 960px;
@@ -8,9 +12,10 @@
 
 section {
     display: none;
-    padding: 20px 0 0;
+    /* padding: 20px 0 0; */
+    padding: var(--dashboard-padding);
     border: 1px solid #ddd;
-    height: 300px;
+    height: var(--dashboard-height);
 }
 
 input.tabs[type=radio] {
@@ -26,7 +31,11 @@ label.tabs {
     color: #bbb;
     border: 1px solid transparent;
 }
-
+label.tabs img {
+    width: 15px;
+    vertical-align: baseline;
+    margin-right: 5px;
+}
 label.tabs:before {
   margin-right: 10px;
 }
@@ -43,9 +52,9 @@ input:checked + label.tabs {
     border-bottom: 1px solid #fff;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3 {
+#tab1:checked ~ #tab1_content,
+#tab2:checked ~ #tab2_content,
+#tab3:checked ~ #tab3_content {
     display: block;
 }
 

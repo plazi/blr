@@ -1,15 +1,17 @@
-import { makeTiles } from './db-tiles.js';
-import { makeCharts } from './db-charts.js';
-import { makeMaps } from './db-maps.js';
+import { makeTiles, updateTiles } from './db-tiles.js';
+import { makeCharts, updateCharts } from './db-charts.js';
+import { makeMaps, updateMaps } from './db-maps.js';
 
-const init = async () => {
-    const url = "data/data.json";
-    const response = await fetch(url);
-    const data = await response.json();
-    
-    makeTiles(data);
-    makeCharts(data);
-    makeMaps(data.locations);
+const initDashboard = (stats) => {
+    makeTiles(stats);
+    makeCharts(stats);
+    makeMaps(stats.locations);
 }
 
-export { init }
+const updateDashboard = (stats) => {
+    updateTiles(stats);
+    updateCharts(stats);
+    updateMaps(stats.locations);
+}
+
+export { initDashboard, updateDashboard }
