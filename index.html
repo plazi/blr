@@ -14,9 +14,8 @@
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/typesafe.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -29,9 +28,9 @@
     <link rel="stylesheet" href="css/db-charts.css">
     <link rel="stylesheet" href="css/carousel.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
 
-    <meta name="theme-color" content="#fafafa">
+    <!-- <meta name="theme-color" content="#fafafa"> -->
 </head>
 
 <body>
@@ -83,9 +82,7 @@
                     <ul class="slides-container" id="slides-container">
                     </ul>
                 </div>
-                
             </div>
-            <!--  -->
         </section>
         
         <section id="tab3_content">
@@ -121,7 +118,7 @@
             <div id="results"></div>
         </article>
         <article id="about" class="hidden">
-            <h1>About</h1><br>
+            <h1>About</h1>
             <p>The Biodiversity Literature Repository (BLR) has been growing from a community on <a target="_blank" href="https://zenodo.org/">Zenodo</a> to be a service dedicated to liberate and make open access, FAIR (findable, accessible, interoperable and reusable) data hidden in the hundreds of millions of pages of scholarly publications.</p>
             <p>It is built on top of <a target="_blank" href="https://zenodo.org/">Zenodo</a>, a digital repository hosted at <a target="_blank" href="https://home.cern/">CERN</a>, which provides a sustainable and robust infrastructure for long tail research data, which can consist of small datasets that otherwise would be lost.</p>
             <p>Originally a collaboration between <a target="_blank" href="https://zenodo.org/">Zenodo</a>, <a target="_blank" href="http://plazi.org">Plazi</a> and <a target="_blank" href="https://pensoft.net/">Pensoft</a>, BLR began as a repository for taxonomic publications which lacked Digital Object Identifiers (<a target="_blank" href="https://datacite.org/dois.html">DOI</a>) and thus were effectively orphaned from the network of online citations. As it grew its scope expanded to morphed into a highly interlinked repository that focuses on include illustrations and taxonomic treatments contained in publications with all these content types interlinked among themselves and enhanced with and rich metadata. </p>
@@ -173,12 +170,11 @@
         <p>A project of <a target="_blank" href="http://plazi.org/">Plazi</a>, <a target="_blank" href="https://pensoft.net/">Pensoft</a> and <a target="_blank" href="https://zenodo.org/">Zenodo/CERN</a>. Supported in part by the <a target="_blank" href="https://www.arcadiafund.org.uk">Arcadia Foundation</a></p>
     </footer>
 
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <!-- <script src="js/plugins.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
     <script src="js/config.js"></script>
 
-    <script src="js/chartjs/dist/chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 
     <script type="module">
         import { loadPage } from './js/main-new.js';
