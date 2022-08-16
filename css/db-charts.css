@@ -2,12 +2,7 @@
     width: 100%;
     text-align: center;
 }
-/* #db-charts div {
-    border: 1px solid;
-    margin: 0.5rem;
-} */
-
-@media screen and (min-width: 800px){
+@media screen and (min-width: 520px){
     #db-charts div {
         width: 28%;
         display: inline-block;

@@ -1,7 +1,6 @@
 /*** carousel ********************/
 /* https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734 */
 .slider-wrapper {
-    /* margin: 1rem; */
     position: relative;
     overflow: hidden;
     border: 1px solid lightgrey;
@@ -17,11 +16,10 @@
     overflow: scroll;
     scroll-behavior: smooth;
 }
- 
 .slide {
-    width: 33.3%;
+    width: 100%;
     height: 100%;
-    flex: 1 0 33.3%;
+    flex: 1 0 100%;
 }
 
 /* hide the scroll bar on our slidesContainer */
@@ -75,3 +73,10 @@
     border-radius: 2rem 0 0 2rem;
 }
 /******************************/
+
+@media screen and (min-width: 520px){
+    .slide {
+        width: 33.3%;
+        flex: 1 0 33.3%;
+    }
+}

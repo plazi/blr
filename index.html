@@ -15,8 +15,6 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/typesafe.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/blr.css">
@@ -29,8 +27,6 @@
     <link rel="stylesheet" href="css/carousel.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
-
-    <!-- <meta name="theme-color" content="#fafafa"> -->
 </head>
 
 <body>
@@ -110,8 +106,8 @@
             </div>
             
             <button id="treatments" class="inactive">Taxon Treatments</button>
-            <button id="images" class="inactive">Images</button>
-            <button id="publications" class="inactive">Publications</button>
+            <!-- <button id="images" class="inactive">Images</button>
+            <button id="publications" class="inactive">Publications</button> -->
         </form>
         <article id="index">
             <div id="pager"></div>
@@ -170,14 +166,24 @@
         <p>A project of <a target="_blank" href="http://plazi.org/">Plazi</a>, <a target="_blank" href="https://pensoft.net/">Pensoft</a> and <a target="_blank" href="https://zenodo.org/">Zenodo/CERN</a>. Supported in part by the <a target="_blank" href="https://www.arcadiafund.org.uk">Arcadia Foundation</a></p>
     </footer>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
-    <script src="js/config.js"></script>
+    <script>
+        const loc = window.location;
 
+        const head = document.getElementsByTagName('head')[0];
+        const js = document.createElement("script");
+
+        js.src = loc.hostname === 'localhost' ? 
+            'js/config-local.js' :
+            'js/config-remote.js';
+
+        head.appendChild(js);
+    </script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 
     <script type="module">
-        import { loadPage } from './js/main-new.js';
+        import { loadPage } from './js/main.js';
         window.onload = (event) => loadPage();
     </script>
 </body>

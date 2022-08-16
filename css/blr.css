@@ -4,7 +4,7 @@
     --plazi-dark-green: #1C460C;
     --plazi-background-color: grey;
     --record-blue: #0E81bC;
-    --width: 100%;
+    --main-width: 100%;
 }
 body {
     /* overrides typesafe */
@@ -20,8 +20,6 @@ body {
     display:flex; 
     flex-direction:column;
     /***********************************************/
-    
-    
 }
 a.nav-link {
     text-decoration: none;
@@ -31,8 +29,8 @@ header,
 #map,
 #dashboard,
 main {
-    width: var(--width);
-    max-width: var(--width);
+    width: var(--main-width);
+    max-width: var(--main-width);
 }
 header {
     margin-bottom: 1rem;
@@ -102,7 +100,7 @@ form button {
     color: white;
 }
 form button:hover {
-    background-color: green;
+    background-color: var(--plazi-dark-green);
     cursor: pointer;
 }
 form button.inactive {
@@ -165,7 +163,7 @@ div.input-type-container label {
 
 @media screen and (min-width: 768px){
     :root {
-        --width: 800px;
+        --main-width: 800px;
     }
     
     form button {

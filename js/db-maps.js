@@ -39,7 +39,7 @@ const makeMaps = async (locations) => {
         }
     };
 
-    map = L.map(mapDiv).setView([0, 0], 2);
+    map = L.map(mapDiv).setView([0, 0], 1);
     L.geoJSON(countriesJson, countriesOpts).addTo(map);
     addLocations(locations, listDiv);
 }
