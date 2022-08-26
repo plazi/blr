@@ -27,7 +27,7 @@ const makeTile = (stats, entity) => {
             `${entity}: ${total}`
         );
 
-        $('#db-tiles').append(dbTileDiv);
+        $('#tiles').append(dbTileDiv);
     }
 }
 
@@ -106,6 +106,7 @@ const makeTiles = (stats) => {
     makeController();
     $('#years').addEventListener('input', (e) => updateYear(stats));
     updateRangeInput(stats);
+
 
     Object.keys(stats.values)
         .forEach(entity => makeTile(stats, entity));

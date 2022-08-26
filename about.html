@@ -10,25 +10,27 @@
     <meta property="og:title" content="Biodiversity Literature Repository">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://biolitrepo.org">
-    <meta property="og:image" content="">
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/blr.min.css"> -->
     <link rel="stylesheet" href="css/typesafe.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/blr.css">
     <link rel="stylesheet" href="css/records.css">
-
-    <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="css/db.css">
+    <link rel="stylesheet" href="css/db-tiles.css">
+    <link rel="stylesheet" href="css/db-maps.css">
+    <link rel="stylesheet" href="css/db-charts.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
 </head>
 
 <body>
 
-    <!-- Add your site or application content here -->
     <header class="top-nav">
         <div><a href="index.html"><img src="img/logo.png" width="170"></a></div>
         <input id="menu-toggle" type="checkbox" />
@@ -42,9 +44,48 @@
             <li><a href="blog.html" class="nav-link">Blog</a></li>
         </ul>
     </header>
+    
+    <div id="dashboard">
+        <input id="tab1" class="tabs" type="radio" name="tabs" checked>
+        <label class="tabs" for="tab1">
+            <img src="img/maps.svg"> Maps
+        </label>
+            
+        <input id="tab2" class="tabs" type="radio" name="tabs">
+        <label class="tabs" for="tab2">
+            <img src="img/charts.svg"> Charts
+        </label>
+            
+        <input id="tab3" class="tabs" type="radio" name="tabs">
+        <label class="tabs" for="tab3">
+            <img src="img/tiles.svg"> Yearly Totals
+        </label>
+        
+        <section id="tab1_content">
+            <div id="db-maps" class="db-content"></div>
+        </section>
 
+        <section id="tab2_content">
+            <div id="db-charts" class="slider-wrapper db-content">
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                </button>
+                <button class="slide-arrow" id="slide-arrow-next">
+                    &#8250;
+                </button>
+                
+                <ul class="slides-container" id="slides-container">
+                </ul>
+            </div>
+        </section>
+        
+        <section id="tab3_content">
+            <div id="db-tiles" class="db-content"></div>
+        </section>
+    </div>
+    
     <main>
-        <form>
+        <form class="normform">
             <input type="text" placeholder="Search" id="query_string" value="">
             
             <div class="input-type-container">
@@ -63,28 +104,102 @@
             </div>
             
             <button id="treatments" class="inactive">Taxon Treatments</button>
-            <button id="images" class="inactive">Images</button>
-            <button id="publications" class="inactive">Publications</button>
+            <!-- <button id="images" class="inactive">Images</button>
+            <button id="publications" class="inactive">Publications</button> -->
         </form>
-        <article>
+
+        <article id="index">
             <div id="pager"></div>
             <div id="results"></div>
+        </article>
+
+        <article id="about" class="hidden">
+            <button class="close">close</button>
+            <h1>About</h1>
+
+            <p>The Biodiversity Literature Repository (BLR) has been growing from a community on <a target="_blank" href="https://zenodo.org/">Zenodo</a> to be a service dedicated to liberate and make open access, FAIR (findable, accessible, interoperable and reusable) data hidden in the hundreds of millions of pages of scholarly publications.</p>
+
+            <p>It is built on top of <a target="_blank" href="https://zenodo.org/">Zenodo</a>, a digital repository hosted at <a target="_blank" href="https://home.cern/">CERN</a>, which provides a sustainable and robust infrastructure for long tail research data, which can consist of small datasets that otherwise would be lost.</p>
+
+            <p>Originally a collaboration between <a target="_blank" href="https://zenodo.org/">Zenodo</a>, <a target="_blank" href="http://plazi.org">Plazi</a> and <a target="_blank" href="https://pensoft.net/">Pensoft</a>, BLR began as a repository for taxonomic publications which lacked Digital Object Identifiers (<a target="_blank" href="https://datacite.org/dois.html">DOI</a>) and thus were effectively orphaned from the network of online citations. As it grew its scope expanded to morphed into a highly interlinked repository that focuses on include illustrations and taxonomic treatments contained in publications with all these content types interlinked among themselves and enhanced with and rich metadata. </p>
+
+            <p>The source data for BLR are scholarly publications that are most often in PDF or html format but sometimes in XML formats whose structured data facilitates the automated data extraction.</p>
+            <p>The largest data users are the Global Biodiversity Information Facility (<a target="_blank" href="https://www.gbif.org/">GBIF</a>) and the United States’ National Center for Biotechnology Information (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/">NCBI</a>).</p>
+
+            <p>Support of BLR comes from the <a target="_blank" href="https://www.arcadiafund.org.uk">Arcadia Fund</a> and the three partner institutions <a target="_blank" href="https://zenodo.org/">Zenodo</a>, <a target="_blank" href="http://plazi.org">Plazi</a> and <a target="_blank" href="https://pensoft.net/">Pensoft</a>.</p>
+        </article>
+
+        <article id="liberating-data" class="hidden">
+            <button class="close">close</button>
+            <h1>Liberating Data</h1>
+
+            <p>Content is prepared for deposit in BLR via two workflows. Most often data mining processes extract content from PDF or HTML, identifying and labelling relevant data elements, either named entities such as DNA accession codes or geographic localities, or larger textual segments such as material citations and entire treatments. This can be automated by developing templates for each journal. During the upload of the data to BLR, each deposited object (article, treatment, or image) is assigned a DOI, which is cited by each related object. In the best case scenario, this process is completely automated. An advanced workflow is based on publications that have already structured data based on standard vocabularies that machines can understand.</p>
+
+            <p>After each article deposit in BLR, GBIF is notified that a new data set derived from the content of the publication is available subsequently GBIF downloads and integrates the data in its service.</p>
+
+            <p>The entire process from PDF via BLR to GBIF can take just a couple of minutes.</p>
+
+            <p>Liberation also means dissemination. Collaboration with global research infrastructures such as GBIF promotes usage and also promotes the improvement of data structure and quality.</p>
+        </article>
+
+        <article id="apis" class="hidden">
+            <button class="close">close</button>
+            <h1>APIs</h1>
+
+            <ul>
+                <li><a target="_blank" href="https://test.zenodeo.org/">Zenodeo</a></li>
+                <li><a target="_blank" href="https://developers.zenodo.org/">Zenodo</a></li>
+                <li><a target="_blank" href="https://synospecies.plazi.org/">Synospecies</a></li>
+                <li><a target="_blank" href="http://openbiodiv.net">OpenBiodiv</a></li>
+            </ul>
+        </article>
+
+        <article id="how-blr-works" class="hidden">
+            <button class="close">close</button>
+            <h1>How BLR Works</h1>
+            
+            <p>BLR works by providing access to parts of publications that are cited within the corpus of biodiversity literature. A taxonomic name usage implicitly cites a clearly delimited section of a scientific publication, called a taxonomic treatment. A taxonomic treatment contains further citations, to other treatments and thus, to publications, to figures, specimens in a collection, or even DNA sequences.</p>
+
+            <p>The corpus of biodiversity literature includes tens of millions of figures and taxonomic treatments, which are, therefore, the fundamental building blocks on which knowledge of the world’s biological diversity is based. To make them more open accessible, the BLR team designed the upload types for the deposit of figures and articles with enhanced metadata, For taxonomic treatments, Zenodo created a new resource subtype of the resource type “publication” which maps to DataCite’s general resource type “text”. This allows to mint for all the figures and taxonomic treatments Digital Object Identifiers (DOI).</p>
+
+            <p>All publications after 1999 are accessible according to the licenses assigned by their publishers. Publications prior to 2000 are open access. Taxonomic treatments and figures being scientific data, are thus not copyrightable, and since extracted from legally accessible sources, are thus made openly accessible.</p>
+            
+            <p>The development and maintenance of BLR is organized during biannual sprints at CERN where all partners participate.</p>
+
+            <p>The data use is open and depositing of new research related data is free.</p>
+        </article>
+
+        <article id="contribute" class="hidden">
+            <button class="close">close</button>
+            <h1>Contribute</h1>
+
+            <p>You can contribute by making your publications open access, by learning how to arrange your scientific data and text so automated processing can apply, by publishing in semantically enhanced journals, by learning how to convert articles, by including BLR services in research grants and by supporting the activity financially.</p>
+        </article>
+
+        <article id="blog" class="hidden">
+            <button class="close">close</button>
+            <h1>Blog</h1>
+
+            <p>Articles about BLR are available in blogs of its three partners:  
+                <ul>
+                    <li><a target="_blank" href="https://blog.zenodo.org/">Zenodo</a></li>
+                    <li><a target="_blank" href="http://plazi.org/news/">Plazi</a></li>
+                    <li><a target="_blank" href="https://blog.pensoft.net/">Pensoft</a></li>
+                </ul>
+            </p>
         </article>
     </main>
 
     <footer>
         <p>A project of <a target="_blank" href="http://plazi.org/">Plazi</a>, <a target="_blank" href="https://pensoft.net/">Pensoft</a> and <a target="_blank" href="https://zenodo.org/">Zenodo/CERN</a>. Supported in part by the <a target="_blank" href="https://www.arcadiafund.org.uk">Arcadia Foundation</a></p>
     </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <!-- <script src="js/plugins.js"></script> -->
-    <script src="js/config.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-    window.addEventListener('load', (event) => {
-        loadPage();
-    });
+    <script type="module">
+        import { loadPage } from './js/main-new.js';
+        window.onload = (event) => loadPage();
     </script>
 </body>
 

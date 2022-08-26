@@ -22,7 +22,7 @@ const makeMaps = async (locations) => {
     $('#db-maps').append(dbMapDiv);
 
     const countries = "data/world-countries.json";
-    const countriesResponse = await fetch(countries);
+    const countriesResponse = await fetch(countries, { cache: "force-cache" });
     countriesJson = await countriesResponse.json();
 
     // https://github.com/mihai-craita/countries_center_box/blob/master/countries.json

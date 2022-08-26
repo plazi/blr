@@ -1,17 +1,36 @@
 import { $, $$ } from './utils.js';
 import { initDashboard, updateDashboard } from './db.js';
+import { getResults, renderResults, closePage } from './blr.js';
 
-const loadPage = (event) => {
-    const target = event ? event.target : location;
+const loadPage = async (event) => {
+    const target = event ? event.target : window.location;
     const tgt = target.href.split('/').pop().split('.')[0];
-    const page = tgt || 'index';
+    let page = 'index';
+
+    const validPages = [
+        'apis',
+        'about',
+        'liberating-data',
+        'how-blr-works',
+        'contribute',
+        'blog'
+    ]
+
+    if (validPages.includes(tgt)) {
+        page = tgt;
+    }
 
     // hide all the pages
     $$('article').forEach(el => el.classList.add('hidden'));
 
     // show the targetPage
-    const targetPage = $(`#${page}`);
-    targetPage.classList.remove('hidden');
+    $(`#${page}`).classList.remove('hidden');
+
+    // attach listeners
+    $$('.nav-link').forEach(l => l.addEventListener('click', loadPage));
+    $$('button.close').forEach(b => b.addEventListener('click', closePage));
+    $$('form button').forEach(b => b.addEventListener('click', go));
+    $('form').addEventListener('submit', go);
 
     // if event exists then loadPage() has been called 
     // via clicking a menu link
@@ -20,40 +39,41 @@ const loadPage = (event) => {
         event.preventDefault();
 
         // change the URL
-        history.pushState(null, null, `${page}.html`);
+        history.pushState(null, '', `${page}.html`);
 
         // hide the form
         $('form').classList.add('hidden');
     }
 
     // event doesn't exist because loadPage() has been 
-    // called on first load of the webpage
+    // called on first load of the webpage or via a 
+    // bookmark
     else {
 
-        // show the form
-        $('form').classList.remove('hidden');
+        if (page === 'index') {
 
-        // attach listeners
-        $$('.nav-link').forEach(l => l.addEventListener('click', loadPage));
-        $$('form button').forEach(b => b.addEventListener('click', go));
-        $('form').addEventListener('submit', go);
+            // show the form
+            $('form').classList.remove('hidden');
 
-        getResults({
-            resource: 'treatments', 
-            query: 'cols=&stats=true',
-            renderResults: false
-        });
+            if (target.search) {
+                const query = target.search.substring(1);
+                const m = query.match(/q=(?<q>\w+)&?/);
+
+                if (m.groups && ('q' in m.groups)) {
+                    $('#query_string').value = m.groups.q;
+                }
+                
+                queryAndRender(query, 'bookmark');
+            }
+            else {
+                queryAndRender('cols=', 'firstLoad');
+            }
+        }
     }
 }
 
-const go = (event) => {
-
-    /** 
-     * 'resource' will be 'treatments' or 
-     * 'images' or 
-     * 'publications'
-    **/
-    const resource = event.target.id;
+// form button click or submit
+const go = async (event) => {
     
     /** 
      * 'q' will be 'q' or 
@@ -63,10 +83,10 @@ const go = (event) => {
     **/
     const checkInputs = [ ...$$('input[name=type]') ];
     const q = checkInputs.filter(c => c.checked)[0].value;
-
+ 
     const qs = $('#query_string').value;
-    const query = `${q}=${qs}&stats=true`;
-
+    const query = `${q}=${qs}`;
+ 
     /**
      * first, deactivate all the buttons by removing 
      * 'active' class and adding 'inactive' class
@@ -75,112 +95,56 @@ const go = (event) => {
         b.classList.remove('active');
         b.classList.add('inactive')
     });
-
+ 
     /**
      * now, activate the target button
     **/
     event.target.classList.remove('inactive');
     event.target.classList.add('spinning');
-
-    /**
-     * get the results
-    **/
-    getResults({
-        resource, 
-        query,
-        renderResults: true
-    });
-
+ 
     event.stopPropagation();
     event.preventDefault();
+
+    queryAndRender(query, 'go');
 }
 
-const getResults = async ({ resource, query, renderResults = false}) => {
-    const response = await fetch(`${z}/${resource}?${query}`);
+// next | prev click
+const pagePage = async (event) => {
+    event.stopPropagation();
+    event.preventDefault();
+    const target = event.target;
+    const query = target.href.split('?')[1].split('&')[0];
 
-    // if HTTP-status is 200-299
-    if (response.ok) {
-        
-        // get the response body
-        const json = await response.json();
-        const count = json.item.result.count;
-        const records = json.item.result.records;
-        //const facets = json.item.result.facets;
-        const stats = json.item.result.stats;
-        const _links = json.item._links;
+    queryAndRender(query, 'pagePage');
+}
 
-        /** 
-         * when getResults() is called as a result of a form 
-         * submit, 'renderResults' is true. The treatments are 
-         * rendered as a list, and the dashboard is updated 
-         * as it already exists
-         * */
-        if (renderResults) {
-            const resources = {
-                treatments: 'Taxon Treatments',
-                images: 'Images',
-                publications: 'Publications'
-            }
-            
-            $(`#${resource}`).innerHTML = `${resources[resource]} ${count}`;
+const queryAndRender = async (query, type) => {
 
-            const str = formatRecords(resource, records);
-            $('#results').innerHTML = str;
+    // get and render the results
+    // res = { count, records, stats, _links }
+    const res = await getResults(query);
+    
+    if (res.count) {
 
-            /** 
-             * remove spinning animation from the current button
-            **/
-            Array.from($$('form button'))
-                .filter(b => b.id === resource)[0]
-                .classList.remove('spinning');
-
-            $('#pager').innerHTML = `<a href="${_links._prev}" class="page">prev</a> <a href="${_links._next}" class="page">next</a>`;
-
-            // update the dashboard
-            updateDashboard(stats);
+        // There are four kinds of calls
+        // - firstLoad (by typing the website in the browser)
+        // - bookmark (by clicking a bookmark with search terms)
+        // - go (by clicking the form button)
+        // - pagePage (by clicking the prev|next buttons)
+        if (type !== 'firstLoad') {
+            renderResults(res);
+            $$('.page').forEach(p => p.addEventListener('click', pagePage));
         }
 
-        /**
-         * first time the page loads, 'renderResults' is false
-         * so the dashboard is initiliazed but the treatments are 
-         * not rendered in a list
-         */
-        else {
-
-            // initialize the dashboard
-            initDashboard(stats)
+        if (type === 'firstLoad'|| type === 'bookmark') {
+            initDashboard(res.stats);
         }
-    } 
+        else if (type === 'go'|| type === 'pagePage') {
+            updateDashboard(res.stats);
+        }
+    }
     else {
-        alert("HTTP-Error: " + response.status);
-    }
-}
-
-const formatRecords = (resource, records) => {
-    if (resource === 'treatments') {
-        return records.map(r => `<div class="record">
-<h2>${r.treatmentTitle}</h2>
-<p>${r.articleTitle}</p>
-<a href="${r.articleDOI}" class="doi">${r.articleDOI}</a><br>
-<a href="http://treatment.plazi.org/id/${r.treatmentId}" class="recBtn">Treatment Bank</a> <a href="https://zenodo.org/record/${r.zenodoDep}" class="recBtn">Zenodo</a>
-</div>`).join('\n');
-    }
-    else if (resource === 'images') {
-        return records.map(r => `<div class="record">
-<h2>${r.metadata.title}</h2>
-<figure>
-<img src="https://zenodo.org/record/${r.id}/thumb250" width="250">
-<figcaption>${r.metadata.description}</figcaption>
-</figure>
-<a href="${r.doi}" class="doi">${r.doi}</a>
-</div>`).join('\n');
-    }
-    else if (resource === 'publications') {
-        return records.map(r => `<div class="record">
-<h2>${r.metadata.title}</h2>
-<p>${r.metadata.description}</p>
-<a href="${r.doi}" class="doi">${r.doi}</a>
-</div>`).join('\n');
+        renderResults({ count: 0 });
     }
 }
 
