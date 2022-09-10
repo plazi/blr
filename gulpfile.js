@@ -51,7 +51,7 @@ async function html() {
             `./js/main-${dsecs}.js`
         ))
         .pipe(htmlReplace({
-            'css': `/css/styles-${dsecs}.css`
+            'css': `./css/styles-${dsecs}.css`
         }))
         .pipe(dest(destination))
 }
