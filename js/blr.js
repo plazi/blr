@@ -21,16 +21,12 @@ const getResults = async (query) => {
         
         // get the response body
         const json = await response.json();
-        const count = json.item.result.count;
-        const records = json.item.result.records;
-        const stats = json.item.result.stats;
-        const _links = json.item._links;
 
         return {
-            count,
-            records,
-            stats,
-            _links
+            count: json.item.result.count,
+            records: json.item.result.records,
+            stats: json.item.result.stats,
+            _links: json.item._links
         }
     } 
     else {
@@ -66,9 +62,14 @@ const renderResults = (res) => {
         .classList.remove('spinning');
 }
 
-const getPager = (_links) => {
-    const prev = _links._prev.split('?')[1];
-    const next = _links._next.split('?')[1];
+const getPager = (_links) => {    
+    let url = new URL(_links._prev);
+    url.searchParams.delete('stats');
+    const prev = url.searchParams.toString();
+
+    url = new URL(_links._next);
+    url.searchParams.delete('stats');
+    const next = url.searchParams.toString();
 
     return `<a href="/index.html?${prev}" class="page">prev</a> <a href="/index.html?${next}" class="page">next</a>`;
 }
@@ -82,14 +83,4 @@ const formatRecords = (records) => {
 </div>`).join('\n');
 }
 
-const closePage = (event) => {
-
-    // hide all the pages
-    $$('article').forEach(el => el.classList.add('hidden'));
-
-    // show the form and the index page
-    $('form').classList.remove('hidden');
-    $('#index').classList.remove('hidden');
-}
-
-export { getResults, renderResults, closePage }
+export { getResults, renderResults }

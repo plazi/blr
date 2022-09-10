@@ -6,6 +6,7 @@
     <title>Biodiversity Literature Repository</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="date" content="Sat Sep 10 2022 21:37:31 GMT+0200 (Central European Summer Time)">
 
     <meta property="og:title" content="Biodiversity Literature Repository">
     <meta property="og:type" content="website">
@@ -15,16 +16,7 @@
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
 
-    <!-- <link rel="stylesheet" href="css/blr.min.css"> -->
-    <link rel="stylesheet" href="css/typesafe.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/blr.css">
-    <link rel="stylesheet" href="css/records.css">
-    <link rel="stylesheet" href="css/db.css">
-    <link rel="stylesheet" href="css/db-tiles.css">
-    <link rel="stylesheet" href="css/db-maps.css">
-    <link rel="stylesheet" href="css/db-charts.css">
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="/css/styles-1662838651616.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
 </head>
@@ -85,7 +77,7 @@
     </div>
     
     <main>
-        <form class="normform">
+        <form>
             <input type="text" placeholder="Search" id="query_string" value="">
             
             <div class="input-type-container">
@@ -114,7 +106,6 @@
         </article>
 
         <article id="about" class="hidden">
-            <button class="close">close</button>
             <h1>About</h1>
 
             <p>The Biodiversity Literature Repository (BLR) has been growing from a community on <a target="_blank" href="https://zenodo.org/">Zenodo</a> to be a service dedicated to liberate and make open access, FAIR (findable, accessible, interoperable and reusable) data hidden in the hundreds of millions of pages of scholarly publications.</p>
@@ -130,7 +121,6 @@
         </article>
 
         <article id="liberating-data" class="hidden">
-            <button class="close">close</button>
             <h1>Liberating Data</h1>
 
             <p>Content is prepared for deposit in BLR via two workflows. Most often data mining processes extract content from PDF or HTML, identifying and labelling relevant data elements, either named entities such as DNA accession codes or geographic localities, or larger textual segments such as material citations and entire treatments. This can be automated by developing templates for each journal. During the upload of the data to BLR, each deposited object (article, treatment, or image) is assigned a DOI, which is cited by each related object. In the best case scenario, this process is completely automated. An advanced workflow is based on publications that have already structured data based on standard vocabularies that machines can understand.</p>
@@ -143,7 +133,6 @@
         </article>
 
         <article id="apis" class="hidden">
-            <button class="close">close</button>
             <h1>APIs</h1>
 
             <ul>
@@ -155,7 +144,6 @@
         </article>
 
         <article id="how-blr-works" class="hidden">
-            <button class="close">close</button>
             <h1>How BLR Works</h1>
             
             <p>BLR works by providing access to parts of publications that are cited within the corpus of biodiversity literature. A taxonomic name usage implicitly cites a clearly delimited section of a scientific publication, called a taxonomic treatment. A taxonomic treatment contains further citations, to other treatments and thus, to publications, to figures, specimens in a collection, or even DNA sequences.</p>
@@ -170,14 +158,12 @@
         </article>
 
         <article id="contribute" class="hidden">
-            <button class="close">close</button>
             <h1>Contribute</h1>
 
             <p>You can contribute by making your publications open access, by learning how to arrange your scientific data and text so automated processing can apply, by publishing in semantically enhanced journals, by learning how to convert articles, by including BLR services in research grants and by supporting the activity financially.</p>
         </article>
 
         <article id="blog" class="hidden">
-            <button class="close">close</button>
             <h1>Blog</h1>
 
             <p>Articles about BLR are available in blogs of its three partners:  
@@ -198,8 +184,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 
     <script type="module">
-        import { loadPage } from './js/main-new.js';
-        window.onload = (event) => loadPage();
+        import { init } from './js/main-1662838651616.js';
+        window.onload = (event) => init();
     </script>
 </body>
 

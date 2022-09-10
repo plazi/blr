@@ -1,0 +1,7863 @@
+{
+    "categories": [ 2011, 2012, 2013, 2014 ],
+    "values": {
+        "Material Citations":  [  30, 200, 100, 400 ],
+        "Treatment Citations": [  50,  20,  10,  40 ],
+        "Articles":            [ 200,  75, 193,  37 ],
+        "Figures": {
+            "with DOI":    [ 125, 100, 90, 375 ],
+            "without DOI": [  25,  20, 20,  35 ]
+        },
+        
+        "Treatments": {
+            "with DOI":    [ 305, 113, 200,  70 ],
+            "without DOI": [  40,  10,  50,   8 ]
+        }
+    },
+    "locations": [
+        {
+          "num": "376270",
+          "country": ""
+        },
+        {
+          "num": "86562",
+          "country": "Brazil"
+        },
+        {
+          "num": "60962",
+          "country": "China"
+        },
+        {
+          "num": "38753",
+          "country": "United States"
+        },
+        {
+          "num": "29760",
+          "country": "Mexico"
+        },
+        {
+          "num": "26474",
+          "country": "Australia"
+        },
+        {
+          "num": "22232",
+          "country": "India"
+        },
+        {
+          "num": "21755",
+          "country": "Madagascar"
+        },
+        {
+          "num": "17954",
+          "country": "Japan"
+        },
+        {
+          "num": "16870",
+          "country": "South Africa"
+        },
+        {
+          "num": "16640",
+          "country": "Costa Rica"
+        },
+        {
+          "num": "13570",
+          "country": "Thailand"
+        },
+        {
+          "num": "13311",
+          "country": "Indonesia"
+        },
+        {
+          "num": "13210",
+          "country": "Turkey"
+        },
+        {
+          "num": "13100",
+          "country": "Argentina"
+        },
+        {
+          "num": "12940",
+          "country": "Colombia"
+        },
+        {
+          "num": "12288",
+          "country": "Ecuador"
+        },
+        {
+          "num": "12203",
+          "country": "Malaysia"
+        },
+        {
+          "num": "11851",
+          "country": "Spain"
+        },
+        {
+          "num": "11665",
+          "country": "Peru"
+        },
+        {
+          "num": "11391",
+          "country": "Vietnam"
+        },
+        {
+          "num": "11200",
+          "country": "Ukraine"
+        },
+        {
+          "num": "11085",
+          "country": "Russia"
+        },
+        {
+          "num": "10593",
+          "country": "Iran"
+        },
+        {
+          "num": "9832",
+          "country": "Taiwan"
+        },
+        {
+          "num": "9509",
+          "country": "Panama"
+        },
+        {
+          "num": "9336",
+          "country": "Canada"
+        },
+        {
+          "num": "8221",
+          "country": "Chile"
+        },
+        {
+          "num": "8182",
+          "country": "Italy"
+        },
+        {
+          "num": "8042",
+          "country": "Philippines"
+        },
+        {
+          "num": "7785",
+          "country": "Venezuela"
+        },
+        {
+          "num": "7628",
+          "country": "Greece"
+        },
+        {
+          "num": "7474",
+          "country": "New Caledonia"
+        },
+        {
+          "num": "7099",
+          "country": "Iceland"
+        },
+        {
+          "num": "7086",
+          "country": "New Zealand"
+        },
+        {
+          "num": "7065",
+          "country": "France"
+        },
+        {
+          "num": "6565",
+          "country": "Bolivia"
+        },
+        {
+          "num": "6335",
+          "country": "Papua New Guinea"
+        },
+        {
+          "num": "6107",
+          "country": "Democratic Republic of the Congo"
+        },
+        {
+          "num": "6049",
+          "country": "Kenya"
+        },
+        {
+          "num": "5998",
+          "country": "Tanzania"
+        },
+        {
+          "num": "5689",
+          "country": "Germany"
+        },
+        {
+          "num": "4810",
+          "country": "United Kingdom"
+        },
+        {
+          "num": "4366",
+          "country": "Laos"
+        },
+        {
+          "num": "4232",
+          "country": "Nepal"
+        },
+        {
+          "num": "3974",
+          "country": "Myanmar"
+        },
+        {
+          "num": "3874",
+          "country": "Austria"
+        },
+        {
+          "num": "3850",
+          "country": "French Guiana"
+        },
+        {
+          "num": "3823",
+          "country": "Denmark"
+        },
+        {
+          "num": "3738",
+          "country": "Switzerland"
+        },
+        {
+          "num": "3647",
+          "country": "Guatemala"
+        },
+        {
+          "num": "3565",
+          "country": "Morocco"
+        },
+        {
+          "num": "3477",
+          "country": "South Korea"
+        },
+        {
+          "num": "3415",
+          "country": "Paraguay"
+        },
+        {
+          "num": "3371",
+          "country": "Sri Lanka"
+        },
+        {
+          "num": "3037",
+          "country": "Sweden"
+        },
+        {
+          "num": "2878",
+          "country": "Cameroon"
+        },
+        {
+          "num": "2870",
+          "country": "United States"
+        },
+        {
+          "num": "2835",
+          "country": "Yemen"
+        },
+        {
+          "num": "2726",
+          "country": "Mongolia"
+        },
+        {
+          "num": "2613",
+          "country": "Dominican Republic"
+        },
+        {
+          "num": "2601",
+          "country": "Guinea-Bissau"
+        },
+        {
+          "num": "2595",
+          "country": "Kazakhstan"
+        },
+        {
+          "num": "2582",
+          "country": "Singapore"
+        },
+        {
+          "num": "2579",
+          "country": "Cuba"
+        },
+        {
+          "num": "2458",
+          "country": "Lebanon"
+        },
+        {
+          "num": "2445",
+          "country": "Slovenia"
+        },
+        {
+          "num": "2430",
+          "country": "Finland"
+        },
+        {
+          "num": "2409",
+          "country": "Czech Republic"
+        },
+        {
+          "num": "2406",
+          "country": "Namibia"
+        },
+        {
+          "num": "2371",
+          "country": "Israel"
+        },
+        {
+          "num": "2328",
+          "country": "Algeria"
+        },
+        {
+          "num": "2265",
+          "country": "Portugal"
+        },
+        {
+          "num": "2259",
+          "country": "Mozambique"
+        },
+        {
+          "num": "2224",
+          "country": "Guyana"
+        },
+        {
+          "num": "2201",
+          "country": "Romania"
+        },
+        {
+          "num": "2139",
+          "country": "Oman"
+        },
+        {
+          "num": "2102",
+          "country": "Afghanistan"
+        },
+        {
+          "num": "2075",
+          "country": "Trinidad and Tobago"
+        },
+        {
+          "num": "2071",
+          "country": "Serbia"
+        },
+        {
+          "num": "2062",
+          "country": "Suriname"
+        },
+        {
+          "num": "2060",
+          "country": "Ethiopia"
+        },
+        {
+          "num": "2008",
+          "country": "Uganda"
+        },
+        {
+          "num": "1970",
+          "country": "Georgia"
+        },
+        {
+          "num": "1790",
+          "country": "Bulgaria"
+        },
+        {
+          "num": "1728",
+          "country": "Gabon"
+        },
+        {
+          "num": "1706",
+          "country": "Norway"
+        },
+        {
+          "num": "1690",
+          "country": "Saudi Arabia"
+        },
+        {
+          "num": "1681",
+          "country": "Pakistan"
+        },
+        {
+          "num": "1644",
+          "country": "Honduras"
+        },
+        {
+          "num": "1590",
+          "country": "Uruguay"
+        },
+        {
+          "num": "1473",
+          "country": "Kyrgyzstan"
+        },
+        {
+          "num": "1456",
+          "country": "Armenia"
+        },
+        {
+          "num": "1417",
+          "country": "Angola"
+        },
+        {
+          "num": "1411",
+          "country": "Solomon Islands"
+        },
+        {
+          "num": "1411",
+          "country": "Hungary"
+        },
+        {
+          "num": "1378",
+          "country": "Croatia"
+        },
+        {
+          "num": "1365",
+          "country": "Egypt"
+        },
+        {
+          "num": "1362",
+          "country": "Turkmenistan"
+        },
+        {
+          "num": "1328",
+          "country": "Fiji"
+        },
+        {
+          "num": "1325",
+          "country": "Zimbabwe"
+        },
+        {
+          "num": "1325",
+          "country": "Togo"
+        },
+        {
+          "num": "1305",
+          "country": "Ivory Coast"
+        },
+        {
+          "num": "1290",
+          "country": "Guadeloupe"
+        },
+        {
+          "num": "1284",
+          "country": "Vanuatu"
+        },
+        {
+          "num": "1284",
+          "country": "Tunisia"
+        },
+        {
+          "num": "1278",
+          "country": "Ghana"
+        },
+        {
+          "num": "1272",
+          "country": "Tajikistan"
+        },
+        {
+          "num": "1265",
+          "country": "Nicaragua"
+        },
+        {
+          "num": "1256",
+          "country": "Guam"
+        },
+        {
+          "num": "1246",
+          "country": "Saint Helena, Ascension and Tristan da Cunha"
+        },
+        {
+          "num": "1240",
+          "country": "Nigeria"
+        },
+        {
+          "num": "1231",
+          "country": "Puerto Rico"
+        },
+        {
+          "num": "1211",
+          "country": "Azerbaijan"
+        },
+        {
+          "num": "1126",
+          "country": "Zambia"
+        },
+        {
+          "num": "1114",
+          "country": "Uzbekistan"
+        },
+        {
+          "num": "1112",
+          "country": "Seychelles"
+        },
+        {
+          "num": "1111",
+          "country": "Slovakia"
+        },
+        {
+          "num": "1103",
+          "country": "Poland"
+        },
+        {
+          "num": "1100",
+          "country": "United Arab Emirates"
+        },
+        {
+          "num": "1098",
+          "country": "Hong Kong"
+        },
+        {
+          "num": "1071",
+          "country": "Belize"
+        },
+        {
+          "num": "1056",
+          "country": "Dominica"
+        },
+        {
+          "num": "1051",
+          "country": "American Samoa"
+        },
+        {
+          "num": "1041",
+          "country": "Malawi"
+        },
+        {
+          "num": "1028",
+          "country": "Jamaica"
+        },
+        {
+          "num": "1010",
+          "country": "Liberia"
+        },
+        {
+          "num": "1000",
+          "country": "Saint Lucia"
+        },
+        {
+          "num": "982",
+          "country": "Jordan"
+        },
+        {
+          "num": "978",
+          "country": "Cambodia"
+        },
+        {
+          "num": "919",
+          "country": "Central African Republic"
+        },
+        {
+          "num": "862",
+          "country": "El Salvador"
+        },
+        {
+          "num": "837",
+          "country": "Malta"
+        },
+        {
+          "num": "818",
+          "country": "Chad"
+        },
+        {
+          "num": "816",
+          "country": "Bahamas"
+        },
+        {
+          "num": "810",
+          "country": "Mauritius"
+        },
+        {
+          "num": "801",
+          "country": "Netherlands"
+        },
+        {
+          "num": "771",
+          "country": "Albania"
+        },
+        {
+          "num": "761",
+          "country": "Brunei"
+        },
+        {
+          "num": "759",
+          "country": "Grenada"
+        },
+        {
+          "num": "754",
+          "country": "Burkina Faso"
+        },
+        {
+          "num": "741",
+          "country": "Senegal"
+        },
+        {
+          "num": "729",
+          "country": "Burundi"
+        },
+        {
+          "num": "724",
+          "country": "Saint Kitts and Nevis"
+        },
+        {
+          "num": "688",
+          "country": "U. S. A."
+        },
+        {
+          "num": "685",
+          "country": "Saint Pierre and Miquelon"
+        },
+        {
+          "num": "670",
+          "country": "Palestine"
+        },
+        {
+          "num": "652",
+          "country": "Syria"
+        },
+        {
+          "num": "650",
+          "country": "Haiti"
+        },
+        {
+          "num": "646",
+          "country": "Cyprus"
+        },
+        {
+          "num": "636",
+          "country": "Norfolk Island"
+        },
+        {
+          "num": "609",
+          "country": "Cape Verde"
+        },
+        {
+          "num": "608",
+          "country": "Bhutan"
+        },
+        {
+          "num": "600",
+          "country": "French Polynesia"
+        },
+        {
+          "num": "575",
+          "country": "Belgium"
+        },
+        {
+          "num": "569",
+          "country": "SOCOTRA ISLAND"
+        },
+        {
+          "num": "561",
+          "country": "USA"
+        },
+        {
+          "num": "547",
+          "country": "Republic of the Congo"
+        },
+        {
+          "num": "534",
+          "country": "Botswana"
+        },
+        {
+          "num": "530",
+          "country": "Antarctica"
+        },
+        {
+          "num": "524",
+          "country": "Saint Vincent and the Grenadines"
+        },
+        {
+          "num": "522",
+          "country": "Sudan"
+        },
+        {
+          "num": "513",
+          "country": "Bosnia and Herzegovina"
+        },
+        {
+          "num": "509",
+          "country": "Réunion"
+        },
+        {
+          "num": "485",
+          "country": "Rwanda"
+        },
+        {
+          "num": "482",
+          "country": "Macedonia"
+        },
+        {
+          "num": "471",
+          "country": "Sierra Leone"
+        },
+        {
+          "num": "421",
+          "country": "Palau"
+        },
+        {
+          "num": "417",
+          "country": "San Cristobal"
+        },
+        {
+          "num": "401",
+          "country": "Bangladesh"
+        },
+        {
+          "num": "386",
+          "country": "Sint Martin"
+        },
+        {
+          "num": "385",
+          "country": "British Virgin Islands"
+        },
+        {
+          "num": "377",
+          "country": "Comoros"
+        },
+        {
+          "num": "376",
+          "country": "Somalia"
+        },
+        {
+          "num": "369",
+          "country": "Tonga"
+        },
+        {
+          "num": "369",
+          "country": "Iraq"
+        },
+        {
+          "num": "360",
+          "country": "Heard Island and McDonald Islands"
+        },
+        {
+          "num": "352",
+          "country": "Virgin Islands"
+        },
+        {
+          "num": "349",
+          "country": "Benin"
+        },
+        {
+          "num": "346",
+          "country": "Equatorial Guinea"
+        },
+        {
+          "num": "342",
+          "country": "England"
+        },
+        {
+          "num": "314",
+          "country": "Sao Tome and Principe"
+        },
+        {
+          "num": "312",
+          "country": "BRAZIL"
+        },
+        {
+          "num": "308",
+          "country": "Libya"
+        },
+        {
+          "num": "304",
+          "country": "Wake Island"
+        },
+        {
+          "num": "304",
+          "country": "Cayman Islands"
+        },
+        {
+          "num": "278",
+          "country": "Curaçao"
+        },
+        {
+          "num": "273",
+          "country": "Bermuda"
+        },
+        {
+          "num": "271",
+          "country": "Korea"
+        },
+        {
+          "num": "268",
+          "country": "Micronesia"
+        },
+        {
+          "num": "264",
+          "country": "Marshall Islands"
+        },
+        {
+          "num": "263",
+          "country": "Barbados"
+        },
+        {
+          "num": "255",
+          "country": "Eritrea"
+        },
+        {
+          "num": "253",
+          "country": "Estonia"
+        },
+        {
+          "num": "251",
+          "country": "Gibraltar"
+        },
+        {
+          "num": "245",
+          "country": "COSTA RICA"
+        },
+        {
+          "num": "244",
+          "country": "Christmas Island"
+        },
+        {
+          "num": "243",
+          "country": "Ireland"
+        },
+        {
+          "num": "243",
+          "country": "CHINA"
+        },
+        {
+          "num": "242",
+          "country": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "num": "241",
+          "country": "Mayotte"
+        },
+        {
+          "num": "230",
+          "country": "Martinique"
+        },
+        {
+          "num": "221",
+          "country": "Greenland"
+        },
+        {
+          "num": "220",
+          "country": "Antigua and Barbuda"
+        },
+        {
+          "num": "210",
+          "country": "MEXICO"
+        },
+        {
+          "num": "206",
+          "country": "Belarus"
+        },
+        {
+          "num": "204",
+          "country": "Samoa"
+        },
+        {
+          "num": "194",
+          "country": "Latvia"
+        },
+        {
+          "num": "191",
+          "country": "North Korea"
+        },
+        {
+          "num": "189",
+          "country": "UNITED STATES"
+        },
+        {
+          "num": "187",
+          "country": "Gambia"
+        },
+        {
+          "num": "185",
+          "country": "COLOMBIA"
+        },
+        {
+          "num": "180",
+          "country": "Northern Mariana Islands"
+        },
+        {
+          "num": "179",
+          "country": "Maldives"
+        },
+        {
+          "num": "174",
+          "country": "FYR of Macedonia"
+        },
+        {
+          "num": "156",
+          "country": "United States Pacific Island Wildlife Refuges"
+        },
+        {
+          "num": "154",
+          "country": "Lesotho"
+        },
+        {
+          "num": "153",
+          "country": "PANAMA"
+        },
+        {
+          "num": "150",
+          "country": "Falkland Islands"
+        },
+        {
+          "num": "147",
+          "country": "Isla"
+        },
+        {
+          "num": "145",
+          "country": "Mauritania"
+        },
+        {
+          "num": "140",
+          "country": "U S A"
+        },
+        {
+          "num": "140",
+          "country": "Djibouti"
+        },
+        {
+          "num": "139",
+          "country": "PERU"
+        },
+        {
+          "num": "137",
+          "country": "Kuwait"
+        },
+        {
+          "num": "136",
+          "country": "Niger"
+        },
+        {
+          "num": "135",
+          "country": "Svalbard and Jan Mayen"
+        },
+        {
+          "num": "131",
+          "country": "Papua New Gunea"
+        },
+        {
+          "num": "131",
+          "country": "Moldova"
+        },
+        {
+          "num": "125",
+          "country": "Montserrat"
+        },
+        {
+          "num": "124",
+          "country": "Tianjin"
+        },
+        {
+          "num": "124",
+          "country": "Aland Islands"
+        },
+        {
+          "num": "113",
+          "country": "Swaziland"
+        },
+        {
+          "num": "105",
+          "country": "Turks and Caicos Islands"
+        },
+        {
+          "num": "104",
+          "country": "Bonaire, Sint Eustatius and Saba"
+        },
+        {
+          "num": "103",
+          "country": "Sarawak"
+        },
+        {
+          "num": "100",
+          "country": "Cook Islands"
+        },
+        {
+          "num": "97",
+          "country": "ECUADOR"
+        },
+        {
+          "num": "97",
+          "country": "Clipperton Island"
+        },
+        {
+          "num": "93",
+          "country": "MADAGASCAR"
+        },
+        {
+          "num": "93",
+          "country": "Congo"
+        },
+        {
+          "num": "91",
+          "country": "Wales Island"
+        },
+        {
+          "num": "90",
+          "country": "Macao"
+        },
+        {
+          "num": "89",
+          "country": "Surinam"
+        },
+        {
+          "num": "88",
+          "country": "Wallis and Futuna"
+        },
+        {
+          "num": "88",
+          "country": "RSA"
+        },
+        {
+          "num": "86",
+          "country": "RUSSIA"
+        },
+        {
+          "num": "84",
+          "country": "St. Lucia"
+        },
+        {
+          "num": "82",
+          "country": "Kiribati"
+        },
+        {
+          "num": "80",
+          "country": "Brasil"
+        },
+        {
+          "num": "79",
+          "country": "Timor-Leste"
+        },
+        {
+          "num": "78",
+          "country": "Wake"
+        },
+        {
+          "num": "78",
+          "country": "Great Britain"
+        },
+        {
+          "num": "74",
+          "country": "Montenegro"
+        },
+        {
+          "num": "74",
+          "country": "Andorra"
+        },
+        {
+          "num": "72",
+          "country": "Monaco"
+        },
+        {
+          "num": "71",
+          "country": "Guernsey"
+        },
+        {
+          "num": "70",
+          "country": "Ambon Island"
+        },
+        {
+          "num": "69",
+          "country": "Qatar"
+        },
+        {
+          "num": "69",
+          "country": "INDIA"
+        },
+        {
+          "num": "65",
+          "country": "US"
+        },
+        {
+          "num": "63",
+          "country": "FIJI"
+        },
+        {
+          "num": "62",
+          "country": "Isle of Man"
+        },
+        {
+          "num": "62",
+          "country": "Guinea"
+        },
+        {
+          "num": "60",
+          "country": "PUERTO RICO"
+        },
+        {
+          "num": "58",
+          "country": "VIETNAM"
+        },
+        {
+          "num": "58",
+          "country": "Kosovo"
+        },
+        {
+          "num": "57",
+          "country": "INDONESIA"
+        },
+        {
+          "num": "53",
+          "country": "VENEZUELA"
+        },
+        {
+          "num": "53",
+          "country": "Brunei Darussalam"
+        },
+        {
+          "num": "52",
+          "country": "United States Virgin Islands"
+        },
+        {
+          "num": "51",
+          "country": "Anguilla"
+        },
+        {
+          "num": "50",
+          "country": "United States Of America"
+        },
+        {
+          "num": "50",
+          "country": "Luxembourg"
+        },
+        {
+          "num": "48",
+          "country": "Usa"
+        },
+        {
+          "num": "48",
+          "country": "Suiza"
+        },
+        {
+          "num": "48",
+          "country": "Scotland"
+        },
+        {
+          "num": "48",
+          "country": "Flores"
+        },
+        {
+          "num": "46",
+          "country": "Democratic Republic Of Congo"
+        },
+        {
+          "num": "44",
+          "country": "U. S."
+        },
+        {
+          "num": "44",
+          "country": "GUATEMALA"
+        },
+        {
+          "num": "44",
+          "country": "Cocos (Keeling) Islands"
+        },
+        {
+          "num": "41",
+          "country": "West Bank"
+        },
+        {
+          "num": "41",
+          "country": "USA, U. S."
+        },
+        {
+          "num": "41",
+          "country": "Holland"
+        },
+        {
+          "num": "41",
+          "country": "Guyane"
+        },
+        {
+          "num": "40",
+          "country": "Ilha"
+        },
+        {
+          "num": "40",
+          "country": "Ashmore and Cartier Islands"
+        },
+        {
+          "num": "39",
+          "country": "Socotra Island"
+        },
+        {
+          "num": "39",
+          "country": "JAPAN"
+        },
+        {
+          "num": "39",
+          "country": "Aruba"
+        },
+        {
+          "num": "38",
+          "country": "Malaysia Malaysia"
+        },
+        {
+          "num": "38",
+          "country": "CH"
+        },
+        {
+          "num": "37",
+          "country": "Ile Maurice"
+        },
+        {
+          "num": "37",
+          "country": "Ascension Island"
+        },
+        {
+          "num": "36",
+          "country": "Qeshm Island"
+        },
+        {
+          "num": "36",
+          "country": "PAPUA NEW GUINEA"
+        },
+        {
+          "num": "35",
+          "country": "Reunion Island"
+        },
+        {
+          "num": "35",
+          "country": "Francia"
+        },
+        {
+          "num": "35",
+          "country": "CAMEROON"
+        },
+        {
+          "num": "35",
+          "country": "BOLIVIA"
+        },
+        {
+          "num": "33",
+          "country": "New Guinea"
+        },
+        {
+          "num": "33",
+          "country": "Democratic Republic Of The Congo"
+        },
+        {
+          "num": "32",
+          "country": "Taiwan Island"
+        },
+        {
+          "num": "32",
+          "country": "South Georgia Island"
+        },
+        {
+          "num": "32",
+          "country": "ISLA"
+        },
+        {
+          "num": "32",
+          "country": "GABON"
+        },
+        {
+          "num": "31",
+          "country": "Western Sahara"
+        },
+        {
+          "num": "30",
+          "country": "U. S. A"
+        },
+        {
+          "num": "30",
+          "country": "U S VIRGIN ISLANDS"
+        },
+        {
+          "num": "30",
+          "country": "NW. China"
+        },
+        {
+          "num": "30",
+          "country": "Democratic Republic of Congo"
+        },
+        {
+          "num": "30",
+          "country": "CHILE"
+        },
+        {
+          "num": "29",
+          "country": "British Indian Ocean Territory"
+        },
+        {
+          "num": "28",
+          "country": "THAILAND"
+        },
+        {
+          "num": "28",
+          "country": "San Pedro"
+        },
+        {
+          "num": "28",
+          "country": "SOUTH AFRICA"
+        },
+        {
+          "num": "28",
+          "country": "Mexico, Panama"
+        },
+        {
+          "num": "28",
+          "country": "CUBA"
+        },
+        {
+          "num": "28",
+          "country": "BOSNIA HERZEGOVINA"
+        },
+        {
+          "num": "27",
+          "country": "NEPAL"
+        },
+        {
+          "num": "27",
+          "country": "Mahe Island"
+        },
+        {
+          "num": "27",
+          "country": "GUYANA"
+        },
+        {
+          "num": "26",
+          "country": "US VIRGIN ISLANDS"
+        },
+        {
+          "num": "26",
+          "country": "Republic of Cabo Verde"
+        },
+        {
+          "num": "25",
+          "country": "unknown"
+        },
+        {
+          "num": "25",
+          "country": "South Sudan"
+        },
+        {
+          "num": "25",
+          "country": "Salvador"
+        },
+        {
+          "num": "24",
+          "country": "Sao Tome"
+        },
+        {
+          "num": "24",
+          "country": "RMI"
+        },
+        {
+          "num": "24",
+          "country": "North Macedonia"
+        },
+        {
+          "num": "24",
+          "country": "Lithuania"
+        },
+        {
+          "num": "24",
+          "country": "Guadalupe Island"
+        },
+        {
+          "num": "23",
+          "country": "US Virgin Islands"
+        },
+        {
+          "num": "23",
+          "country": "P ARAGUAY"
+        },
+        {
+          "num": "23",
+          "country": "MALAYSIA"
+        },
+        {
+          "num": "23",
+          "country": "Flores Island"
+        },
+        {
+          "num": "23",
+          "country": "Borneo"
+        },
+        {
+          "num": "22",
+          "country": "French Southern Territories"
+        },
+        {
+          "num": "21",
+          "country": "TURKMENISTAN"
+        },
+        {
+          "num": "21",
+          "country": "Sao Vicente"
+        },
+        {
+          "num": "21",
+          "country": "Republic of Korea"
+        },
+        {
+          "num": "21",
+          "country": "Republic Of Congo"
+        },
+        {
+          "num": "21",
+          "country": "Pitcairn"
+        },
+        {
+          "num": "21",
+          "country": "Caribbean Netherlands, Bonaire"
+        },
+        {
+          "num": "20",
+          "country": "U.S.A. Georgia"
+        },
+        {
+          "num": "20",
+          "country": "Saint Barthelemy"
+        },
+        {
+          "num": "20",
+          "country": "Peninsular Malaysia"
+        },
+        {
+          "num": "20",
+          "country": "KENYA"
+        },
+        {
+          "num": "20",
+          "country": "COMORES"
+        },
+        {
+          "num": "20",
+          "country": "Bahrain"
+        },
+        {
+          "num": "19",
+          "country": "Trinidad Island"
+        },
+        {
+          "num": "19",
+          "country": "TANZANIA"
+        },
+        {
+          "num": "19",
+          "country": "Niue"
+        },
+        {
+          "num": "19",
+          "country": "M ADAGASCAR"
+        },
+        {
+          "num": "19",
+          "country": "HK"
+        },
+        {
+          "num": "19",
+          "country": "Guam Island"
+        },
+        {
+          "num": "19",
+          "country": "DEMOCRATIC REPUBLIC OF THE CONGO"
+        },
+        {
+          "num": "18",
+          "country": "Zaire"
+        },
+        {
+          "num": "18",
+          "country": "TURKEY"
+        },
+        {
+          "num": "18",
+          "country": "TAIWAN"
+        },
+        {
+          "num": "18",
+          "country": "Mombasa"
+        },
+        {
+          "num": "18",
+          "country": "Faroe Islands"
+        },
+        {
+          "num": "18",
+          "country": "Djerba Island"
+        },
+        {
+          "num": "18",
+          "country": "ARGENTINA"
+        },
+        {
+          "num": "17",
+          "country": "Isla San Cristobal"
+        },
+        {
+          "num": "17",
+          "country": "ITALY"
+        },
+        {
+          "num": "17",
+          "country": "Futuna Island"
+        },
+        {
+          "num": "17",
+          "country": "Columbia"
+        },
+        {
+          "num": "17",
+          "country": "Akrotiri"
+        },
+        {
+          "num": "16",
+          "country": "Tuvalu"
+        },
+        {
+          "num": "16",
+          "country": "Trinidad and Tabago"
+        },
+        {
+          "num": "16",
+          "country": "Schweden"
+        },
+        {
+          "num": "16",
+          "country": "SOUTH KOREA"
+        },
+        {
+          "num": "16",
+          "country": "NEW ZEALAND"
+        },
+        {
+          "num": "16",
+          "country": "NEW CALEDONIA"
+        },
+        {
+          "num": "16",
+          "country": "Ecuador, French Guiana"
+        },
+        {
+          "num": "16",
+          "country": "Brasilien"
+        },
+        {
+          "num": "15",
+          "country": "Wales"
+        },
+        {
+          "num": "15",
+          "country": "Bosnia-Herzegovina"
+        },
+        {
+          "num": "14",
+          "country": "Uae"
+        },
+        {
+          "num": "14",
+          "country": "St. Helena Island"
+        },
+        {
+          "num": "14",
+          "country": "PARAGUAY"
+        },
+        {
+          "num": "14",
+          "country": "MYANMAR"
+        },
+        {
+          "num": "14",
+          "country": "JAMAICA"
+        },
+        {
+          "num": "14",
+          "country": "HONDURAS"
+        },
+        {
+          "num": "14",
+          "country": "Espana"
+        },
+        {
+          "num": "14",
+          "country": "Congo Belge et Ruanda-Urundi"
+        },
+        {
+          "num": "14",
+          "country": "ANGOLA"
+        },
+        {
+          "num": "13",
+          "country": "U.S.A."
+        },
+        {
+          "num": "13",
+          "country": "Philippinen, Insel"
+        },
+        {
+          "num": "13",
+          "country": "PHILIPPINES"
+        },
+        {
+          "num": "13",
+          "country": "NICARAGUA"
+        },
+        {
+          "num": "13",
+          "country": "Malta Island"
+        },
+        {
+          "num": "13",
+          "country": "Isla San Pedro"
+        },
+        {
+          "num": "13",
+          "country": "Franca"
+        },
+        {
+          "num": "12",
+          "country": "Zanzibar"
+        },
+        {
+          "num": "12",
+          "country": "South korea"
+        },
+        {
+          "num": "12",
+          "country": "Republic of Kiritimati"
+        },
+        {
+          "num": "12",
+          "country": "Oesterreich"
+        },
+        {
+          "num": "12",
+          "country": "NEW GUINEA"
+        },
+        {
+          "num": "12",
+          "country": "Kamerun"
+        },
+        {
+          "num": "12",
+          "country": "GHANA"
+        },
+        {
+          "num": "12",
+          "country": "Cote d'Ivoire"
+        },
+        {
+          "num": "12",
+          "country": "Ceuta"
+        },
+        {
+          "num": "12",
+          "country": "Central America"
+        },
+        {
+          "num": "12",
+          "country": "BHUTAN"
+        },
+        {
+          "num": "12",
+          "country": "AUSTRALIA"
+        },
+        {
+          "num": "11",
+          "country": "Western Central Pacific"
+        },
+        {
+          "num": "11",
+          "country": "Trinidad"
+        },
+        {
+          "num": "11",
+          "country": "SURINAME"
+        },
+        {
+          "num": "11",
+          "country": "PRC"
+        },
+        {
+          "num": "11",
+          "country": "Moluccas, Indonesia"
+        },
+        {
+          "num": "11",
+          "country": "Malaysia Sarawak"
+        },
+        {
+          "num": "11",
+          "country": "Guadalupe"
+        },
+        {
+          "num": "11",
+          "country": "DRC"
+        },
+        {
+          "num": "11",
+          "country": "BORNEO"
+        },
+        {
+          "num": "11",
+          "country": "BELIZE"
+        },
+        {
+          "num": "10",
+          "country": "Wallis Island"
+        },
+        {
+          "num": "10",
+          "country": "Tonga Island"
+        },
+        {
+          "num": "10",
+          "country": "The Netherlands"
+        },
+        {
+          "num": "10",
+          "country": "Sao Tome Island"
+        },
+        {
+          "num": "10",
+          "country": "San Cristobal Island"
+        },
+        {
+          "num": "10",
+          "country": "Republic of South Africa"
+        },
+        {
+          "num": "10",
+          "country": "REUNION ISLAND"
+        },
+        {
+          "num": "10",
+          "country": "NIGERIA"
+        },
+        {
+          "num": "10",
+          "country": "MOZAMBIQUE"
+        },
+        {
+          "num": "10",
+          "country": "MOROCCO"
+        },
+        {
+          "num": "10",
+          "country": "Island"
+        },
+        {
+          "num": "10",
+          "country": "IRAQ"
+        },
+        {
+          "num": "10",
+          "country": "Hongkong"
+        },
+        {
+          "num": "10",
+          "country": "GREECE"
+        },
+        {
+          "num": "10",
+          "country": "French Guyana"
+        },
+        {
+          "num": "10",
+          "country": "China, India, Indonesia"
+        },
+        {
+          "num": "10",
+          "country": "Belgica"
+        },
+        {
+          "num": "9",
+          "country": "UK, ENGLAND"
+        },
+        {
+          "num": "9",
+          "country": "Tobago Island"
+        },
+        {
+          "num": "9",
+          "country": "SWEDEN"
+        },
+        {
+          "num": "9",
+          "country": "Reunion"
+        },
+        {
+          "num": "9",
+          "country": "LAOS"
+        },
+        {
+          "num": "9",
+          "country": "FRANCE"
+        },
+        {
+          "num": "9",
+          "country": "Corsica"
+        },
+        {
+          "num": "9",
+          "country": "Congo (Brazzaville)"
+        },
+        {
+          "num": "9",
+          "country": "CENTRAL AFRICAN REPUBLIC"
+        },
+        {
+          "num": "9",
+          "country": "Bouvet Island"
+        },
+        {
+          "num": "9",
+          "country": "Bolivia, Colombia"
+        },
+        {
+          "num": "8",
+          "country": "Vietnum"
+        },
+        {
+          "num": "8",
+          "country": "UNITED KINGDOM"
+        },
+        {
+          "num": "8",
+          "country": "UNITED ARAB EMIRATES"
+        },
+        {
+          "num": "8",
+          "country": "U. S. Virgin Islands"
+        },
+        {
+          "num": "8",
+          "country": "San Marino"
+        },
+        {
+          "num": "8",
+          "country": "SPAIN"
+        },
+        {
+          "num": "8",
+          "country": "Red Sea"
+        },
+        {
+          "num": "8",
+          "country": "RF"
+        },
+        {
+          "num": "8",
+          "country": "Mahe"
+        },
+        {
+          "num": "8",
+          "country": "MONGOLIA"
+        },
+        {
+          "num": "8",
+          "country": "MALI"
+        },
+        {
+          "num": "8",
+          "country": "Italia"
+        },
+        {
+          "num": "8",
+          "country": "Insel Viti"
+        },
+        {
+          "num": "8",
+          "country": "Indian Ocean"
+        },
+        {
+          "num": "8",
+          "country": "HAITI"
+        },
+        {
+          "num": "8",
+          "country": "Guinea- Conakry"
+        },
+        {
+          "num": "8",
+          "country": "DOMINICAN REPUBLIC"
+        },
+        {
+          "num": "8",
+          "country": "Costa Rica Nicaragua"
+        },
+        {
+          "num": "8",
+          "country": "Corse"
+        },
+        {
+          "num": "8",
+          "country": "CANADA"
+        },
+        {
+          "num": "8",
+          "country": "Bengal"
+        },
+        {
+          "num": "8",
+          "country": "Belau"
+        },
+        {
+          "num": "8",
+          "country": "BOSNIA AND HERCEGOVINA"
+        },
+        {
+          "num": "7",
+          "country": "Viet Nam"
+        },
+        {
+          "num": "7",
+          "country": "UKRAINE"
+        },
+        {
+          "num": "7",
+          "country": "Turkei"
+        },
+        {
+          "num": "7",
+          "country": "St. Vincent Island"
+        },
+        {
+          "num": "7",
+          "country": "South Orkney Islands"
+        },
+        {
+          "num": "7",
+          "country": "South Georgia And The South Sandwich Islands"
+        },
+        {
+          "num": "7",
+          "country": "South China Sea"
+        },
+        {
+          "num": "7",
+          "country": "Salvador Island"
+        },
+        {
+          "num": "7",
+          "country": "Saba Island"
+        },
+        {
+          "num": "7",
+          "country": "REUNION"
+        },
+        {
+          "num": "7",
+          "country": "REPUBLIC OF THE CONGO"
+        },
+        {
+          "num": "7",
+          "country": "Philippines, Indonesia"
+        },
+        {
+          "num": "7",
+          "country": "Ph"
+        },
+        {
+          "num": "7",
+          "country": "Northern Cyprus"
+        },
+        {
+          "num": "7",
+          "country": "Muscat"
+        },
+        {
+          "num": "7",
+          "country": "Lubnan"
+        },
+        {
+          "num": "7",
+          "country": "Jersey"
+        },
+        {
+          "num": "7",
+          "country": "Island Philippines"
+        },
+        {
+          "num": "7",
+          "country": "Insel"
+        },
+        {
+          "num": "7",
+          "country": "Indonesien Indonesien"
+        },
+        {
+          "num": "7",
+          "country": "Hormuz Island"
+        },
+        {
+          "num": "7",
+          "country": "Holanda, San Pedro"
+        },
+        {
+          "num": "7",
+          "country": "GERMANY"
+        },
+        {
+          "num": "7",
+          "country": "England, U. S."
+        },
+        {
+          "num": "7",
+          "country": "Ecuador, Peru"
+        },
+        {
+          "num": "7",
+          "country": "Eastern Pacific"
+        },
+        {
+          "num": "7",
+          "country": "DEMOCRATIC REPUBLIC OF CONGO (DRC)"
+        },
+        {
+          "num": "7",
+          "country": "D. R. Congo"
+        },
+        {
+          "num": "7",
+          "country": "Burma"
+        },
+        {
+          "num": "7",
+          "country": "Bosnia"
+        },
+        {
+          "num": "7",
+          "country": "Ambon, Moluccas"
+        },
+        {
+          "num": "7",
+          "country": "Abyssinia"
+        },
+        {
+          "num": "7",
+          "country": "AUSTRIA"
+        },
+        {
+          "num": "6",
+          "country": "UGANDA"
+        },
+        {
+          "num": "6",
+          "country": "Tokelau"
+        },
+        {
+          "num": "6",
+          "country": "Tibet"
+        },
+        {
+          "num": "6",
+          "country": "TRINIDAD AND TOBAGO"
+        },
+        {
+          "num": "6",
+          "country": "TAJIKISTAN"
+        },
+        {
+          "num": "6",
+          "country": "Southafrica"
+        },
+        {
+          "num": "6",
+          "country": "South Georgia"
+        },
+        {
+          "num": "6",
+          "country": "Seychelles Island"
+        },
+        {
+          "num": "6",
+          "country": "Scotland Island"
+        },
+        {
+          "num": "6",
+          "country": "Sarawak / Sarawak"
+        },
+        {
+          "num": "6",
+          "country": "San Vicente"
+        },
+        {
+          "num": "6",
+          "country": "Republic of Congo"
+        },
+        {
+          "num": "6",
+          "country": "Polen"
+        },
+        {
+          "num": "6",
+          "country": "PAPUA NG"
+        },
+        {
+          "num": "6",
+          "country": "Nouvelle - Hollande"
+        },
+        {
+          "num": "6",
+          "country": "Moluccas, Ternate"
+        },
+        {
+          "num": "6",
+          "country": "Midway Atoll"
+        },
+        {
+          "num": "6",
+          "country": "Micronesia, Caroline Islands"
+        },
+        {
+          "num": "6",
+          "country": "Mexico, Panama, Colombia"
+        },
+        {
+          "num": "6",
+          "country": "Malindi"
+        },
+        {
+          "num": "6",
+          "country": "Malawi, Malawi"
+        },
+        {
+          "num": "6",
+          "country": "KSA"
+        },
+        {
+          "num": "6",
+          "country": "Isla Tortuga"
+        },
+        {
+          "num": "6",
+          "country": "Insel Djerba"
+        },
+        {
+          "num": "6",
+          "country": "IVORY COAST"
+        },
+        {
+          "num": "6",
+          "country": "ISRAEL"
+        },
+        {
+          "num": "6",
+          "country": "IRAN"
+        },
+        {
+          "num": "6",
+          "country": "EL SALVADOR"
+        },
+        {
+          "num": "6",
+          "country": "D. R. CONGO"
+        },
+        {
+          "num": "6",
+          "country": "Curacao, Netherlands Antilles"
+        },
+        {
+          "num": "6",
+          "country": "Colombia, Venezuela, Peru, Bolivia"
+        },
+        {
+          "num": "6",
+          "country": "Colombia and Venezuela"
+        },
+        {
+          "num": "6",
+          "country": "BULGARIA"
+        },
+        {
+          "num": "6",
+          "country": "BOSNIAANDHERZEGOVINA"
+        },
+        {
+          "num": "6",
+          "country": "BAHAMAS"
+        },
+        {
+          "num": "5",
+          "country": "ZAMBIA"
+        },
+        {
+          "num": "5",
+          "country": "Venezuela, French Guiana"
+        },
+        {
+          "num": "5",
+          "country": "Turk Island"
+        },
+        {
+          "num": "5",
+          "country": "Tortuga Island"
+        },
+        {
+          "num": "5",
+          "country": "Tonkin"
+        },
+        {
+          "num": "5",
+          "country": "South East Pacific"
+        },
+        {
+          "num": "5",
+          "country": "Socotra"
+        },
+        {
+          "num": "5",
+          "country": "Sao Tome et Principe (Sao Tome)"
+        },
+        {
+          "num": "5",
+          "country": "Saint Vincent"
+        },
+        {
+          "num": "5",
+          "country": "SRI LANKA"
+        },
+        {
+          "num": "5",
+          "country": "SAINT VINCENT AND THE GRENADINES"
+        },
+        {
+          "num": "5",
+          "country": "Republic of Ireland"
+        },
+        {
+          "num": "5",
+          "country": "Panama or western coast of Costa Rica"
+        },
+        {
+          "num": "5",
+          "country": "Netherlands New Guinea"
+        },
+        {
+          "num": "5",
+          "country": "NOUVELLE-CALEDONIE"
+        },
+        {
+          "num": "5",
+          "country": "NEVIS ISLAND"
+        },
+        {
+          "num": "5",
+          "country": "NAMIBIA"
+        },
+        {
+          "num": "5",
+          "country": "Micronesia (Federated States of)"
+        },
+        {
+          "num": "5",
+          "country": "Mali"
+        },
+        {
+          "num": "5",
+          "country": "MARTINIQUE ISLAND"
+        },
+        {
+          "num": "5",
+          "country": "LIBERIA"
+        },
+        {
+          "num": "5",
+          "country": "Island Guam"
+        },
+        {
+          "num": "5",
+          "country": "India or Bangladesh"
+        },
+        {
+          "num": "5",
+          "country": "Ilha Flores"
+        },
+        {
+          "num": "5",
+          "country": "HUNGARY"
+        },
+        {
+          "num": "5",
+          "country": "HK Island"
+        },
+        {
+          "num": "5",
+          "country": "Guinea, Isola"
+        },
+        {
+          "num": "5",
+          "country": "Guinea, Guinee"
+        },
+        {
+          "num": "5",
+          "country": "Germany, Switzerland"
+        },
+        {
+          "num": "5",
+          "country": "French Guiana, Guyana"
+        },
+        {
+          "num": "5",
+          "country": "Equateur"
+        },
+        {
+          "num": "5",
+          "country": "DOMINICAN REPUBLIC / HAITI"
+        },
+        {
+          "num": "5",
+          "country": "Cr"
+        },
+        {
+          "num": "5",
+          "country": "Colombia, Ecuador"
+        },
+        {
+          "num": "5",
+          "country": "CAMBODIA"
+        },
+        {
+          "num": "5",
+          "country": "British Guyana"
+        },
+        {
+          "num": "5",
+          "country": "AlgeRIA"
+        },
+        {
+          "num": "5",
+          "country": "ARMENIA"
+        },
+        {
+          "num": "4",
+          "country": "northeastern Brazil"
+        },
+        {
+          "num": "4",
+          "country": "Zanzibar Island"
+        },
+        {
+          "num": "4",
+          "country": "Wallis And Futuna"
+        },
+        {
+          "num": "4",
+          "country": "Venezuela, Peru"
+        },
+        {
+          "num": "4",
+          "country": "UNITED STATES OF AMERICA"
+        },
+        {
+          "num": "4",
+          "country": "U.S. Virgin Islands"
+        },
+        {
+          "num": "4",
+          "country": "Trinidad & Tobago, Trinidad"
+        },
+        {
+          "num": "4",
+          "country": "TUNISIA"
+        },
+        {
+          "num": "4",
+          "country": "Singapore Island"
+        },
+        {
+          "num": "4",
+          "country": "Seychellen, Mahe"
+        },
+        {
+          "num": "4",
+          "country": "SOMALIA"
+        },
+        {
+          "num": "4",
+          "country": "SERBIA-MONTENEGRO"
+        },
+        {
+          "num": "4",
+          "country": "SABA ISLAND"
+        },
+        {
+          "num": "4",
+          "country": "S. Africa"
+        },
+        {
+          "num": "4",
+          "country": "Republic of Yemen / Socotra"
+        },
+        {
+          "num": "4",
+          "country": "Republic Of South Africa"
+        },
+        {
+          "num": "4",
+          "country": "Ponape Island"
+        },
+        {
+          "num": "4",
+          "country": "Phoenix islands"
+        },
+        {
+          "num": "4",
+          "country": "PORTUGAL"
+        },
+        {
+          "num": "4",
+          "country": "PANAMA Panama"
+        },
+        {
+          "num": "4",
+          "country": "Nagorno-Karabakh"
+        },
+        {
+          "num": "4",
+          "country": "N EW CALEDONIA"
+        },
+        {
+          "num": "4",
+          "country": "Martinique Island"
+        },
+        {
+          "num": "4",
+          "country": "Marokko Tanger"
+        },
+        {
+          "num": "4",
+          "country": "MADA- GASCAR"
+        },
+        {
+          "num": "4",
+          "country": "Liechtenstein"
+        },
+        {
+          "num": "4",
+          "country": "Kuba"
+        },
+        {
+          "num": "4",
+          "country": "KAZAKHSTAN"
+        },
+        {
+          "num": "4",
+          "country": "Japan, Philippines, Indonesia"
+        },
+        {
+          "num": "4",
+          "country": "Japan, Philippines"
+        },
+        {
+          "num": "4",
+          "country": "JAVA"
+        },
+        {
+          "num": "4",
+          "country": "Itay"
+        },
+        {
+          "num": "4",
+          "country": "Island, Moluccas"
+        },
+        {
+          "num": "4",
+          "country": "Hong Kong Island"
+        },
+        {
+          "num": "4",
+          "country": "Honduras and Jamaica"
+        },
+        {
+          "num": "4",
+          "country": "Herzegowina"
+        },
+        {
+          "num": "4",
+          "country": "Guadeloupe Island"
+        },
+        {
+          "num": "4",
+          "country": "Federated States of Micronesia"
+        },
+        {
+          "num": "4",
+          "country": "England UK"
+        },
+        {
+          "num": "4",
+          "country": "ETHIOPIA"
+        },
+        {
+          "num": "4",
+          "country": "EQUATORIAL GUINEA"
+        },
+        {
+          "num": "4",
+          "country": "Dominican republic"
+        },
+        {
+          "num": "4",
+          "country": "Cuc Phuong National Park, Vietnam"
+        },
+        {
+          "num": "4",
+          "country": "Cuba, Dominica"
+        },
+        {
+          "num": "4",
+          "country": "Costa Rica, El Salvador, Guatemala, Honduras"
+        },
+        {
+          "num": "4",
+          "country": "Comore Island"
+        },
+        {
+          "num": "4",
+          "country": "Colombia, Ecuador, Peru"
+        },
+        {
+          "num": "4",
+          "country": "Ceylon"
+        },
+        {
+          "num": "4",
+          "country": "Cartier Island"
+        },
+        {
+          "num": "4",
+          "country": "BRA- ZIL"
+        },
+        {
+          "num": "4",
+          "country": "BR"
+        },
+        {
+          "num": "4",
+          "country": "Aruba Island"
+        },
+        {
+          "num": "4",
+          "country": "ASCENSION ISLAND"
+        },
+        {
+          "num": "3",
+          "country": "eSwatini"
+        },
+        {
+          "num": "3",
+          "country": "Yemen Socotra Island"
+        },
+        {
+          "num": "3",
+          "country": "Yemen Island"
+        },
+        {
+          "num": "3",
+          "country": "YEMEN Socotra Island"
+        },
+        {
+          "num": "3",
+          "country": "YEMEN SOCOTRA"
+        },
+        {
+          "num": "3",
+          "country": "Vietnam, China"
+        },
+        {
+          "num": "3",
+          "country": "Vatican City"
+        },
+        {
+          "num": "3",
+          "country": "UK"
+        },
+        {
+          "num": "3",
+          "country": "Turkei, Anatolia"
+        },
+        {
+          "num": "3",
+          "country": "Tunis"
+        },
+        {
+          "num": "3",
+          "country": "Tristan da Cunha"
+        },
+        {
+          "num": "3",
+          "country": "Thailand'"
+        },
+        {
+          "num": "3",
+          "country": "Ternate Island"
+        },
+        {
+          "num": "3",
+          "country": "TRISTAN DA CUNHA ISLAND"
+        },
+        {
+          "num": "3",
+          "country": "Svalbard"
+        },
+        {
+          "num": "3",
+          "country": "St. Vincent"
+        },
+        {
+          "num": "3",
+          "country": "Shetland"
+        },
+        {
+          "num": "3",
+          "country": "Secteur Cap Corse"
+        },
+        {
+          "num": "3",
+          "country": "Sao Vicente, Sao Vicente"
+        },
+        {
+          "num": "3",
+          "country": "Santa Elena, Santa Elena"
+        },
+        {
+          "num": "3",
+          "country": "Samoa Island"
+        },
+        {
+          "num": "3",
+          "country": "Saint Helena Island"
+        },
+        {
+          "num": "3",
+          "country": "Saba Saba"
+        },
+        {
+          "num": "3",
+          "country": "SUMATRA"
+        },
+        {
+          "num": "3",
+          "country": "SOUTHAFRICA"
+        },
+        {
+          "num": "3",
+          "country": "SIERRA LEONE"
+        },
+        {
+          "num": "3",
+          "country": "SENEGAL"
+        },
+        {
+          "num": "3",
+          "country": "SALVADOR ISLAND"
+        },
+        {
+          "num": "3",
+          "country": "S China Sea"
+        },
+        {
+          "num": "3",
+          "country": "Russian Federation"
+        },
+        {
+          "num": "3",
+          "country": "Republic of Yemen, Socotra"
+        },
+        {
+          "num": "3",
+          "country": "Principe Island"
+        },
+        {
+          "num": "3",
+          "country": "Pitcairn Island"
+        },
+        {
+          "num": "3",
+          "country": "Philippines, Indonesia, New Caledonia"
+        },
+        {
+          "num": "3",
+          "country": "Panama, Venezuela"
+        },
+        {
+          "num": "3",
+          "country": "POLYNESIE-FRANCAISE"
+        },
+        {
+          "num": "3",
+          "country": "PAPUA N. G."
+        },
+        {
+          "num": "3",
+          "country": "PAKISTAN"
+        },
+        {
+          "num": "3",
+          "country": "Oran, Algier"
+        },
+        {
+          "num": "3",
+          "country": "Ocean Indien"
+        },
+        {
+          "num": "3",
+          "country": "New Caledonia, Fiji"
+        },
+        {
+          "num": "3",
+          "country": "Navassa Island"
+        },
+        {
+          "num": "3",
+          "country": "NORTH KOREA"
+        },
+        {
+          "num": "3",
+          "country": "NEW"
+        },
+        {
+          "num": "3",
+          "country": "N-Iran"
+        },
+        {
+          "num": "3",
+          "country": "Myanmar, Thailand"
+        },
+        {
+          "num": "3",
+          "country": "Mexico, Guatemala"
+        },
+        {
+          "num": "3",
+          "country": "Mayotte Island"
+        },
+        {
+          "num": "3",
+          "country": "Marocco Agadir"
+        },
+        {
+          "num": "3",
+          "country": "Malacca"
+        },
+        {
+          "num": "3",
+          "country": "Macau"
+        },
+        {
+          "num": "3",
+          "country": "MAYOTTE"
+        },
+        {
+          "num": "3",
+          "country": "MALAWI"
+        },
+        {
+          "num": "3",
+          "country": "Lao PDR"
+        },
+        {
+          "num": "3",
+          "country": "Lakshadweep and Puducherry"
+        },
+        {
+          "num": "3",
+          "country": "La Reunion Island"
+        },
+        {
+          "num": "3",
+          "country": "Kuwait City"
+        },
+        {
+          "num": "3",
+          "country": "Kenia, British East Africa"
+        },
+        {
+          "num": "3",
+          "country": "Japan, Philippines, Indonesia, Papua New Guinea"
+        },
+        {
+          "num": "3",
+          "country": "Japan, Korea"
+        },
+        {
+          "num": "3",
+          "country": "Island, Philippine Islands"
+        },
+        {
+          "num": "3",
+          "country": "Insel Fernando Poo"
+        },
+        {
+          "num": "3",
+          "country": "Indonesia, New Caledonia"
+        },
+        {
+          "num": "3",
+          "country": "Ile Ile"
+        },
+        {
+          "num": "3",
+          "country": "Guatemala, Honduras"
+        },
+        {
+          "num": "3",
+          "country": "Grenada Island"
+        },
+        {
+          "num": "3",
+          "country": "Great Britain, Wales"
+        },
+        {
+          "num": "3",
+          "country": "GUINEA"
+        },
+        {
+          "num": "3",
+          "country": "GEORGIA"
+        },
+        {
+          "num": "3",
+          "country": "France, Corsica"
+        },
+        {
+          "num": "3",
+          "country": "Formosa"
+        },
+        {
+          "num": "3",
+          "country": "FRENCH GUIANA"
+        },
+        {
+          "num": "3",
+          "country": "Europe"
+        },
+        {
+          "num": "3",
+          "country": "Equador"
+        },
+        {
+          "num": "3",
+          "country": "EE. UU."
+        },
+        {
+          "num": "3",
+          "country": "Dominica, Grenada"
+        },
+        {
+          "num": "3",
+          "country": "Czech Republik"
+        },
+        {
+          "num": "3",
+          "country": "Cyprus Island"
+        },
+        {
+          "num": "3",
+          "country": "Costa Rica, Panama"
+        },
+        {
+          "num": "3",
+          "country": "Costa Rica, Honduras"
+        },
+        {
+          "num": "3",
+          "country": "Costa Rica, Guatemala, Honduras"
+        },
+        {
+          "num": "3",
+          "country": "Coral Sea Islands"
+        },
+        {
+          "num": "3",
+          "country": "Congo Belge & Ruanda-Urundi"
+        },
+        {
+          "num": "3",
+          "country": "Colombia, Costa Rica, El Salvador, Guatemala, Honduras"
+        },
+        {
+          "num": "3",
+          "country": "Ceylon and Burma"
+        },
+        {
+          "num": "3",
+          "country": "Central Pacific"
+        },
+        {
+          "num": "3",
+          "country": "CZECH REPUBLIC"
+        },
+        {
+          "num": "3",
+          "country": "CYPRUS"
+        },
+        {
+          "num": "3",
+          "country": "COTE D' IVOIRE"
+        },
+        {
+          "num": "3",
+          "country": "CAMEROUN"
+        },
+        {
+          "num": "3",
+          "country": "C AMEROON"
+        },
+        {
+          "num": "3",
+          "country": "Bonaire, Caribbean Netherlands"
+        },
+        {
+          "num": "3",
+          "country": "Bolivia, Paraguay"
+        },
+        {
+          "num": "3",
+          "country": "Belize, Colombia"
+        },
+        {
+          "num": "3",
+          "country": "Bandar Abbas"
+        },
+        {
+          "num": "3",
+          "country": "Ashmore"
+        },
+        {
+          "num": "3",
+          "country": "As"
+        },
+        {
+          "num": "3",
+          "country": "Antigua"
+        },
+        {
+          "num": "3",
+          "country": "Annam"
+        },
+        {
+          "num": "3",
+          "country": "Ambon Moluccas"
+        },
+        {
+          "num": "3",
+          "country": "Agadir"
+        },
+        {
+          "num": "3",
+          "country": "AS"
+        },
+        {
+          "num": "2",
+          "country": "Zanzibar, Tanzania"
+        },
+        {
+          "num": "2",
+          "country": "ZIMBABWE"
+        },
+        {
+          "num": "2",
+          "country": "Yugoslavia"
+        },
+        {
+          "num": "2",
+          "country": "YEMEN"
+        },
+        {
+          "num": "2",
+          "country": "Wallis & Futuna"
+        },
+        {
+          "num": "2",
+          "country": "WEST NEW GUINEA"
+        },
+        {
+          "num": "2",
+          "country": "WEST MALAYSIA"
+        },
+        {
+          "num": "2",
+          "country": "Virgin Is."
+        },
+        {
+          "num": "2",
+          "country": "Vietnam-N"
+        },
+        {
+          "num": "2",
+          "country": "Vietnam, Indonesia"
+        },
+        {
+          "num": "2",
+          "country": "Vietnam Vietnam"
+        },
+        {
+          "num": "2",
+          "country": "Viet Nam (Tonkin)"
+        },
+        {
+          "num": "2",
+          "country": "VN"
+        },
+        {
+          "num": "2",
+          "country": "VANUATU"
+        },
+        {
+          "num": "2",
+          "country": "Uruguay, Argentina, Falkland Islands"
+        },
+        {
+          "num": "2",
+          "country": "United Kingdom, Spain, France, Poland, Germany, Czech Republic, Slovakia, Hungary, Italy, Serbia, Romania, Russia"
+        },
+        {
+          "num": "2",
+          "country": "Ungarn"
+        },
+        {
+          "num": "2",
+          "country": "US, US"
+        },
+        {
+          "num": "2",
+          "country": "UNKNOWN"
+        },
+        {
+          "num": "2",
+          "country": "UK, WALES"
+        },
+        {
+          "num": "2",
+          "country": "UIZA"
+        },
+        {
+          "num": "2",
+          "country": "U.S."
+        },
+        {
+          "num": "2",
+          "country": "U. S. VIRGIN ISLANDS"
+        },
+        {
+          "num": "2",
+          "country": "U. S. S. R. Turcomania"
+        },
+        {
+          "num": "2",
+          "country": "U NITED STATES"
+        },
+        {
+          "num": "2",
+          "country": "Turkey, Israel"
+        },
+        {
+          "num": "2",
+          "country": "Turkey, Armenia"
+        },
+        {
+          "num": "2",
+          "country": "Turk and Turk"
+        },
+        {
+          "num": "2",
+          "country": "Tschechische Republik"
+        },
+        {
+          "num": "2",
+          "country": "Tropical America"
+        },
+        {
+          "num": "2",
+          "country": "Tristan da Cunha Island"
+        },
+        {
+          "num": "2",
+          "country": "Trinidad and Tobago, Trinidad"
+        },
+        {
+          "num": "2",
+          "country": "Tortola Island"
+        },
+        {
+          "num": "2",
+          "country": "Tianjin, China"
+        },
+        {
+          "num": "2",
+          "country": "The Gambia"
+        },
+        {
+          "num": "2",
+          "country": "Thailand (northern region)"
+        },
+        {
+          "num": "2",
+          "country": "Ternate, Indonesia"
+        },
+        {
+          "num": "2",
+          "country": "Ternate, Ambon"
+        },
+        {
+          "num": "2",
+          "country": "Tanganyika Territory"
+        },
+        {
+          "num": "2",
+          "country": "Tahiti"
+        },
+        {
+          "num": "2",
+          "country": "TRINIDAD"
+        },
+        {
+          "num": "2",
+          "country": "TONKIN"
+        },
+        {
+          "num": "2",
+          "country": "Syrie"
+        },
+        {
+          "num": "2",
+          "country": "Sumatra"
+        },
+        {
+          "num": "2",
+          "country": "St. Thomas"
+        },
+        {
+          "num": "2",
+          "country": "St. Martin"
+        },
+        {
+          "num": "2",
+          "country": "St. Lucia, St. Vincent"
+        },
+        {
+          "num": "2",
+          "country": "Soviet Union"
+        },
+        {
+          "num": "2",
+          "country": "South America or Mexico"
+        },
+        {
+          "num": "2",
+          "country": "South AmeriCA"
+        },
+        {
+          "num": "2",
+          "country": "Slowenien, Rumanien und Serbien"
+        },
+        {
+          "num": "2",
+          "country": "Slovak Republic"
+        },
+        {
+          "num": "2",
+          "country": "Sierra Leone, Togo"
+        },
+        {
+          "num": "2",
+          "country": "Shetland, Scotland"
+        },
+        {
+          "num": "2",
+          "country": "Sao Tome & Principe, Sao Tome"
+        },
+        {
+          "num": "2",
+          "country": "Salomonen, Insel"
+        },
+        {
+          "num": "2",
+          "country": "Saint Vincent Island"
+        },
+        {
+          "num": "2",
+          "country": "Saint Thomas"
+        },
+        {
+          "num": "2",
+          "country": "Saint Martin Island"
+        },
+        {
+          "num": "2",
+          "country": "SYRIA"
+        },
+        {
+          "num": "2",
+          "country": "SWITZERLAND"
+        },
+        {
+          "num": "2",
+          "country": "SOUTH SUDAN"
+        },
+        {
+          "num": "2",
+          "country": "SOUTH CHINA"
+        },
+        {
+          "num": "2",
+          "country": "SINGAPORE"
+        },
+        {
+          "num": "2",
+          "country": "SERBIA"
+        },
+        {
+          "num": "2",
+          "country": "SAINT-BARTheLEmy IsLANd"
+        },
+        {
+          "num": "2",
+          "country": "S.afr."
+        },
+        {
+          "num": "2",
+          "country": "S. Vietnam"
+        },
+        {
+          "num": "2",
+          "country": "S . Africa"
+        },
+        {
+          "num": "2",
+          "country": "Russia, Ukraine, Iran"
+        },
+        {
+          "num": "2",
+          "country": "Ruanda"
+        },
+        {
+          "num": "2",
+          "country": "Republic of Ecuador"
+        },
+        {
+          "num": "2",
+          "country": "ROMANIA"
+        },
+        {
+          "num": "2",
+          "country": "REPUBLIC OF NORTH MACEDONIA"
+        },
+        {
+          "num": "2",
+          "country": "REPUBLIC OF CONGO"
+        },
+        {
+          "num": "2",
+          "country": "Philippines-"
+        },
+        {
+          "num": "2",
+          "country": "Philippine Islands"
+        },
+        {
+          "num": "2",
+          "country": "Peru, Bolivia"
+        },
+        {
+          "num": "2",
+          "country": "Papua New Guinea, Sri Lanka"
+        },
+        {
+          "num": "2",
+          "country": "Papua (New Guinea)"
+        },
+        {
+          "num": "2",
+          "country": "Panama, Panama"
+        },
+        {
+          "num": "2",
+          "country": "Panama, Ecuador"
+        },
+        {
+          "num": "2",
+          "country": "Panama, Colombia"
+        },
+        {
+          "num": "2",
+          "country": "Panama [Mexico ?]"
+        },
+        {
+          "num": "2",
+          "country": "POLAND"
+        },
+        {
+          "num": "2",
+          "country": "PH, US"
+        },
+        {
+          "num": "2",
+          "country": "PARA- GUAY."
+        },
+        {
+          "num": "2",
+          "country": "PALESTINE"
+        },
+        {
+          "num": "2",
+          "country": "Orkney Island"
+        },
+        {
+          "num": "2",
+          "country": "O M I N I C A N R E P U B L I C / H A I T I"
+        },
+        {
+          "num": "2",
+          "country": "New Caledonia, Vanuatu, Fiji"
+        },
+        {
+          "num": "2",
+          "country": "New Caledonia, Vanuatu"
+        },
+        {
+          "num": "2",
+          "country": "New Caledonia, Tonga"
+        },
+        {
+          "num": "2",
+          "country": "NEW MEXICO"
+        },
+        {
+          "num": "2",
+          "country": "NEW CALEDO- NIA"
+        },
+        {
+          "num": "2",
+          "country": "Mumbai (Bombay)"
+        },
+        {
+          "num": "2",
+          "country": "Mozambique, Namibia, South Africa"
+        },
+        {
+          "num": "2",
+          "country": "Mozambique, Indonesia"
+        },
+        {
+          "num": "2",
+          "country": "Morocco'"
+        },
+        {
+          "num": "2",
+          "country": "Micronesia, Indonesia, New Caledonia"
+        },
+        {
+          "num": "2",
+          "country": "Mexico, Costa Rica"
+        },
+        {
+          "num": "2",
+          "country": "Melilla, Marruecos"
+        },
+        {
+          "num": "2",
+          "country": "Mediterranee"
+        },
+        {
+          "num": "2",
+          "country": "Maroc Agadir"
+        },
+        {
+          "num": "2",
+          "country": "Maroc"
+        },
+        {
+          "num": "2",
+          "country": "Malaysia (West)"
+        },
+        {
+          "num": "2",
+          "country": "Madagascar, Indonesia"
+        },
+        {
+          "num": "2",
+          "country": "MORROCO"
+        },
+        {
+          "num": "2",
+          "country": "MONTENEGRO"
+        },
+        {
+          "num": "2",
+          "country": "MEX- ICO"
+        },
+        {
+          "num": "2",
+          "country": "MALAYSIA-BORNEO"
+        },
+        {
+          "num": "2",
+          "country": "MADAGASCAR-"
+        },
+        {
+          "num": "2",
+          "country": "M A D A G A S C A R"
+        },
+        {
+          "num": "2",
+          "country": "Laos-C"
+        },
+        {
+          "num": "2",
+          "country": "LAOS-NE"
+        },
+        {
+          "num": "2",
+          "country": "LAO PDR"
+        },
+        {
+          "num": "2",
+          "country": "Kroatien / Slowenien"
+        },
+        {
+          "num": "2",
+          "country": "Kochi"
+        },
+        {
+          "num": "2",
+          "country": "Kenya, Zanzibar"
+        },
+        {
+          "num": "2",
+          "country": "Kenya, Nigeria"
+        },
+        {
+          "num": "2",
+          "country": "Kenya, Mozambique"
+        },
+        {
+          "num": "2",
+          "country": "Jugoslawien"
+        },
+        {
+          "num": "2",
+          "country": "Italy, Greece"
+        },
+        {
+          "num": "2",
+          "country": "Israel, Lebanon"
+        },
+        {
+          "num": "2",
+          "country": "Israel, Egypt"
+        },
+        {
+          "num": "2",
+          "country": "Island, US"
+        },
+        {
+          "num": "2",
+          "country": "Island, Philippines"
+        },
+        {
+          "num": "2",
+          "country": "Island, Bahamas"
+        },
+        {
+          "num": "2",
+          "country": "Island Australia"
+        },
+        {
+          "num": "2",
+          "country": "Insel Martinique"
+        },
+        {
+          "num": "2",
+          "country": "Indonesien, Molukken"
+        },
+        {
+          "num": "2",
+          "country": "Indonesia, Vanuatu"
+        },
+        {
+          "num": "2",
+          "country": "Indonesia, Philippines"
+        },
+        {
+          "num": "2",
+          "country": "Indonesia, Papua New Guinea, French Polynesia"
+        },
+        {
+          "num": "2",
+          "country": "India, Vietnam"
+        },
+        {
+          "num": "2",
+          "country": "India, Puducherry"
+        },
+        {
+          "num": "2",
+          "country": "India, Nepal"
+        },
+        {
+          "num": "2",
+          "country": "India, Myanmar"
+        },
+        {
+          "num": "2",
+          "country": "India, Indonesia"
+        },
+        {
+          "num": "2",
+          "country": "India and Ceylon"
+        },
+        {
+          "num": "2",
+          "country": "India ?"
+        },
+        {
+          "num": "2",
+          "country": "InDIa"
+        },
+        {
+          "num": "2",
+          "country": "Ile San Cristobal"
+        },
+        {
+          "num": "2",
+          "country": "Ile Principe"
+        },
+        {
+          "num": "2",
+          "country": "Ile Futuna"
+        },
+        {
+          "num": "2",
+          "country": "Honduras, Costa Rica"
+        },
+        {
+          "num": "2",
+          "country": "Herzegovina, Yugoslavia"
+        },
+        {
+          "num": "2",
+          "country": "Hebrides, Scotland"
+        },
+        {
+          "num": "2",
+          "country": "Guyane francaise"
+        },
+        {
+          "num": "2",
+          "country": "Guinee equatoriale (Annobon)"
+        },
+        {
+          "num": "2",
+          "country": "Guinee Equatoriale (Rio Muni)"
+        },
+        {
+          "num": "2",
+          "country": "Guinea, Sao Tome and Principe"
+        },
+        {
+          "num": "2",
+          "country": "Guatimala"
+        },
+        {
+          "num": "2",
+          "country": "GuINEA ISLANd"
+        },
+        {
+          "num": "2",
+          "country": "Grenadines"
+        },
+        {
+          "num": "2",
+          "country": "Great Britain, England"
+        },
+        {
+          "num": "2",
+          "country": "Great Britain, British overseas territories"
+        },
+        {
+          "num": "2",
+          "country": "Germany, Italy"
+        },
+        {
+          "num": "2",
+          "country": "Georgien / Armenien"
+        },
+        {
+          "num": "2",
+          "country": "Georgia Island"
+        },
+        {
+          "num": "2",
+          "country": "GUYANE FRANCAISE"
+        },
+        {
+          "num": "2",
+          "country": "GUAM ISLAND"
+        },
+        {
+          "num": "2",
+          "country": "Futuna, Futuna"
+        },
+        {
+          "num": "2",
+          "country": "French Guiana, Ecuador, Peru"
+        },
+        {
+          "num": "2",
+          "country": "France, Italy"
+        },
+        {
+          "num": "2",
+          "country": "Finand"
+        },
+        {
+          "num": "2",
+          "country": "Fiji, New Caledonia, Tonga"
+        },
+        {
+          "num": "2",
+          "country": "Fiji Islands, Viti"
+        },
+        {
+          "num": "2",
+          "country": "Federal States of Micronesia"
+        },
+        {
+          "num": "2",
+          "country": "Estreito"
+        },
+        {
+          "num": "2",
+          "country": "Essequibo Islands"
+        },
+        {
+          "num": "2",
+          "country": "Equatorial Guinea, Gabon, Guinea"
+        },
+        {
+          "num": "2",
+          "country": "England, UK"
+        },
+        {
+          "num": "2",
+          "country": "El Salvador, Guatemala, Honduras"
+        },
+        {
+          "num": "2",
+          "country": "Egypt, Saudi Arabia, Yemen, Kenya, Zanzibar, Tanzania, Madagascar"
+        },
+        {
+          "num": "2",
+          "country": "Egypt, Israel, Saudi Arabia, Sudan, Yemen, Kenya, Zanzibar"
+        },
+        {
+          "num": "2",
+          "country": "Ecuador, Bolivia"
+        },
+        {
+          "num": "2",
+          "country": "East Asia"
+        },
+        {
+          "num": "2",
+          "country": "ENGLAND"
+        },
+        {
+          "num": "2",
+          "country": "EAST AFRICA"
+        },
+        {
+          "num": "2",
+          "country": "Deutschland"
+        },
+        {
+          "num": "2",
+          "country": "Democratic Republic of Congo (Zaire)"
+        },
+        {
+          "num": "2",
+          "country": "Dahomey"
+        },
+        {
+          "num": "2",
+          "country": "DEMOCRATIC REPUBLIC OF CONGO"
+        },
+        {
+          "num": "2",
+          "country": "Cote D’Ivoire"
+        },
+        {
+          "num": "2",
+          "country": "Costa Rica, Mexico"
+        },
+        {
+          "num": "2",
+          "country": "Congo, Ruanda"
+        },
+        {
+          "num": "2",
+          "country": "Congo, Congo"
+        },
+        {
+          "num": "2",
+          "country": "Comoro Ids"
+        },
+        {
+          "num": "2",
+          "country": "Comore Island, Comoro Islands"
+        },
+        {
+          "num": "2",
+          "country": "Commonwelth of the Bahamas"
+        },
+        {
+          "num": "2",
+          "country": "Colombia, Ecuador, French Guiana"
+        },
+        {
+          "num": "2",
+          "country": "Chine"
+        },
+        {
+          "num": "2",
+          "country": "Central Madagascar"
+        },
+        {
+          "num": "2",
+          "country": "Caroline Islands (Micronesia)"
+        },
+        {
+          "num": "2",
+          "country": "Cape Verde Island"
+        },
+        {
+          "num": "2",
+          "country": "Cameroun"
+        },
+        {
+          "num": "2",
+          "country": "Cameroon, CAR"
+        },
+        {
+          "num": "2",
+          "country": "Caicos Islands, Turks and Caicos"
+        },
+        {
+          "num": "2",
+          "country": "CZECH REPUBLIC, DENMARK, FINLAND, FRANCE, GERMANY, NORWAY"
+        },
+        {
+          "num": "2",
+          "country": "CROATIA"
+        },
+        {
+          "num": "2",
+          "country": "CR"
+        },
+        {
+          "num": "2",
+          "country": "COTE D'IVOIRE"
+        },
+        {
+          "num": "2",
+          "country": "CONGO, RUANDA"
+        },
+        {
+          "num": "2",
+          "country": "C-THAILAND"
+        },
+        {
+          "num": "2",
+          "country": "Burundi, Congo"
+        },
+        {
+          "num": "2",
+          "country": "Burma and Siam"
+        },
+        {
+          "num": "2",
+          "country": "Brunei Brunei"
+        },
+        {
+          "num": "2",
+          "country": "Britain"
+        },
+        {
+          "num": "2",
+          "country": "Brazil, Uruguay"
+        },
+        {
+          "num": "2",
+          "country": "Brazil, Colombia"
+        },
+        {
+          "num": "2",
+          "country": "Bosnien"
+        },
+        {
+          "num": "2",
+          "country": "Bosnia Herzegovina"
+        },
+        {
+          "num": "2",
+          "country": "Bonaire, Netherlands Antilles"
+        },
+        {
+          "num": "2",
+          "country": "Bona"
+        },
+        {
+          "num": "2",
+          "country": "Bombay, Bombay"
+        },
+        {
+          "num": "2",
+          "country": "Bolivia, Peru"
+        },
+        {
+          "num": "2",
+          "country": "Belize, Guatemala"
+        },
+        {
+          "num": "2",
+          "country": "Belize, Costa Rica, El Salvador, Guatemala, Honduras"
+        },
+        {
+          "num": "2",
+          "country": "Barbuda, Antigua"
+        },
+        {
+          "num": "2",
+          "country": "Barbados, Cuba"
+        },
+        {
+          "num": "2",
+          "country": "Bahamas, Jamaica"
+        },
+        {
+          "num": "2",
+          "country": "BRITISH GUYANA"
+        },
+        {
+          "num": "2",
+          "country": "BRASIL"
+        },
+        {
+          "num": "2",
+          "country": "BOTSWANA"
+        },
+        {
+          "num": "2",
+          "country": "BOSNIA- HERZEGOVINA"
+        },
+        {
+          "num": "2",
+          "country": "BERMUDA"
+        },
+        {
+          "num": "2",
+          "country": "Austria, Germany"
+        },
+        {
+          "num": "2",
+          "country": "Armenia, Azerbaijan"
+        },
+        {
+          "num": "2",
+          "country": "Argentina, Bolivia"
+        },
+        {
+          "num": "2",
+          "country": "Argentina or Uruguay"
+        },
+        {
+          "num": "2",
+          "country": "Antigua, Cuba, Dominica, Grenada"
+        },
+        {
+          "num": "2",
+          "country": "Antigua, Barbuda"
+        },
+        {
+          "num": "2",
+          "country": "Antigua, Barbados, Barbuda, Cuba, Dominica"
+        },
+        {
+          "num": "2",
+          "country": "Ambon"
+        },
+        {
+          "num": "2",
+          "country": "Algeria, Morocco"
+        },
+        {
+          "num": "2",
+          "country": "Afr."
+        },
+        {
+          "num": "2",
+          "country": "AZERBAYAN"
+        },
+        {
+          "num": "2",
+          "country": "ARGEN- TINA"
+        },
+        {
+          "num": "2",
+          "country": "AFGHANISTAN"
+        },
+        {
+          "num": "2",
+          "country": "A RGENTINA"
+        },
+        {
+          "num": "1",
+          "country": "the Democratic Republic of the Congo"
+        },
+        {
+          "num": "1",
+          "country": "the Bahamas, Turks and Caicos"
+        },
+        {
+          "num": "1",
+          "country": "the Bahamas, Cayman Islands, Jamaica, Dominican Republic"
+        },
+        {
+          "num": "1",
+          "country": "the Bahamas, Bermuda, Jamaica, Haiti, Puerto Rico, Dominica"
+        },
+        {
+          "num": "1",
+          "country": "olivia"
+        },
+        {
+          "num": "1",
+          "country": "no further data"
+        },
+        {
+          "num": "1",
+          "country": "many"
+        },
+        {
+          "num": "1",
+          "country": "Zentral-Nepal"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Tanzania, Madagascar, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Tanganyika Territory"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Singapore, Japan, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Maldives, Taiwan"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Zanzibar, Comoro Islands, Seychelles, Burma, China, Papua New Guinea, New Caledonia, Marshall Islands"
+        },
+        {
+          "num": "1",
+          "country": "Zambia, Malawi, Uganda, Kenya"
+        },
+        {
+          "num": "1",
+          "country": "Zaire, Congo"
+        },
+        {
+          "num": "1",
+          "country": "Zaire (Democratic Republic of Congo)"
+        },
+        {
+          "num": "1",
+          "country": "ZIMBABWE'"
+        },
+        {
+          "num": "1",
+          "country": "Yugoslavia, Montenegro"
+        },
+        {
+          "num": "1",
+          "country": "Yugoslavia, France"
+        },
+        {
+          "num": "1",
+          "country": "Yemen, Socotra"
+        },
+        {
+          "num": "1",
+          "country": "YEMEN, Socotra"
+        },
+        {
+          "num": "1",
+          "country": "YEMEN SOCOTRA Island"
+        },
+        {
+          "num": "1",
+          "country": "Western Indian Ocean"
+        },
+        {
+          "num": "1",
+          "country": "Wallis"
+        },
+        {
+          "num": "1",
+          "country": "Wales Australia"
+        },
+        {
+          "num": "1",
+          "country": "WESTERN AUSTRALIA"
+        },
+        {
+          "num": "1",
+          "country": "Vn"
+        },
+        {
+          "num": "1",
+          "country": "Vitu Island"
+        },
+        {
+          "num": "1",
+          "country": "Viti Island"
+        },
+        {
+          "num": "1",
+          "country": "Vincent"
+        },
+        {
+          "num": "1",
+          "country": "Vietnam, Tanzania"
+        },
+        {
+          "num": "1",
+          "country": "Vietnam, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Vietnam, Laos, China"
+        },
+        {
+          "num": "1",
+          "country": "Vietnam, Cambodia"
+        },
+        {
+          "num": "1",
+          "country": "Vietnam Tonkin"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Surinam, Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Surinam, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Surinam"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Peru, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Guyana, Colombia, Ecuador, Brazil"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Ecuador, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Ecuador, Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Ecuador, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Colombia, Ecuador, Surinam, Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Colombia, Ecuador, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Colombia"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Bolivia, Brazil, Paraguay"
+        },
+        {
+          "num": "1",
+          "country": "Venezuela, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Vemezuela"
+        },
+        {
+          "num": "1",
+          "country": "Vanuatu, New Hebrides, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "VIETNAM (Tonkin)"
+        },
+        {
+          "num": "1",
+          "country": "VENEZUELA, SURINAME"
+        },
+        {
+          "num": "1",
+          "country": "V IETNAM"
+        },
+        {
+          "num": "1",
+          "country": "Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, Afghanistan"
+        },
+        {
+          "num": "1",
+          "country": "Uzbekistan, Turkmenistan"
+        },
+        {
+          "num": "1",
+          "country": "Uzbekistan and Tajikistan"
+        },
+        {
+          "num": "1",
+          "country": "Us"
+        },
+        {
+          "num": "1",
+          "country": "Uruguay, Argentina"
+        },
+        {
+          "num": "1",
+          "country": "United States, Guam"
+        },
+        {
+          "num": "1",
+          "country": "United States, Bahamas"
+        },
+        {
+          "num": "1",
+          "country": "United Kingdom, Portugal, Spain, France, Switzerland, Italy, Malta, Germany, Russia, Czech Republic, Slovakia, Hungary, Croatia, Serbia, Greece, Bulgaria, Romania, Turkey, Morocco, Algeria, Tunisia, Egypt, Israel, Syria, Iran"
+        },
+        {
+          "num": "1",
+          "country": "United Kingdom, Portugal, Spain, France, Italy, Malta, Croatia, Greece, Cyprus"
+        },
+        {
+          "num": "1",
+          "country": "Ukraina"
+        },
+        {
+          "num": "1",
+          "country": "Ucayali"
+        },
+        {
+          "num": "1",
+          "country": "UZBEKISTAN"
+        },
+        {
+          "num": "1",
+          "country": "USSR"
+        },
+        {
+          "num": "1",
+          "country": "URUGUAY"
+        },
+        {
+          "num": "1",
+          "country": "UNITES STATES OF AMERICA"
+        },
+        {
+          "num": "1",
+          "country": "UNITED STATED OF AMERICA"
+        },
+        {
+          "num": "1",
+          "country": "UN [ITED] ARAB EMIRATES"
+        },
+        {
+          "num": "1",
+          "country": "UAE"
+        },
+        {
+          "num": "1",
+          "country": "U.S., Commonwealth of the Northern Mariana Islands"
+        },
+        {
+          "num": "1",
+          "country": "U.K. England"
+        },
+        {
+          "num": "1",
+          "country": "U. S. Virgin Islands, Saint Thomas"
+        },
+        {
+          "num": "1",
+          "country": "U. S. A. Georgia"
+        },
+        {
+          "num": "1",
+          "country": "U. S. A,"
+        },
+        {
+          "num": "1",
+          "country": "Turks Island"
+        },
+        {
+          "num": "1",
+          "country": "Turks"
+        },
+        {
+          "num": "1",
+          "country": "Turkey, Syria, Iraq"
+        },
+        {
+          "num": "1",
+          "country": "Turkey, Syria, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Turkey, Lebanon"
+        },
+        {
+          "num": "1",
+          "country": "Turkey, Iraq"
+        },
+        {
+          "num": "1",
+          "country": "Turkei (Asia Minor)"
+        },
+        {
+          "num": "1",
+          "country": "Tunisie"
+        },
+        {
+          "num": "1",
+          "country": "Tunisia and Algeria"
+        },
+        {
+          "num": "1",
+          "country": "Tunisia [?]"
+        },
+        {
+          "num": "1",
+          "country": "Tschechien, Bohmen"
+        },
+        {
+          "num": "1",
+          "country": "Tschad, Sudan, Athiopien, Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad, Trinidad"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad, Colombia, Ecuador, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad, Colombia"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad And Tobago"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad & Tobago, Venezuela, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Trinidad & Tobago"
+        },
+        {
+          "num": "1",
+          "country": "Transnistria"
+        },
+        {
+          "num": "1",
+          "country": "Tortugas, United States"
+        },
+        {
+          "num": "1",
+          "country": "Tortugas"
+        },
+        {
+          "num": "1",
+          "country": "Tortola"
+        },
+        {
+          "num": "1",
+          "country": "Tonkin, Viet Nam"
+        },
+        {
+          "num": "1",
+          "country": "Tonga, Western Samoa"
+        },
+        {
+          "num": "1",
+          "country": "Tonga, Fiji"
+        },
+        {
+          "num": "1",
+          "country": "Tobago, Trinidad & Tobago"
+        },
+        {
+          "num": "1",
+          "country": "Toamasina"
+        },
+        {
+          "num": "1",
+          "country": "Timor,"
+        },
+        {
+          "num": "1",
+          "country": "Timor"
+        },
+        {
+          "num": "1",
+          "country": "Tianlin county"
+        },
+        {
+          "num": "1",
+          "country": "Thailand, Singapore"
+        },
+        {
+          "num": "1",
+          "country": "Thailand, Micronesia"
+        },
+        {
+          "num": "1",
+          "country": "Thailand, Malaysia"
+        },
+        {
+          "num": "1",
+          "country": "Thailand, Korea, Japan"
+        },
+        {
+          "num": "1",
+          "country": "Thailand, Burma, India, Sri Lanka, Pakistan, Afghanistan, Iran, Iraq, Palestine, Lebanon, Turkey, Cyprus, Malta, Greece, Italy, Spain, Tunisia, Algeria"
+        },
+        {
+          "num": "1",
+          "country": "Th ailand"
+        },
+        {
+          "num": "1",
+          "country": "Tanzania, Zanzibar"
+        },
+        {
+          "num": "1",
+          "country": "Tanzania, Mozambique"
+        },
+        {
+          "num": "1",
+          "country": "Tanzania, Kenya"
+        },
+        {
+          "num": "1",
+          "country": "Tanger, Ksar Sghir"
+        },
+        {
+          "num": "1",
+          "country": "Tanger"
+        },
+        {
+          "num": "1",
+          "country": "Tanganykia"
+        },
+        {
+          "num": "1",
+          "country": "Taiwan, Philippines, Nepal, Malaysia, India"
+        },
+        {
+          "num": "1",
+          "country": "Taiwan, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "Taiwan, Korea, Japan"
+        },
+        {
+          "num": "1",
+          "country": "TURQUIE"
+        },
+        {
+          "num": "1",
+          "country": "TURKS AND CAICOS"
+        },
+        {
+          "num": "1",
+          "country": "TRINIDAD TOBAGO"
+        },
+        {
+          "num": "1",
+          "country": "TRINIDAD ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "THAILAID"
+        },
+        {
+          "num": "1",
+          "country": "THAIL."
+        },
+        {
+          "num": "1",
+          "country": "THAI-N"
+        },
+        {
+          "num": "1",
+          "country": "TAJIKSTAN"
+        },
+        {
+          "num": "1",
+          "country": "TAIW"
+        },
+        {
+          "num": "1",
+          "country": "Syria, Israel"
+        },
+        {
+          "num": "1",
+          "country": "Syria, Greece, Bulgaria, Austria, Romania"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland, Italy, France, Germany"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland, Italy, France"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland, Italy"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland, Germany, Italy, France"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland, Germany"
+        },
+        {
+          "num": "1",
+          "country": "Switzerland and Germany"
+        },
+        {
+          "num": "1",
+          "country": "Sweden, Switzerland"
+        },
+        {
+          "num": "1",
+          "country": "Sweden, Russia, France, Germany, Switzerland, Italy, Czech Republic, Slovakia, Hungary, Serbia, Romania, Bulgaria, Greece"
+        },
+        {
+          "num": "1",
+          "country": "Sweden, Norway"
+        },
+        {
+          "num": "1",
+          "country": "Suriname and Guyane"
+        },
+        {
+          "num": "1",
+          "country": "Surinam, Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Surinam, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Surinam, French Guiana, Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Sudan, Ethiopia"
+        },
+        {
+          "num": "1",
+          "country": "Sudan, Eritrea, Djibouti, Madagascar, Seychelles, la Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Sud de Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Sth Africa"
+        },
+        {
+          "num": "1",
+          "country": "St. Vincent, St. Lucia"
+        },
+        {
+          "num": "1",
+          "country": "St. Martin, St. Eustatius"
+        },
+        {
+          "num": "1",
+          "country": "St. Lucia Island"
+        },
+        {
+          "num": "1",
+          "country": "St. Eustatius, Antigua"
+        },
+        {
+          "num": "1",
+          "country": "Spratly Islands"
+        },
+        {
+          "num": "1",
+          "country": "Spain, Morocco"
+        },
+        {
+          "num": "1",
+          "country": "Spain, Italy, Greece, Cyprus"
+        },
+        {
+          "num": "1",
+          "country": "Spain, Granada"
+        },
+        {
+          "num": "1",
+          "country": "Spain Trinidad"
+        },
+        {
+          "num": "1",
+          "country": "South-eastern Bulgaria"
+        },
+        {
+          "num": "1",
+          "country": "South-easterPeru"
+        },
+        {
+          "num": "1",
+          "country": "South Morocco"
+        },
+        {
+          "num": "1",
+          "country": "South Georgia, Antarctica"
+        },
+        {
+          "num": "1",
+          "country": "South America"
+        },
+        {
+          "num": "1",
+          "country": "South Africa, Madagascar, Mayotte"
+        },
+        {
+          "num": "1",
+          "country": "South Africa, Madagascar, Mauritius, Seychelles, Mozambique"
+        },
+        {
+          "num": "1",
+          "country": "South Africa, Madagascar, India, Thailand, China"
+        },
+        {
+          "num": "1",
+          "country": "South Africa, Lesotho"
+        },
+        {
+          "num": "1",
+          "country": "Somalia, Kenya, Zanzibar, Mozambique, Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Somalia, Kenya, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "Singapore, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Singapore, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Singapore, China, Japan, Philippines, Indonesia, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Singapore, China, Japan, Indonesia, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Sierra Leone, Liberia, Ivory Coast, Ghana, Togo"
+        },
+        {
+          "num": "1",
+          "country": "Siam Bgk."
+        },
+        {
+          "num": "1",
+          "country": "Seychelles, Japan, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Senegal-GILLON"
+        },
+        {
+          "num": "1",
+          "country": "Scotland, United Kingdom"
+        },
+        {
+          "num": "1",
+          "country": "Scotland, UK"
+        },
+        {
+          "num": "1",
+          "country": "Scotland, Great Britain"
+        },
+        {
+          "num": "1",
+          "country": "Scotia Sea"
+        },
+        {
+          "num": "1",
+          "country": "Saudi Arabia, India"
+        },
+        {
+          "num": "1",
+          "country": "Sarawak, Malaysia"
+        },
+        {
+          "num": "1",
+          "country": "Sarawak, Brunei"
+        },
+        {
+          "num": "1",
+          "country": "Sao Vicente, Ilha"
+        },
+        {
+          "num": "1",
+          "country": "Sao Vicente Island"
+        },
+        {
+          "num": "1",
+          "country": "Sao Tome e Principe"
+        },
+        {
+          "num": "1",
+          "country": "Sao Jose dos Pinhais"
+        },
+        {
+          "num": "1",
+          "country": "Santa Lucia"
+        },
+        {
+          "num": "1",
+          "country": "San Vicente Island"
+        },
+        {
+          "num": "1",
+          "country": "Saint Vincent and the Grenadines, Saint Vincent"
+        },
+        {
+          "num": "1",
+          "country": "Saint John"
+        },
+        {
+          "num": "1",
+          "country": "SWAZILAND"
+        },
+        {
+          "num": "1",
+          "country": "SUDAN"
+        },
+        {
+          "num": "1",
+          "country": "SOLOMON ISLANDS"
+        },
+        {
+          "num": "1",
+          "country": "SMadagascar"
+        },
+        {
+          "num": "1",
+          "country": "SLOVAKIA"
+        },
+        {
+          "num": "1",
+          "country": "SCOTLAND, UK"
+        },
+        {
+          "num": "1",
+          "country": "SAO TOME E PRINCIPE"
+        },
+        {
+          "num": "1",
+          "country": "SAO TOME & PRINCIPE"
+        },
+        {
+          "num": "1",
+          "country": "SAMOA"
+        },
+        {
+          "num": "1",
+          "country": "SAINT HELENA ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "S. America"
+        },
+        {
+          "num": "1",
+          "country": "S. Afr."
+        },
+        {
+          "num": "1",
+          "country": "S-SULAWESI"
+        },
+        {
+          "num": "1",
+          "country": "S-Iran"
+        },
+        {
+          "num": "1",
+          "country": "S-Greece"
+        },
+        {
+          "num": "1",
+          "country": "S Africa"
+        },
+        {
+          "num": "1",
+          "country": "Russland, Bulgarien"
+        },
+        {
+          "num": "1",
+          "country": "Russia, North Korea"
+        },
+        {
+          "num": "1",
+          "country": "Russia, Mongolia"
+        },
+        {
+          "num": "1",
+          "country": "Russia, Japan"
+        },
+        {
+          "num": "1",
+          "country": "Russia, Armenia"
+        },
+        {
+          "num": "1",
+          "country": "Rumanien"
+        },
+        {
+          "num": "1",
+          "country": "Rio de Oro (Spanish Sahara)"
+        },
+        {
+          "num": "1",
+          "country": "Republic of the Congo, Gabon"
+        },
+        {
+          "num": "1",
+          "country": "Republic of Belarus"
+        },
+        {
+          "num": "1",
+          "country": "Rep. [upblica] Arg. [entina]"
+        },
+        {
+          "num": "1",
+          "country": "RUANDA BURUNDI"
+        },
+        {
+          "num": "1",
+          "country": "RSA Republic of South Africa"
+        },
+        {
+          "num": "1",
+          "country": "REUNION Island"
+        },
+        {
+          "num": "1",
+          "country": "REPUBLIC OF SOUTHAFRICA"
+        },
+        {
+          "num": "1",
+          "country": "Quebrada San Andres"
+        },
+        {
+          "num": "1",
+          "country": "QUATORIAL GUINEA"
+        },
+        {
+          "num": "1",
+          "country": "Puerto Rico, United States"
+        },
+        {
+          "num": "1",
+          "country": "Puerto Rico, Panama, Colombia, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Puerto Rico, Guadeloupe"
+        },
+        {
+          "num": "1",
+          "country": "Puerto Rico, Cuba, Bahamas"
+        },
+        {
+          "num": "1",
+          "country": "Puerto Rico, Bahamas"
+        },
+        {
+          "num": "1",
+          "country": "Puducherry (Pondicherry)"
+        },
+        {
+          "num": "1",
+          "country": "Prov. Nr 2"
+        },
+        {
+          "num": "1",
+          "country": "Portugal, Italy, Austria"
+        },
+        {
+          "num": "1",
+          "country": "Poloniae"
+        },
+        {
+          "num": "1",
+          "country": "Poland, Ukraine"
+        },
+        {
+          "num": "1",
+          "country": "Poland, Slovakia"
+        },
+        {
+          "num": "1",
+          "country": "Poland, Germany, Finland"
+        },
+        {
+          "num": "1",
+          "country": "Pitcairn Islands"
+        },
+        {
+          "num": "1",
+          "country": "Pinette"
+        },
+        {
+          "num": "1",
+          "country": "Phillippines"
+        },
+        {
+          "num": "1",
+          "country": "Philippines, Vanuatu, Solomon Islands"
+        },
+        {
+          "num": "1",
+          "country": "Philippines, Indonesia, Pakistan, Papua New Guinea and New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Philippines, Guam, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Philippinen"
+        },
+        {
+          "num": "1",
+          "country": "Philipp"
+        },
+        {
+          "num": "1",
+          "country": "Peru, Ecuador, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Peru'"
+        },
+        {
+          "num": "1",
+          "country": "Peru Chile"
+        },
+        {
+          "num": "1",
+          "country": "Patagonia"
+        },
+        {
+          "num": "1",
+          "country": "Paraguay, Argentina"
+        },
+        {
+          "num": "1",
+          "country": "Paraguay ?"
+        },
+        {
+          "num": "1",
+          "country": "Paraguai"
+        },
+        {
+          "num": "1",
+          "country": "Papuan New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Papua-New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Papua New Guinea, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "Papua Neuguinea"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Venezuela, Ecuador, French Guiana, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Panama, India"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Guyana, French Guiana, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Panama, French Guiana, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Ecuador, Surinam, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Colombia, Venezuela, Trinidad, Surinam, Brazil, Bolivia, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Colombia, Venezuela, Guyana, French Guiana, Surinam"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Colombia, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Panama, Colombia, Guyana, French Guiana, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Panama or Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Palau and Truk"
+        },
+        {
+          "num": "1",
+          "country": "Palau Island"
+        },
+        {
+          "num": "1",
+          "country": "PRC, CAR, DRC"
+        },
+        {
+          "num": "1",
+          "country": "PNG"
+        },
+        {
+          "num": "1",
+          "country": "PHILIP- PINES"
+        },
+        {
+          "num": "1",
+          "country": "PHIL- IPPINES"
+        },
+        {
+          "num": "1",
+          "country": "PH"
+        },
+        {
+          "num": "1",
+          "country": "PEOPLE'S REPUBLIC OF KOREA"
+        },
+        {
+          "num": "1",
+          "country": "PARA- GUAY"
+        },
+        {
+          "num": "1",
+          "country": "PAPUA NEWGUINEA"
+        },
+        {
+          "num": "1",
+          "country": "PANAMA, BOLIVIA"
+        },
+        {
+          "num": "1",
+          "country": "PALMYRA ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "PAK"
+        },
+        {
+          "num": "1",
+          "country": "P. R. CHI-NA"
+        },
+        {
+          "num": "1",
+          "country": "P OLYNESIE FRANCAISE"
+        },
+        {
+          "num": "1",
+          "country": "Orkney and South Sandwich Islands"
+        },
+        {
+          "num": "1",
+          "country": "Orange Free State"
+        },
+        {
+          "num": "1",
+          "country": "Oran, Algeria"
+        },
+        {
+          "num": "1",
+          "country": "OOST-JAVA"
+        },
+        {
+          "num": "1",
+          "country": "Nyasaland"
+        },
+        {
+          "num": "1",
+          "country": "Nouvelle Hollande"
+        },
+        {
+          "num": "1",
+          "country": "Norway, Sweden"
+        },
+        {
+          "num": "1",
+          "country": "Norway, Jan Mayen Island"
+        },
+        {
+          "num": "1",
+          "country": "North Yemen"
+        },
+        {
+          "num": "1",
+          "country": "North Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "North Borneo"
+        },
+        {
+          "num": "1",
+          "country": "Nlle Guinee"
+        },
+        {
+          "num": "1",
+          "country": "Niue Island"
+        },
+        {
+          "num": "1",
+          "country": "Nippon"
+        },
+        {
+          "num": "1",
+          "country": "Nigeria, the Gambia, Mali, Saudi Arabia"
+        },
+        {
+          "num": "1",
+          "country": "Nigeria, Cameroon, Congo, CAR, DRC"
+        },
+        {
+          "num": "1",
+          "country": "Nigeria, Cameroon, Congo"
+        },
+        {
+          "num": "1",
+          "country": "Nicobar Islands"
+        },
+        {
+          "num": "1",
+          "country": "Nicaragua, Panama, Venezuela, Colombia, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Nicaragua, Panama"
+        },
+        {
+          "num": "1",
+          "country": "Nicaragua, Costa Rica, Panama, Venezuela, Ecuador, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Nicaragua, Costa Rica, Panama"
+        },
+        {
+          "num": "1",
+          "country": "New Zealand, Australia, Moluccas, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "New Zealand, Australia"
+        },
+        {
+          "num": "1",
+          "country": "New South Wales"
+        },
+        {
+          "num": "1",
+          "country": "New Ireland"
+        },
+        {
+          "num": "1",
+          "country": "New Guinea."
+        },
+        {
+          "num": "1",
+          "country": "New Granada"
+        },
+        {
+          "num": "1",
+          "country": "New Caledonian"
+        },
+        {
+          "num": "1",
+          "country": "New Caledonia, Wallis and Futuna"
+        },
+        {
+          "num": "1",
+          "country": "New Caledonia, Vanuatu, Wallis and Futuna, Fiji"
+        },
+        {
+          "num": "1",
+          "country": "New Caledonia, Fiji, Wallis Island"
+        },
+        {
+          "num": "1",
+          "country": "New Caledonia, Fiji, Tonga, Vanuatu"
+        },
+        {
+          "num": "1",
+          "country": "Nevis"
+        },
+        {
+          "num": "1",
+          "country": "Netherlands Antilles, Curacao"
+        },
+        {
+          "num": "1",
+          "country": "Netherland"
+        },
+        {
+          "num": "1",
+          "country": "Neth. New Guinea."
+        },
+        {
+          "num": "1",
+          "country": "Nepal-Himal"
+        },
+        {
+          "num": "1",
+          "country": "Nepal, Myanmar"
+        },
+        {
+          "num": "1",
+          "country": "Nepal, India"
+        },
+        {
+          "num": "1",
+          "country": "Nepal, China"
+        },
+        {
+          "num": "1",
+          "country": "Nepal, Bhutan"
+        },
+        {
+          "num": "1",
+          "country": "Namibia, South Africa"
+        },
+        {
+          "num": "1",
+          "country": "NZ"
+        },
+        {
+          "num": "1",
+          "country": "NORTH ATLANTIC"
+        },
+        {
+          "num": "1",
+          "country": "NORD-SUMATRA"
+        },
+        {
+          "num": "1",
+          "country": "NIUE ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "NEWCALEDONIA"
+        },
+        {
+          "num": "1",
+          "country": "NEW-CALEDONIA"
+        },
+        {
+          "num": "1",
+          "country": "NEW CALEDO-"
+        },
+        {
+          "num": "1",
+          "country": "NETHERLANDS ANTILLES"
+        },
+        {
+          "num": "1",
+          "country": "NEPAL-Expeditionen"
+        },
+        {
+          "num": "1",
+          "country": "NE-Tanzania"
+        },
+        {
+          "num": "1",
+          "country": "NE-LAOS"
+        },
+        {
+          "num": "1",
+          "country": "NE-Iran"
+        },
+        {
+          "num": "1",
+          "country": "N-India"
+        },
+        {
+          "num": "1",
+          "country": "N Sumatra"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, Nepal"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, Laos, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, Laos"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, India, Thailand, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, India"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, China"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar, Bhutan, China"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar ?"
+        },
+        {
+          "num": "1",
+          "country": "Myanmar (Burma)"
+        },
+        {
+          "num": "1",
+          "country": "Mumbai"
+        },
+        {
+          "num": "1",
+          "country": "Morocco, Tunisia"
+        },
+        {
+          "num": "1",
+          "country": "Morocco, Essaouira"
+        },
+        {
+          "num": "1",
+          "country": "Morocco, Algeria"
+        },
+        {
+          "num": "1",
+          "country": "Morocco Essaouira"
+        },
+        {
+          "num": "1",
+          "country": "Montenegro / Herzegovina"
+        },
+        {
+          "num": "1",
+          "country": "Mongolie"
+        },
+        {
+          "num": "1",
+          "country": "Mongolian"
+        },
+        {
+          "num": "1",
+          "country": "Mombasa Island"
+        },
+        {
+          "num": "1",
+          "country": "Moluccas, Indonesien"
+        },
+        {
+          "num": "1",
+          "country": "Moluccas"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Panama, Colombia, Curacao, St. Martin"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Nicaragua, Panama"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Cuba, Paraguay"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Costa Rica, Trinidad, Venezuela, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Costa Rica, Colombia, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Mexico, Cayman Islands, Costa Rica"
+        },
+        {
+          "num": "1",
+          "country": "Mexican"
+        },
+        {
+          "num": "1",
+          "country": "Mex [ico]"
+        },
+        {
+          "num": "1",
+          "country": "Melilla"
+        },
+        {
+          "num": "1",
+          "country": "Mediterranean Sea"
+        },
+        {
+          "num": "1",
+          "country": "Mcdonald"
+        },
+        {
+          "num": "1",
+          "country": "McDonald"
+        },
+        {
+          "num": "1",
+          "country": "Mayanmar"
+        },
+        {
+          "num": "1",
+          "country": "Mauritius, Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Mauritius, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Mauritius Island"
+        },
+        {
+          "num": "1",
+          "country": "Mauritania, Senegal, Guinea-Bissau, Guinea, Burkina Faso, Ghana, Chad"
+        },
+        {
+          "num": "1",
+          "country": "Mauricio"
+        },
+        {
+          "num": "1",
+          "country": "Maurice"
+        },
+        {
+          "num": "1",
+          "country": "Martinique and St. Lucia"
+        },
+        {
+          "num": "1",
+          "country": "Marshall Islands, Kiribati"
+        },
+        {
+          "num": "1",
+          "country": "Marshall Islands ?"
+        },
+        {
+          "num": "1",
+          "country": "Marokko, Tunesien"
+        },
+        {
+          "num": "1",
+          "country": "Marokko, Melilla"
+        },
+        {
+          "num": "1",
+          "country": "Marokko, Agadir"
+        },
+        {
+          "num": "1",
+          "country": "Maroc, Rio de Oro"
+        },
+        {
+          "num": "1",
+          "country": "Mariana Islands"
+        },
+        {
+          "num": "1",
+          "country": "Maldives, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Maldives Maldive"
+        },
+        {
+          "num": "1",
+          "country": "Maldive and Laccadive"
+        },
+        {
+          "num": "1",
+          "country": "Maldive Islands"
+        },
+        {
+          "num": "1",
+          "country": "Malaysia, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "Malaysia, Japan, Philippines, Indonesia, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Malaysia North Borneo"
+        },
+        {
+          "num": "1",
+          "country": "Malay Archipelago"
+        },
+        {
+          "num": "1",
+          "country": "Makassar"
+        },
+        {
+          "num": "1",
+          "country": "Madagaskar"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar, Seychelles, Maldives"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar, Reunion, Australia, Indonesia, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar, Mozambique"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar, Comores, Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar'"
+        },
+        {
+          "num": "1",
+          "country": "Madagascar and Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Macquarie Island"
+        },
+        {
+          "num": "1",
+          "country": "MOLDOVA"
+        },
+        {
+          "num": "1",
+          "country": "MO- ZAMBIQUE"
+        },
+        {
+          "num": "1",
+          "country": "MICRONESIA"
+        },
+        {
+          "num": "1",
+          "country": "MEXICO, SOUTH AFRICA, KENYA"
+        },
+        {
+          "num": "1",
+          "country": "MEXICO, NICARAGUA, COSTA RICA, PANAMA"
+        },
+        {
+          "num": "1",
+          "country": "MEXCIO"
+        },
+        {
+          "num": "1",
+          "country": "MELANESIA"
+        },
+        {
+          "num": "1",
+          "country": "MAURITIUS"
+        },
+        {
+          "num": "1",
+          "country": "MAURITANIA"
+        },
+        {
+          "num": "1",
+          "country": "MARQUESAS ARCHIPELAGO"
+        },
+        {
+          "num": "1",
+          "country": "MARION ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "MALESIA"
+        },
+        {
+          "num": "1",
+          "country": "MALAYSIA Sarawak"
+        },
+        {
+          "num": "1",
+          "country": "MADAGAsCAR"
+        },
+        {
+          "num": "1",
+          "country": "MADAGAS-CAR"
+        },
+        {
+          "num": "1",
+          "country": "MACEDONIA"
+        },
+        {
+          "num": "1",
+          "country": "Libanon Syria"
+        },
+        {
+          "num": "1",
+          "country": "Liban"
+        },
+        {
+          "num": "1",
+          "country": "Lettland"
+        },
+        {
+          "num": "1",
+          "country": "Laοs-NE"
+        },
+        {
+          "num": "1",
+          "country": "Laos-N"
+        },
+        {
+          "num": "1",
+          "country": "Laos, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "Laos ?"
+        },
+        {
+          "num": "1",
+          "country": "LESOTHO"
+        },
+        {
+          "num": "1",
+          "country": "LEBANON"
+        },
+        {
+          "num": "1",
+          "country": "LAOS-C"
+        },
+        {
+          "num": "1",
+          "country": "Kyrgyzstan, Tajikistan"
+        },
+        {
+          "num": "1",
+          "country": "Kyrgyzstan, Kazakhstan"
+        },
+        {
+          "num": "1",
+          "country": "Kyrghyzstan"
+        },
+        {
+          "num": "1",
+          "country": "Korea, Japan"
+        },
+        {
+          "num": "1",
+          "country": "Kiribati, Kenya, Zanzibar, Seychelles, Japan, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Kirghizistan"
+        },
+        {
+          "num": "1",
+          "country": "Kirghizia, Kirghizia"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Zimbabwe"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Zanzibar, Tanzania, Mozambique, Comoro Islands, Madagascar, Seychelles, Mauritius, La Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Zanzibar, Tanzania, Madagascar, Seychelles, Maldives"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Zanzibar, Mozambique, China"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Zanzibar, Comoro Islands, Seychelles, La Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Uganda"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Malawi, Sudan"
+        },
+        {
+          "num": "1",
+          "country": "Kenya, Lesotho"
+        },
+        {
+          "num": "1",
+          "country": "Kenya ?"
+        },
+        {
+          "num": "1",
+          "country": "Kazakhstan, Turkmenistan"
+        },
+        {
+          "num": "1",
+          "country": "Kazakhstan, Mongolia"
+        },
+        {
+          "num": "1",
+          "country": "Karolinen, Ponape"
+        },
+        {
+          "num": "1",
+          "country": "Kaiser-Wilhelmsland"
+        },
+        {
+          "num": "1",
+          "country": "KYRGYZSTAN"
+        },
+        {
+          "num": "1",
+          "country": "KOREA"
+        },
+        {
+          "num": "1",
+          "country": "KENYA CONGO TANZANIE"
+        },
+        {
+          "num": "1",
+          "country": "Jugoslawien, Serbien"
+        },
+        {
+          "num": "1",
+          "country": "Jugoslavia Srbija"
+        },
+        {
+          "num": "1",
+          "country": "Juan de Nova Island"
+        },
+        {
+          "num": "1",
+          "country": "Jordan, Sudan, Somalia, Kenya, Zanzibar, Tanzania, Madagascar, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Jordan, Kenya, Zanzibar, Madagascar, Seychelles, La Reunion, Maldives"
+        },
+        {
+          "num": "1",
+          "country": "Johnston Atoll"
+        },
+        {
+          "num": "1",
+          "country": "Java"
+        },
+        {
+          "num": "1",
+          "country": "Japon, Taiwan, Philippines, Indonesie, Nouvelle-Caledonie"
+        },
+        {
+          "num": "1",
+          "country": "Japan, Taiwan, Philippines, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Japan, Taiwan"
+        },
+        {
+          "num": "1",
+          "country": "Japan, South Korea, Sri Lanka"
+        },
+        {
+          "num": "1",
+          "country": "Japan, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Japan, Hong Kong"
+        },
+        {
+          "num": "1",
+          "country": "Japan, Guam"
+        },
+        {
+          "num": "1",
+          "country": "Japan, China"
+        },
+        {
+          "num": "1",
+          "country": "Japan and Taiwan"
+        },
+        {
+          "num": "1",
+          "country": "Jamaica, Puerto Rico"
+        },
+        {
+          "num": "1",
+          "country": "Jamaica, Barbados, Senegal"
+        },
+        {
+          "num": "1",
+          "country": "JORDAN"
+        },
+        {
+          "num": "1",
+          "country": "Italy, Serbia"
+        },
+        {
+          "num": "1",
+          "country": "Italy, Poland"
+        },
+        {
+          "num": "1",
+          "country": "Italy, France"
+        },
+        {
+          "num": "1",
+          "country": "Israel, Saudi Arabia, UAE"
+        },
+        {
+          "num": "1",
+          "country": "Israel, Kenya, Zanzibar, Tanzania, Seychelles, La Reunion, Singapore, Vietnam, China, Japan, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Isola Riunione"
+        },
+        {
+          "num": "1",
+          "country": "Island, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "Island, St. Vincent and the Grenadines"
+        },
+        {
+          "num": "1",
+          "country": "Island, South Sandwich Islands"
+        },
+        {
+          "num": "1",
+          "country": "Island, Solomon Islands"
+        },
+        {
+          "num": "1",
+          "country": "Island, San Pedro"
+        },
+        {
+          "num": "1",
+          "country": "Island, Samoa"
+        },
+        {
+          "num": "1",
+          "country": "Island, Saint Vincent and the Grenadines"
+        },
+        {
+          "num": "1",
+          "country": "Island, Republic of Fiji"
+        },
+        {
+          "num": "1",
+          "country": "Island, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Island, Mexico"
+        },
+        {
+          "num": "1",
+          "country": "Island, Maldive Islands"
+        },
+        {
+          "num": "1",
+          "country": "Island, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "Island, Fiji Islands"
+        },
+        {
+          "num": "1",
+          "country": "Island, Bismarck Archipelago, Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Island of St. Helena"
+        },
+        {
+          "num": "1",
+          "country": "Island Reunion"
+        },
+        {
+          "num": "1",
+          "country": "Island Principe"
+        },
+        {
+          "num": "1",
+          "country": "Isla Tortola"
+        },
+        {
+          "num": "1",
+          "country": "Isla Guadalupe"
+        },
+        {
+          "num": "1",
+          "country": "Ireland, Scotland"
+        },
+        {
+          "num": "1",
+          "country": "Iran, Turkmenistan, Kazakhstan, Uzbekistan"
+        },
+        {
+          "num": "1",
+          "country": "Iran, Iraq, Kuwait, Saudi Arabia"
+        },
+        {
+          "num": "1",
+          "country": "Iran, Iraq, Israel, Jordan, Kuwait, Qatar, Saudi Arabia"
+        },
+        {
+          "num": "1",
+          "country": "Irak, Mesopotamie"
+        },
+        {
+          "num": "1",
+          "country": "Insel Fernando Po"
+        },
+        {
+          "num": "1",
+          "country": "Indonesien, Flores"
+        },
+        {
+          "num": "1",
+          "country": "Indonesian New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Ternate Island"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Solomon Islands, Vanuatu"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Philippines, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Moluccas, Ambon"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Moluccas"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Micronesia, French Polynesia"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Maluku Islands, Ambon Island"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Malaysia, Philippines, India, Bangladesh, Vietnam, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Fiji, New Caledonia, Tonga"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia, Fiji, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Indonesia and Papua New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Indochina"
+        },
+        {
+          "num": "1",
+          "country": "India, Sri Lanka, Nepal"
+        },
+        {
+          "num": "1",
+          "country": "India, Sri Lanka"
+        },
+        {
+          "num": "1",
+          "country": "India, Pondicherry"
+        },
+        {
+          "num": "1",
+          "country": "India, Pakistan"
+        },
+        {
+          "num": "1",
+          "country": "India, Nepal, Myanmar"
+        },
+        {
+          "num": "1",
+          "country": "India, Myanmar, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "India, Karikal"
+        },
+        {
+          "num": "1",
+          "country": "India, China, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "India, Calicut"
+        },
+        {
+          "num": "1",
+          "country": "India, Bangladesh, Myanmar, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "Inde"
+        },
+        {
+          "num": "1",
+          "country": "Ile Saba"
+        },
+        {
+          "num": "1",
+          "country": "ISRAEL / PALESTINE"
+        },
+        {
+          "num": "1",
+          "country": "IRELAND"
+        },
+        {
+          "num": "1",
+          "country": "INDO- NESIA"
+        },
+        {
+          "num": "1",
+          "country": "INDIA, THAILAND"
+        },
+        {
+          "num": "1",
+          "country": "I RAN"
+        },
+        {
+          "num": "1",
+          "country": "I NDONESIA"
+        },
+        {
+          "num": "1",
+          "country": "Hungary, Serbia, Romania, Moldova"
+        },
+        {
+          "num": "1",
+          "country": "Hungary, Serbia, Macedonia"
+        },
+        {
+          "num": "1",
+          "country": "Hungary, Poland"
+        },
+        {
+          "num": "1",
+          "country": "Hungary, Iceland, India, Indonesia, Iran, Iraq, Israel, Italy, Japan, Libya"
+        },
+        {
+          "num": "1",
+          "country": "Hungary, Germany, Switzerland"
+        },
+        {
+          "num": "1",
+          "country": "Hong Kong, India, Indonesia, Japan"
+        },
+        {
+          "num": "1",
+          "country": "Hong Kong and Thailand"
+        },
+        {
+          "num": "1",
+          "country": "Honduras, Nicaragua"
+        },
+        {
+          "num": "1",
+          "country": "Honduras, Jamaica"
+        },
+        {
+          "num": "1",
+          "country": "Honduras, Costa Rica, Panama"
+        },
+        {
+          "num": "1",
+          "country": "Honduras, Costa Rica, Mexico"
+        },
+        {
+          "num": "1",
+          "country": "Honduras, Costa Rica, Ecuador, Peru, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Herzogowina"
+        },
+        {
+          "num": "1",
+          "country": "Hellas Makedonia"
+        },
+        {
+          "num": "1",
+          "country": "Hatay"
+        },
+        {
+          "num": "1",
+          "country": "Guyane Française"
+        },
+        {
+          "num": "1",
+          "country": "Guyane (Surinam)"
+        },
+        {
+          "num": "1",
+          "country": "Guyana, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Guyana, French Guiana, Colombia, Venezuela, Ecuador, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Guyana (as British Guiana)"
+        },
+        {
+          "num": "1",
+          "country": "Gulf of Mexico"
+        },
+        {
+          "num": "1",
+          "country": "Guinee, Cote d'Ivoire"
+        },
+        {
+          "num": "1",
+          "country": "Guinee equatoriale (Rio Muni)"
+        },
+        {
+          "num": "1",
+          "country": "Guinee Equatoriale, Rio Muni"
+        },
+        {
+          "num": "1",
+          "country": "Guinee Equatoriale et Gabon"
+        },
+        {
+          "num": "1",
+          "country": "Guinea, Principe"
+        },
+        {
+          "num": "1",
+          "country": "Guinea, Island"
+        },
+        {
+          "num": "1",
+          "country": "Guinea, Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Guinea, Fernando Po"
+        },
+        {
+          "num": "1",
+          "country": "Guinea, Bismarck Archipelago"
+        },
+        {
+          "num": "1",
+          "country": "Guinea and Nigeria"
+        },
+        {
+          "num": "1",
+          "country": "Guinea and Bismarck Archipelago"
+        },
+        {
+          "num": "1",
+          "country": "Guinea Bissau"
+        },
+        {
+          "num": "1",
+          "country": "Guinea (labelled as Guinea porthogese)"
+        },
+        {
+          "num": "1",
+          "country": "Guatemala, Mexico, Nicaragua"
+        },
+        {
+          "num": "1",
+          "country": "Guatemala, Mexico"
+        },
+        {
+          "num": "1",
+          "country": "Guatemala, Honduras, Nicaragua"
+        },
+        {
+          "num": "1",
+          "country": "Guatemala, Honduras, Costa Rica"
+        },
+        {
+          "num": "1",
+          "country": "Guat"
+        },
+        {
+          "num": "1",
+          "country": "Guam I."
+        },
+        {
+          "num": "1",
+          "country": "Guadeloupe, Montserrat"
+        },
+        {
+          "num": "1",
+          "country": "Grèce"
+        },
+        {
+          "num": "1",
+          "country": "Griechenland"
+        },
+        {
+          "num": "1",
+          "country": "Grenada, St. Vincent, Venezuela"
+        },
+        {
+          "num": "1",
+          "country": "Grenada, St. Vincent, Martinique, Dominica, St. Barthelemy"
+        },
+        {
+          "num": "1",
+          "country": "Grenada, Guadeloupe, Guatemala, Haiti"
+        },
+        {
+          "num": "1",
+          "country": "Grenada, Guadeloupe, Guatemala, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Grenada and St. Vincent"
+        },
+        {
+          "num": "1",
+          "country": "Greenland, Iceland"
+        },
+        {
+          "num": "1",
+          "country": "Greece, Lebanon"
+        },
+        {
+          "num": "1",
+          "country": "Greece, Israel"
+        },
+        {
+          "num": "1",
+          "country": "Greece, Cyprus, Spain, Switzerland"
+        },
+        {
+          "num": "1",
+          "country": "Greece, Austria, Germany, Switzerland"
+        },
+        {
+          "num": "1",
+          "country": "Greece Grecia"
+        },
+        {
+          "num": "1",
+          "country": "Great Britain, Ireland, Italy"
+        },
+        {
+          "num": "1",
+          "country": "Granada"
+        },
+        {
+          "num": "1",
+          "country": "Gold coast"
+        },
+        {
+          "num": "1",
+          "country": "Gold Coast"
+        },
+        {
+          "num": "1",
+          "country": "Ghana, Ivory Coast, Liberia, Sierra Leone and Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Germany, USA"
+        },
+        {
+          "num": "1",
+          "country": "Germany, Poland"
+        },
+        {
+          "num": "1",
+          "country": "Germany, Latvia, Lithuania"
+        },
+        {
+          "num": "1",
+          "country": "Germany, Czech Republic, Ukraine, Finland"
+        },
+        {
+          "num": "1",
+          "country": "Germany, Austria"
+        },
+        {
+          "num": "1",
+          "country": "Germania"
+        },
+        {
+          "num": "1",
+          "country": "Georgia, Armenia"
+        },
+        {
+          "num": "1",
+          "country": "Gabon, Ghana, Guinee Equatoriale, Kenya, Ouganda"
+        },
+        {
+          "num": "1",
+          "country": "GUYANE [FRANCAISE]"
+        },
+        {
+          "num": "1",
+          "country": "GUINEA-BISSAU"
+        },
+        {
+          "num": "1",
+          "country": "GUINEA- CONAKRY"
+        },
+        {
+          "num": "1",
+          "country": "GUINEA- BISSAU"
+        },
+        {
+          "num": "1",
+          "country": "GRENADA"
+        },
+        {
+          "num": "1",
+          "country": "GR"
+        },
+        {
+          "num": "1",
+          "country": "GAMBIA"
+        },
+        {
+          "num": "1",
+          "country": "GALLES"
+        },
+        {
+          "num": "1",
+          "country": "G ABON"
+        },
+        {
+          "num": "1",
+          "country": "French Guiana, Peru"
+        },
+        {
+          "num": "1",
+          "country": "French Guiana, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "French Guiana, Colombia, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Französisch Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Frankreich, Schweiz, Italien und Osterreich"
+        },
+        {
+          "num": "1",
+          "country": "France, Poland, Portugal"
+        },
+        {
+          "num": "1",
+          "country": "France, Italy, Portugal, Spain, Algeria, Morocco"
+        },
+        {
+          "num": "1",
+          "country": "France, Italy, Hungary"
+        },
+        {
+          "num": "1",
+          "country": "France, Germany, Czech Republic, Austria, Macedonia and Greece"
+        },
+        {
+          "num": "1",
+          "country": "France and Spain"
+        },
+        {
+          "num": "1",
+          "country": "France Corsica"
+        },
+        {
+          "num": "1",
+          "country": "Formosa, Formosa"
+        },
+        {
+          "num": "1",
+          "country": "Filipinas"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, Tonga"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, Samoa"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, New Caledonia, Tonga, Vanuatu"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, Indonesia, New Caledonia, Tonga, Vanuatu"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, Indonesia, New Caledonia, Philippines, Tonga, Vanuatu"
+        },
+        {
+          "num": "1",
+          "country": "Fiji, Indonesia, New Caledonia"
+        },
+        {
+          "num": "1",
+          "country": "Fiji Island"
+        },
+        {
+          "num": "1",
+          "country": "Fidji, Viti"
+        },
+        {
+          "num": "1",
+          "country": "Federated States of Micronesia, Caroline Islands"
+        },
+        {
+          "num": "1",
+          "country": "FRENCH GUYANA"
+        },
+        {
+          "num": "1",
+          "country": "F R A N C E"
+        },
+        {
+          "num": "1",
+          "country": "Ethiopia, South Africa, Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Ethiopia, Kenya"
+        },
+        {
+          "num": "1",
+          "country": "Ethiopia, Ghana, Guinea, Guinea-Bissau, Nigeria, Senegal, Sierra Leone"
+        },
+        {
+          "num": "1",
+          "country": "Eswatini"
+        },
+        {
+          "num": "1",
+          "country": "Essequibo, Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Essequibo, British Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Essaouira (Essaouira)"
+        },
+        {
+          "num": "1",
+          "country": "Espagne, France"
+        },
+        {
+          "num": "1",
+          "country": "Espagne (Granada)"
+        },
+        {
+          "num": "1",
+          "country": "Eritrea, Kenya, Tanzania, Zambia"
+        },
+        {
+          "num": "1",
+          "country": "Equatoria Guinea"
+        },
+        {
+          "num": "1",
+          "country": "England, Spain, Egypt"
+        },
+        {
+          "num": "1",
+          "country": "England, Hungary, Italy"
+        },
+        {
+          "num": "1",
+          "country": "England, France"
+        },
+        {
+          "num": "1",
+          "country": "England, Belgium"
+        },
+        {
+          "num": "1",
+          "country": "El Salvador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "El Avila National Park"
+        },
+        {
+          "num": "1",
+          "country": "Egypte, Soudan"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Sudan, Ethiopia, Kenya, Uganda"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Israel, Libya, Morocco"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Israel, Jordan, Kenya, Zanzibar, Mozambique, Comoro Islands, Madagascar, Seychelles, Japan, Indonesia, Australia"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Israel and Saudi Arabia"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Israel"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Egypt, Cyprus"
+        },
+        {
+          "num": "1",
+          "country": "Egypt Soudan"
+        },
+        {
+          "num": "1",
+          "country": "Egitto"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Surinam, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Santa Elena"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Peru, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Peru, Bolivia, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Peru, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Guyana, French Guiana, Colombia"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, French Guiana, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, French Guiana, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador, Colombia, Panama, Costa Rica, Nicaragua"
+        },
+        {
+          "num": "1",
+          "country": "Ecuador "
+        },
+        {
+          "num": "1",
+          "country": "Ecuad."
+        },
+        {
+          "num": "1",
+          "country": "East Asia, Mongolia"
+        },
+        {
+          "num": "1",
+          "country": "ESTONIA"
+        },
+        {
+          "num": "1",
+          "country": "ERITREA"
+        },
+        {
+          "num": "1",
+          "country": "EGYPT"
+        },
+        {
+          "num": "1",
+          "country": "EE. UU"
+        },
+        {
+          "num": "1",
+          "country": "ECUAD OR"
+        },
+        {
+          "num": "1",
+          "country": "E-malaysia"
+        },
+        {
+          "num": "1",
+          "country": "E-Nepal"
+        },
+        {
+          "num": "1",
+          "country": "E-MALAYSIA"
+        },
+        {
+          "num": "1",
+          "country": "E-Iran"
+        },
+        {
+          "num": "1",
+          "country": "Dutch New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Dominica, Martinique"
+        },
+        {
+          "num": "1",
+          "country": "Dominica, Grenada, St. Lucia"
+        },
+        {
+          "num": "1",
+          "country": "Dominica, Grenada, Guadeloupe"
+        },
+        {
+          "num": "1",
+          "country": "Djibouti, Kenya, Zanzibar, Tanzania, Mozambique, Madagascar, Seychelles"
+        },
+        {
+          "num": "1",
+          "country": "Djerba (Tunisie)"
+        },
+        {
+          "num": "1",
+          "country": "Deutschland, Frankreich"
+        },
+        {
+          "num": "1",
+          "country": "Deutschland und Rumanien"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of the Congo, Tanzania"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of the Congo, South Africa"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of the Congo (formerly Zaire)"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of Congo, Congo"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of Congo and Ruanda"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of Congo (formerly Zaire)"
+        },
+        {
+          "num": "1",
+          "country": "Democratic Republic of Congo (Belgian Congo)"
+        },
+        {
+          "num": "1",
+          "country": "Demerara, Demerara"
+        },
+        {
+          "num": "1",
+          "country": "DRC, Uganda, Rwanda"
+        },
+        {
+          "num": "1",
+          "country": "DOMIN. REP."
+        },
+        {
+          "num": "1",
+          "country": "DEMOCRATIC REPUBLIC OF CONGO (ZAIRE)"
+        },
+        {
+          "num": "1",
+          "country": "DEMOCRATIC REPUBLIC OF CONGO (DR CONGO)"
+        },
+        {
+          "num": "1",
+          "country": "DEMOCRATIC REPUBLIC OF CON-GO"
+        },
+        {
+          "num": "1",
+          "country": "Czechia / Bohemia"
+        },
+        {
+          "num": "1",
+          "country": "Cyprus, Turkey, Kazakhstan"
+        },
+        {
+          "num": "1",
+          "country": "Cyprus, Turkey, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Cyprus and Greece"
+        },
+        {
+          "num": "1",
+          "country": "Curacao, Aruba"
+        },
+        {
+          "num": "1",
+          "country": "Curacao and Trinidad & Tobago"
+        },
+        {
+          "num": "1",
+          "country": "Curacao Island"
+        },
+        {
+          "num": "1",
+          "country": "Curacao"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Saint-Thomas"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Puerto Rico, Barbuda, St. Kitts, Antigua, Barbados, St. Barthelemy, St. Martin"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Puerto Rico, Bahamas, Barbados"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Martinique, Montserrat"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Jamaica, Puerto Rico"
+        },
+        {
+          "num": "1",
+          "country": "Cuba, Guatemala, Jamaica"
+        },
+        {
+          "num": "1",
+          "country": "Croatia, Bosnia Herzegovina, Serbia, Macedonia, Bulgaria"
+        },
+        {
+          "num": "1",
+          "country": "Coweta Co"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Panama, Venezuela, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Panama, Ecuador, French Guiana, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Panama, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Panama, Colombia, Venezuela, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Israel"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, El Salvador, Guatemala, Jamaica"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, El Salvador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Ecuador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Ecuador, El Salvador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Costa Rica'"
+        },
+        {
+          "num": "1",
+          "country": "Corsica (France)"
+        },
+        {
+          "num": "1",
+          "country": "Congo, Zaire (Democratic Republic of Congo)"
+        },
+        {
+          "num": "1",
+          "country": "Congo, Tanzania, Malawi, Zambia, Mozambique"
+        },
+        {
+          "num": "1",
+          "country": "Congo, Guinee Equatoriale (dont Fernando Poo)"
+        },
+        {
+          "num": "1",
+          "country": "Congo, French Congo"
+        },
+        {
+          "num": "1",
+          "country": "Congo Francais"
+        },
+        {
+          "num": "1",
+          "country": "Congo D. R."
+        },
+        {
+          "num": "1",
+          "country": "Congo Belge"
+        },
+        {
+          "num": "1",
+          "country": "Congo Beige"
+        },
+        {
+          "num": "1",
+          "country": "Congo (labelled as Congo francese)"
+        },
+        {
+          "num": "1",
+          "country": "Congo (labelled as Congo Belge)"
+        },
+        {
+          "num": "1",
+          "country": "Congo (Zaire)"
+        },
+        {
+          "num": "1",
+          "country": "Congo (Democratic Republic of Congo)"
+        },
+        {
+          "num": "1",
+          "country": "Comore"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Venezuela, Trinidad"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Venezuela, French Guiana, Peru, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Venezuela, Ecuador, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Jamaica"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Equador"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Ecuador, Surinam, Guyana, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Ecuador, Peru, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Ecuador, French Guiana, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Ecuador, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, Guatemala, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, El Salvador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, El Salvador"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, Ecuador, Guyana, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, Ecuador, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Costa Rica, Curacao, Ecuador, El Salvador, Grenada, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Colombia, Brazil"
+        },
+        {
+          "num": "1",
+          "country": "Colombia and Panama"
+        },
+        {
+          "num": "1",
+          "country": "Colombia and Brazil"
+        },
+        {
+          "num": "1",
+          "country": "Chine, HongKong"
+        },
+        {
+          "num": "1",
+          "country": "China, Taiwan, Laos, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "China, Taiwan, Indonesia, Japan, Laos, Malaysia, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "China, Taiwan"
+        },
+        {
+          "num": "1",
+          "country": "China, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "China, Nepal"
+        },
+        {
+          "num": "1",
+          "country": "China, Myanmar, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "China, Japan, Philippines, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "China, Japan, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "China, Japan, Mongolia, North Korea, Philippines"
+        },
+        {
+          "num": "1",
+          "country": "China, Japan"
+        },
+        {
+          "num": "1",
+          "country": "China, India, Thailand, Malaysia, Indonesia"
+        },
+        {
+          "num": "1",
+          "country": "China, India, Indonesia, Japan, Malaysia, Thailand"
+        },
+        {
+          "num": "1",
+          "country": "China, India, Indonesia, Japan, Malaysia, Nepal"
+        },
+        {
+          "num": "1",
+          "country": "China, India"
+        },
+        {
+          "num": "1",
+          "country": "China, Germany, Hungary, Kazakhstan, Korea, Mongolia, Russia, Spain"
+        },
+        {
+          "num": "1",
+          "country": "China, Finland, Hungary, Norway, Russia, Serbia, Sweden"
+        },
+        {
+          "num": "1",
+          "country": "China, Bhutan"
+        },
+        {
+          "num": "1",
+          "country": "China Tientsin"
+        },
+        {
+          "num": "1",
+          "country": "China ?"
+        },
+        {
+          "num": "1",
+          "country": "China (Hongkong)"
+        },
+        {
+          "num": "1",
+          "country": "Chili"
+        },
+        {
+          "num": "1",
+          "country": "Chile, Bolivia"
+        },
+        {
+          "num": "1",
+          "country": "Chile and Argentina"
+        },
+        {
+          "num": "1",
+          "country": "Ceylon, Burma, Malacca"
+        },
+        {
+          "num": "1",
+          "country": "Ceylon / Ceylon"
+        },
+        {
+          "num": "1",
+          "country": "Ceylon (Sri Lanka)"
+        },
+        {
+          "num": "1",
+          "country": "Central Mongolia"
+        },
+        {
+          "num": "1",
+          "country": "Central African Republic, Uganda, Sudan, Congo Republic, Ethiopia, Yemen, Oman, Kenya, Tanzania"
+        },
+        {
+          "num": "1",
+          "country": "Central African Republic, Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Caroline Islands, Micronesia"
+        },
+        {
+          "num": "1",
+          "country": "Caroline Islands (Federated States of Micronesia)"
+        },
+        {
+          "num": "1",
+          "country": "Canada Nepal"
+        },
+        {
+          "num": "1",
+          "country": "Campo de Provas Brigadeiro Veloso"
+        },
+        {
+          "num": "1",
+          "country": "Cameroun, Equatorial Guinea"
+        },
+        {
+          "num": "1",
+          "country": "Cameroon, Gabon, Congo"
+        },
+        {
+          "num": "1",
+          "country": "Cameroon, Congo, DRC, Angola, Ethiopia"
+        },
+        {
+          "num": "1",
+          "country": "Cameroon, Central African Republic"
+        },
+        {
+          "num": "1",
+          "country": "Calicut (Kozhikode)"
+        },
+        {
+          "num": "1",
+          "country": "Caicos, Turks and Caicos"
+        },
+        {
+          "num": "1",
+          "country": "Caicos, Caicos Islands, Turks and Caicos"
+        },
+        {
+          "num": "1",
+          "country": "COUNTRY UNKNOWN"
+        },
+        {
+          "num": "1",
+          "country": "COSTA Rica"
+        },
+        {
+          "num": "1",
+          "country": "COSTA RICA, ECUADOR, GUYANA"
+        },
+        {
+          "num": "1",
+          "country": "CONGO"
+        },
+        {
+          "num": "1",
+          "country": "COMOROS"
+        },
+        {
+          "num": "1",
+          "country": "COMORO ISLANDS"
+        },
+        {
+          "num": "1",
+          "country": "COLOMBIA, FRENCH GUIANA, PERU, BOLIVIA"
+        },
+        {
+          "num": "1",
+          "country": "CHILE—Region"
+        },
+        {
+          "num": "1",
+          "country": "CH, PH"
+        },
+        {
+          "num": "1",
+          "country": "CAPE VERDE"
+        },
+        {
+          "num": "1",
+          "country": "CAICOS ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "CAD"
+        },
+        {
+          "num": "1",
+          "country": "C-Nepal"
+        },
+        {
+          "num": "1",
+          "country": "C HINA"
+        },
+        {
+          "num": "1",
+          "country": "Burmah"
+        },
+        {
+          "num": "1",
+          "country": "Burkina Faso, Gambia"
+        },
+        {
+          "num": "1",
+          "country": "Burkina Faso, Chad"
+        },
+        {
+          "num": "1",
+          "country": "Bulgarien, Griechenland"
+        },
+        {
+          "num": "1",
+          "country": "Bulgaria, Macedonia"
+        },
+        {
+          "num": "1",
+          "country": "Bulgaria, Croatia"
+        },
+        {
+          "num": "1",
+          "country": "British New Guinea"
+        },
+        {
+          "num": "1",
+          "country": "British Honduras"
+        },
+        {
+          "num": "1",
+          "country": "British Guiana (Surinam)"
+        },
+        {
+          "num": "1",
+          "country": "Brit. Virgin Islands"
+        },
+        {
+          "num": "1",
+          "country": "Brit. Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Bresil"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Paraguay"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Mexico, Peru, Puerto Rico"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Guyana, Panama"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, French Guiana, Trinidad and Tobago"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Costa Rica, French Guiana, Guyana"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Costa Rica, Cuba, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Colombia, Costa Rica, El Salvador, Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Colombia, Costa Rica, El Salvador"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Brazil, Colombia, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Brazil or Paraguay"
+        },
+        {
+          "num": "1",
+          "country": "Brazil Peru"
+        },
+        {
+          "num": "1",
+          "country": "Brasilien, Surinam und Bolivien"
+        },
+        {
+          "num": "1",
+          "country": "Brasilien, Kolumbien"
+        },
+        {
+          "num": "1",
+          "country": "Brasil, Brasil"
+        },
+        {
+          "num": "1",
+          "country": "Bougie"
+        },
+        {
+          "num": "1",
+          "country": "Botswana, Namibia"
+        },
+        {
+          "num": "1",
+          "country": "Bosnia and Hercegovina"
+        },
+        {
+          "num": "1",
+          "country": "Bosnia Bosnia"
+        },
+        {
+          "num": "1",
+          "country": "Bosnia & Herzegovina"
+        },
+        {
+          "num": "1",
+          "country": "Bonaire, The Netherlands"
+        },
+        {
+          "num": "1",
+          "country": "Bonaire, Curacao"
+        },
+        {
+          "num": "1",
+          "country": "Bonaire and Curacao"
+        },
+        {
+          "num": "1",
+          "country": "Bonaire Island"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia, Brazil, Costa Rica, Ecuador, Peru, Trinidad"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia, Brazil, Argentina, French Guiana"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia, Brazil"
+        },
+        {
+          "num": "1",
+          "country": "Bolivia'"
+        },
+        {
+          "num": "1",
+          "country": "Boliv"
+        },
+        {
+          "num": "1",
+          "country": "Bohemia, Czechoslovakia"
+        },
+        {
+          "num": "1",
+          "country": "Bohemia (Czechia)"
+        },
+        {
+          "num": "1",
+          "country": "Bohemia"
+        },
+        {
+          "num": "1",
+          "country": "Biolivia"
+        },
+        {
+          "num": "1",
+          "country": "Bharat"
+        },
+        {
+          "num": "1",
+          "country": "Bhamo Birmania"
+        },
+        {
+          "num": "1",
+          "country": "Bermudes"
+        },
+        {
+          "num": "1",
+          "country": "Bermuda, Canada"
+        },
+        {
+          "num": "1",
+          "country": "Bermuda Island"
+        },
+        {
+          "num": "1",
+          "country": "Belize, Costa Rica"
+        },
+        {
+          "num": "1",
+          "country": "Belize, Brazil, Colombia, Costa Rica, Chile, El Salvador, Honduras"
+        },
+        {
+          "num": "1",
+          "country": "Belgique"
+        },
+        {
+          "num": "1",
+          "country": "Belgian Congo and Ruanda-Urundi"
+        },
+        {
+          "num": "1",
+          "country": "Belarus, Denmark, Finland, Germany, Great Britain, Ireland, Norway, Poland, Russia, Sweden"
+        },
+        {
+          "num": "1",
+          "country": "Baker Island, Phoenix Islands"
+        },
+        {
+          "num": "1",
+          "country": "Bahia"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Cuba, Jamaica"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Cuba, Dominican Republic"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Cuba, Cayman Islands"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Brazil"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Bonaire, Cuba, Curacao"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Bermuda"
+        },
+        {
+          "num": "1",
+          "country": "Bahamas, Barbados"
+        },
+        {
+          "num": "1",
+          "country": "BURUNDI"
+        },
+        {
+          "num": "1",
+          "country": "BRITISH N. BORNEO"
+        },
+        {
+          "num": "1",
+          "country": "BRAZIL, PERU, BOLIVIA, VENEZUELA"
+        },
+        {
+          "num": "1",
+          "country": "BRAZIL, BOLIVIA"
+        },
+        {
+          "num": "1",
+          "country": "BRA [ZIL]"
+        },
+        {
+          "num": "1",
+          "country": "BORNEO SABAH"
+        },
+        {
+          "num": "1",
+          "country": "BELIZE, HONDURAS"
+        },
+        {
+          "num": "1",
+          "country": "BELGIUM"
+        },
+        {
+          "num": "1",
+          "country": "B. - Alpes"
+        },
+        {
+          "num": "1",
+          "country": "Azores"
+        },
+        {
+          "num": "1",
+          "country": "Azerbaijan, Syria, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Azerbaijan, Armenia, Turkmenistan, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Azarbaijan"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Italy, Slovakia"
+        },
+        {
+          "num": "1",
+          "country": "Austria, France, Germany, Italy"
+        },
+        {
+          "num": "1",
+          "country": "Austria, France"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Czechoslovakia"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Czech Republic"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Croatia, Czech Republic, France, Germany, Hungary, Italy"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Corsica, Croatia"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Bulgaria, Czech Republic, France, Germany, Poland"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Bosnia and Herzegovina, Czech Republic, Finland, France, Germany, Great Britain, Greece, Hungary, Ireland, Italy, Luxembourg, the Netherlands, Norway, Poland"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Belgium, Czech Republic"
+        },
+        {
+          "num": "1",
+          "country": "Austria, Belgium"
+        },
+        {
+          "num": "1",
+          "country": "Australien und Neuseeland"
+        },
+        {
+          "num": "1",
+          "country": "Australie, Seychelles"
+        },
+        {
+          "num": "1",
+          "country": "AustraliaQueensland"
+        },
+        {
+          "num": "1",
+          "country": "Australia-Queensland"
+        },
+        {
+          "num": "1",
+          "country": "Australia, Poland, Germany, Greenland, Romania, Vietnam"
+        },
+        {
+          "num": "1",
+          "country": "Australia, New Zealand"
+        },
+        {
+          "num": "1",
+          "country": "Australia, Indonesia, Madagascar"
+        },
+        {
+          "num": "1",
+          "country": "Australia, India, Indonesia, Nepal"
+        },
+        {
+          "num": "1",
+          "country": "Australia, Bahrain, India, Iran, Kenya"
+        },
+        {
+          "num": "1",
+          "country": "Australia and Antarctica"
+        },
+        {
+          "num": "1",
+          "country": "Austral1 a"
+        },
+        {
+          "num": "1",
+          "country": "Assam"
+        },
+        {
+          "num": "1",
+          "country": "Armenia, Azerbaijan, Iran, Turkmenistan"
+        },
+        {
+          "num": "1",
+          "country": "Argt"
+        },
+        {
+          "num": "1",
+          "country": "Argentinien"
+        },
+        {
+          "num": "1",
+          "country": "Argentine"
+        },
+        {
+          "num": "1",
+          "country": "Argentina, Bolivia, Brazil, Colombia, Costa Rica, Ecuador"
+        },
+        {
+          "num": "1",
+          "country": "Argentina, Bolivia, Brazil, Chile, Peru"
+        },
+        {
+          "num": "1",
+          "country": "Argentina and Paraguay"
+        },
+        {
+          "num": "1",
+          "country": "Argentina / Formosa"
+        },
+        {
+          "num": "1",
+          "country": "Argentina (probably)"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Puerto Rico, St. Lucia"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Dominica, St. Lucia"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Barbados, Cuba, Grenada, Jamaica, Nevis"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Barbados, Cuba"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Bahamas, Cuba"
+        },
+        {
+          "num": "1",
+          "country": "Antigua, Bahamas, Barbados, Cuba, Grenada, Jamaica, Nevis"
+        },
+        {
+          "num": "1",
+          "country": "Antigua and Barbuda, Dominica, Saint Lucia"
+        },
+        {
+          "num": "1",
+          "country": "Antigua and Barbuda, Argentina, Aruba, Barbados, Belize, Bermuda, Bolivia, Brazil, Colombia, Costa Rica"
+        },
+        {
+          "num": "1",
+          "country": "Antigua and Barbados"
+        },
+        {
+          "num": "1",
+          "country": "Antigua Island"
+        },
+        {
+          "num": "1",
+          "country": "Antigua Guatemala"
+        },
+        {
+          "num": "1",
+          "country": "Antigua & Barbuda, Barbuda"
+        },
+        {
+          "num": "1",
+          "country": "Angola, south Sudan"
+        },
+        {
+          "num": "1",
+          "country": "Angola, Namibia, South Africa, Botswana"
+        },
+        {
+          "num": "1",
+          "country": "Angola, Namibia"
+        },
+        {
+          "num": "1",
+          "country": "Angola, Eritrea, Kenya, Namibia, South Africa, Sudan, Swaziland, Tanzania, Zambia"
+        },
+        {
+          "num": "1",
+          "country": "Angola, Cameroon, Congo, Gabon, Nigeria"
+        },
+        {
+          "num": "1",
+          "country": "Angola, Cameroon"
+        },
+        {
+          "num": "1",
+          "country": "Angl."
+        },
+        {
+          "num": "1",
+          "country": "Andorra, Greece"
+        },
+        {
+          "num": "1",
+          "country": "Anatolia, Bohemia, Czechoslovakia, Austria"
+        },
+        {
+          "num": "1",
+          "country": "Anatolia"
+        },
+        {
+          "num": "1",
+          "country": "America"
+        },
+        {
+          "num": "1",
+          "country": "Ambon, Maluku Islands"
+        },
+        {
+          "num": "1",
+          "country": "Ambon, Ambon, Moluccas"
+        },
+        {
+          "num": "1",
+          "country": "Ambon, Ambon"
+        },
+        {
+          "num": "1",
+          "country": "Ambon (Moluccas)"
+        },
+        {
+          "num": "1",
+          "country": "Algérie"
+        },
+        {
+          "num": "1",
+          "country": "Algerie, Alger"
+        },
+        {
+          "num": "1",
+          "country": "Algerian"
+        },
+        {
+          "num": "1",
+          "country": "Algeria, Tunisia, Libya, Israel"
+        },
+        {
+          "num": "1",
+          "country": "Algeria, Tunisia, Kuwait, Iraq, Iran"
+        },
+        {
+          "num": "1",
+          "country": "Algeria, Tunisia, Egypt"
+        },
+        {
+          "num": "1",
+          "country": "Algeria, Tunisia"
+        },
+        {
+          "num": "1",
+          "country": "Algeria, Libya, Morocco, Tunisia"
+        },
+        {
+          "num": "1",
+          "country": "Algeria [?]"
+        },
+        {
+          "num": "1",
+          "country": "Alger Island"
+        },
+        {
+          "num": "1",
+          "country": "Albania, Bulgaria, Czech Republic, Germany, France, Hungary, Italy, Portugal, Slovakia, Spain, Turkey"
+        },
+        {
+          "num": "1",
+          "country": "Africa"
+        },
+        {
+          "num": "1",
+          "country": "Afghanistan, Tajikistan, Turkmenistan"
+        },
+        {
+          "num": "1",
+          "country": "Afghanistan, Iran, Kyrgyzstan, Kazakhstan, Tajikistan, Turkmenistan, Uzbekistan"
+        },
+        {
+          "num": "1",
+          "country": "Afghanistan, Iran, Jordan"
+        },
+        {
+          "num": "1",
+          "country": "Abyssal Pacific Ocean"
+        },
+        {
+          "num": "1",
+          "country": "AZERBAJDJAN"
+        },
+        {
+          "num": "1",
+          "country": "AZERBADJAN"
+        },
+        {
+          "num": "1",
+          "country": "ANTIL- LAS"
+        },
+        {
+          "num": "1",
+          "country": "AMBON ISLAND"
+        },
+        {
+          "num": "1",
+          "country": "ALGERIA"
+        },
+        {
+          "num": "1",
+          "country": "ALGE- RIA"
+        },
+        {
+          "num": "1",
+          "country": "<All Values>"
+        },
+        {
+          "num": "1",
+          "country": ": SURINAME"
+        },
+        {
+          "num": "1",
+          "country": ": M ADAGASCAR"
+        },
+        {
+          "num": "1",
+          "country": "'thailand"
+        },
+        {
+          "num": "1",
+          "country": "'India"
+        },
+        {
+          "num": "1",
+          "country": "'Ceylon"
+        },
+        {
+          "num": "1",
+          "country": "\" SABAH"
+        },
+        {
+          "num": "1",
+          "country": "\" LAOS-NE"
+        }
+    ]
+}
