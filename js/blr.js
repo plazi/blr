@@ -4,9 +4,9 @@ const getResults = async (query) => {
     const origQuery = query;
     query = query + '&stats=true';
 
-    const z = window.location.hostname === 'localhost' ?
-        'http://localhost:3010/v3' :
-        'https://test.zenodeo.org/v3';
+    const z = window.location.hostname === 'localhost' 
+        ? 'http://localhost:3010/v3' 
+        : 'https://test.zenodeo.org/v3';
         
     const response = await fetch(`${z}/treatments?${query}`);
 
@@ -49,7 +49,10 @@ const renderResults = (res) => {
 
         const str = formatRecords(records);
         $('#results').innerHTML = str;
-        $('#pager').innerHTML = getPager(_links);
+        
+        if (count > 30) {
+            $('#pager').innerHTML = getPager(_links);
+        }
     }
     else {
         $('#results').innerHTML = '<p>Nothing found</p>';

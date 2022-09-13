@@ -31,14 +31,6 @@ async function cleanup() {
     }
 }
 
-// async function cleanup() {
-//     console.log('cleaing up old files');
-
-//     return src(`${destination}/js`)
-//         .pipe(cleanDir('./dist', { ext:['.js'] }))
-//         .pipe(gulp.dest('./dist'))
-// }
-
 // generate the html
 async function html() {
     console.log('writing html');
@@ -56,14 +48,6 @@ async function html() {
         .pipe(dest(destination))
 }
 
-// async function copyIndex(file) {
-//     console.log(`creating ${file}.html`);
-
-//     return src(`${destination}/index.html`)
-//         .pipe(rename(`${file}.html`))
-//         .pipe(dest(destination))
-// }
-
 async function makeCopiesOfIndex() {
     function copyIndex(file) {
         console.log(`creating ${file}.html`);
@@ -79,9 +63,6 @@ async function makeCopiesOfIndex() {
 // for css
 async function css() {
     console.log('processing css');
-
-    //const files = fs.readdirSync(`${source}/css`)
-        //.map(f => `${source}/css/${f}`);
     
     const files = [
         'typesafe',

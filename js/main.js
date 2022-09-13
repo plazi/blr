@@ -79,6 +79,13 @@ const go = async (event) => {
     event.stopPropagation();
     event.preventDefault();
     
+    const qs = $('#query_string').value;
+    if (!qs) {
+        $('#query_string').placeholder = 'Please enter a search term';
+        setTimeout(() => $('#query_string').placeholder = 'Search', 2000);
+        return;
+    }
+
     /** 
      * 'q' will be 'q' or 
      * 'treatmentTitle' or 
@@ -87,8 +94,6 @@ const go = async (event) => {
     **/
     const checkInputs = [ ...$$('input[name=type]') ];
     const q = checkInputs.filter(c => c.checked)[0].value;
- 
-    const qs = $('#query_string').value;
     const query = `${q}=${qs}`;
  
     /**
@@ -136,6 +141,18 @@ const queryAndRender = async (query, typeOfQuery) => {
     }
     else {
         renderResults({ count: 0 });
+    }
+
+    if (typeOfQuery !== 'bookmark') {
+        updateBrowserBar(query);
+    }
+}
+
+const updateBrowserBar = (query) => {
+    const pathname = window.location.pathname.substring(1);
+
+    if (query !== 'cols=') {
+        history.pushState({}, null, `${pathname}?${query}`);
     }
 }
 
