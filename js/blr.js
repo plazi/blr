@@ -65,14 +65,15 @@ const renderResults = (res) => {
         .classList.remove('spinning');
 }
 
-const getPager = (_links) => {    
-    let url = new URL(_links._prev);
+const pagePart = (link) => {
+    const url = new URL(link);
     url.searchParams.delete('stats');
-    const prev = url.searchParams.toString();
+    return url.searchParams.toString();
+}
 
-    url = new URL(_links._next);
-    url.searchParams.delete('stats');
-    const next = url.searchParams.toString();
+const getPager = (_links) => {    
+    const prev = pagePart(_links._prev);
+    const next = pagePart(_links._next);
 
     return `<a href="/index.html?${prev}" class="page">prev</a> <a href="/index.html?${next}" class="page">next</a>`;
 }

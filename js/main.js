@@ -149,10 +149,10 @@ const queryAndRender = async (query, typeOfQuery) => {
 }
 
 const updateBrowserBar = (query) => {
-    const pathname = window.location.pathname.substring(1);
+    //const pathname = window.location.pathname.substring(1);
 
     if (query !== 'cols=') {
-        history.pushState({}, null, `${pathname}?${query}`);
+        history.pushState({}, null, `?${query}`);
     }
 }
 
