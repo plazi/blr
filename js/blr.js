@@ -89,7 +89,7 @@ const formatRecords = (records) => {
         return `<div class="record">
 <h2>${r.treatmentTitle}</h2>
 <p>${r.articleAuthor}. ${r.journalYear}. ${r.articleTitle}. ${r.journalTitle} ${r.journalVolume}, ${r.journalIssue}: ${r.pages}</p>
-<a href="${doi}" class="doi" target="_blank">${doi}</a><br>
+<a href="${doi}" class="recBtn" target="_blank">DOI</a> 
 <a href="http://treatment.plazi.org/id/${r.treatmentId}" class="recBtn" target="_blank">Treatment Bank</a> <a href="https://zenodo.org/record/${r.zenodoDep}" class="recBtn" target="_blank">Zenodo</a>
 </div>`
     }).join('\n');
