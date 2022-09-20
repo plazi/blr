@@ -78,13 +78,21 @@ const getPager = (_links) => {
     return `<a href="/index.html?${prev}" class="page">prev</a> <a href="/index.html?${next}" class="page">next</a>`;
 }
 
+const formatDOI = (doi) => doi.indexOf('http') === -1 
+    ? `https://doi.org/${doi}`
+    : doi;
+
 const formatRecords = (records) => {
-    return records.map(r => `<div class="record">
+    return records.map(r => {
+        const doi = formatDOI(r.articleDOI);
+
+        return `<div class="record">
 <h2>${r.treatmentTitle}</h2>
-<p>${r.articleTitle}</p>
-<a href="${r.articleDOI}" class="doi">${r.articleDOI}</a><br>
-<a href="http://treatment.plazi.org/id/${r.treatmentId}" class="recBtn">Treatment Bank</a> <a href="https://zenodo.org/record/${r.zenodoDep}" class="recBtn">Zenodo</a>
-</div>`).join('\n');
+<p>${r.articleAuthor}. ${r.journalYear}. ${r.articleTitle}. ${r.journalTitle} ${r.journalVolume}, ${r.journalIssue}: ${r.pages}</p>
+<a href="${doi}" class="doi" target="_blank">${doi}</a><br>
+<a href="http://treatment.plazi.org/id/${r.treatmentId}" class="recBtn" target="_blank">Treatment Bank</a> <a href="https://zenodo.org/record/${r.zenodoDep}" class="recBtn" target="_blank">Zenodo</a>
+</div>`
+    }).join('\n');
 }
 
 export { getResults, renderResults }
